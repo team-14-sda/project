@@ -1,4 +1,4 @@
-**Kaan Akarçay's journals (s337492)**
+**Kaan Akarçay's journal (s337492)**
 
 | Date (yyyy/mm/dd) | Activity | Effort (min) | Description |
 |-------------------|----------|--------------|-------------|

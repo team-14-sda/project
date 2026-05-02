@@ -1,4 +1,4 @@
-**Edwin Liby's journals (s359165)**
+**Edwin Liby's journal (s359165)**
 
 | Date (yyyy/mm/dd) | Activity | Effort (min) | Description |
 |-------------------|----------|--------------|-------------|
