@@ -1,8 +1,3 @@
----
-title: Software Design Report
-
----
-
 # Software Design Report
 
 ## 1. Dependencies
