@@ -1,0 +1,1904 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+    "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
+<svg contentScriptType="text/ecmascript" width="1161.5344"
+     xmlns:xlink="http://www.w3.org/1999/xlink" zoomAndPan="magnify"
+     contentStyleType="text/css"
+     viewBox="-594.734314 -535.000000 1161.534424 1016.000000" height="1016.0"
+     preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg"
+     version="1.1">
+    <g id="edges">
+        <path stroke-linecap="round" fill="none"
+              class="id_src/optimizer/build_probe_side_optimizer.cpp id_src/include/duckdb/common/enums/join_type.hpp"
+              d="M -6.346511,-402.855835 A 174.960536,174.960536 0,0 1,178.027985,-442.491302"
+              stroke="#c0e6c9" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_src/optimizer/build_probe_side_optimizer.cpp id_src/include/duckdb/common/type_visitor.hpp"
+              d="M -7.596773,-387.364227 A 357.277436,357.277436 0,0 1,-16.109581,20.199247"
+              stroke="#c5e8c9" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_src/optimizer/build_probe_side_optimizer.cpp id_src/include/duckdb/common/types/row/tuple_data_layout.hpp"
+              d="M -7.716559,-387.283508 A 526.329732,526.329732 0,0 1,-33.673424,222.769058"
+              stroke="#c5e8c9" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_src/optimizer/build_probe_side_optimizer.cpp id_src/include/duckdb/execution/ht_entry.hpp"
+              d="M -12.235410,-385.667419 A 672.400130,672.400130 0,0 1,-409.867554,292.252258"
+              stroke="#c5e8c9" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_src/optimizer/build_probe_side_optimizer.cpp id_src/include/duckdb/main/settings.hpp"
+              d="M -12.815614,-385.625549 A 527.505981,527.505981 0,0 1,-350.964783,124.491371"
+              stroke="#c0e6c9" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_src/optimizer/build_probe_side_optimizer.cpp id_src/include/duckdb/optimizer/build_probe_side_optimizer.hpp"
+              d="M -13.461872,-385.618683 A 623.599015,623.599015 0,0 1,-455.012970,192.378952"
+              stroke="#c0e6c9" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_src/optimizer/build_probe_side_optimizer.cpp id_src/include/duckdb/optimizer/column_binding_replacer.hpp"
+              d="M -5.896707,-388.833862 A 623.238806,623.238806 0,0 1,134.783203,324.348480"
+              stroke="#c0e6c9" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_src/optimizer/build_probe_side_optimizer.cpp id_src/include/duckdb/optimizer/optimizer.hpp"
+              d="M -4.661860,-390.485138 A 715.514651,715.514651 0,0 1,321.283691,381.176544"
+              stroke="#b8e3c8" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_src/optimizer/build_probe_side_optimizer.cpp id_src/include/duckdb/planner/operator/logical_any_join.hpp"
+              d="M -6.769117,-387.996460 A 694.825361,694.825361 0,0 1,52.054504,422.717651"
+              stroke="#c5e8c9" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_src/optimizer/build_probe_side_optimizer.cpp id_src/include/duckdb/planner/operator/logical_comparison_join.hpp"
+              d="M -5.986707,-402.495056 A 236.417125,236.417125 0,0 1,253.588181,-441.432922"
+              stroke="#c0e6c9" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_src/optimizer/build_probe_side_optimizer.cpp id_src/include/duckdb/planner/operator/logical_cross_product.hpp"
+              d="M -8.193261,-386.986176 A 472.011141,472.011141 0,0 1,-60.994114,155.852402"
+              stroke="#c5e8c9" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_src/optimizer/build_probe_side_optimizer.cpp id_src/include/duckdb/planner/operator/logical_get.hpp"
+              d="M -9.346545,-386.407532 A 671.240259,671.240259 0,0 1,-189.054825,377.271149"
+              stroke="#bce5c9" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_src/optimizer/build_probe_side_optimizer.cpp id_src/include/duckdb/planner/operator/logical_join.hpp"
+              d="M -22.592232,-392.062469 A 158.351371,158.351371 0,0 1,-186.764435,-430.438477"
+              stroke="#c5e8c9" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_src/optimizer/build_probe_side_optimizer.cpp id_src/include/duckdb/planner/operator/logical_order.hpp"
+              d="M -6.292136,-388.429047 A 487.132346,487.132346 0,0 1,73.321404,169.471481"
+              stroke="#c0e6c9" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_src/optimizer/build_probe_side_optimizer.cpp id_src/include/duckdb/planner/operator/logical_projection.hpp"
+              d="M -8.000872,-387.101715 A 348.695817,348.695817 0,0 1,-35.208221,9.313352"
+              stroke="#bce5c9" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_src/optimizer/common_aggregate_optimizer.cpp id_src/include/duckdb/optimizer/common_aggregate_optimizer.hpp"
+              d="M -164.973892,-343.151794 A 178.581193,178.581193 0,0 1,-89.267090,-165.682510"
+              stroke="#eef8ca" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_src/optimizer/common_aggregate_optimizer.cpp id_src/include/duckdb/parser/expression_map.hpp"
+              d="M -163.750732,-345.909454 A 100.979680,100.979680 0,0 1,-96.678352,-272.533325"
+              stroke="#f2facb" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_src/optimizer/common_aggregate_optimizer.cpp id_src/include/duckdb/planner/expression/bound_columnref_expression.hpp"
+              d="M -166.500336,-341.299255 A 649.585902,649.585902 0,0 1,-68.090149,410.838043"
+              stroke="#e6f5ca" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_src/optimizer/common_aggregate_optimizer.cpp id_src/include/duckdb/planner/operator/logical_aggregate.hpp"
+              d="M -163.401550,-348.769623 A 423.004897,423.004897 0,0 1,237.768890,-73.431328"
+              stroke="#e6f5ca" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_src/optimizer/common_subplan_optimizer.cpp id_src/include/duckdb/common/arena_containers/arena_unordered_map.hpp"
+              d="M 411.614746,-237.047256 A 393.625320,393.625320 0,0 1,161.804871,138.801941"
+              stroke="#d5efca" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_src/optimizer/common_subplan_optimizer.cpp id_src/include/duckdb/common/arena_containers/arena_vector.hpp"
+              d="M 412.730682,-237.150925 A 546.501443,546.501443 0,0 1,119.494560,325.881897"
+              stroke="#d5efca" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_src/optimizer/common_subplan_optimizer.cpp id_src/include/duckdb/common/serializer/binary_serializer.hpp"
+              d="M 408.338043,-237.473694 A 395.743469,395.743469 0,0 1,47.628239,37.949490"
+              stroke="#d5efca" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_src/optimizer/common_subplan_optimizer.cpp id_src/include/duckdb/common/serializer/memory_stream.hpp"
+              d="M 407.683136,-237.698029 A 424.972848,424.972848 0,0 1,-0.889682,30.857214"
+              stroke="#d5efca" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_src/optimizer/common_subplan_optimizer.cpp id_src/include/duckdb/optimizer/column_binding_replacer.hpp"
+              d="M 413.077637,-237.209152 A 542.298410,542.298410 0,0 1,142.062607,331.266296"
+              stroke="#d1edc9" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_src/optimizer/common_subplan_optimizer.cpp id_src/include/duckdb/optimizer/common_subplan_optimizer.hpp"
+              d="M 407.495209,-237.771927 A 767.971568,767.971568 0,0 1,-358.954132,235.195389"
+              stroke="#d1edc9" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_src/optimizer/common_subplan_optimizer.cpp id_src/include/duckdb/optimizer/cte_inlining.hpp"
+              d="M 405.917023,-255.500381 A 205.747583,205.747583 0,0 1,415.438080,-480.913452"
+              stroke="#d1edc9" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_src/optimizer/common_subplan_optimizer.cpp id_src/include/duckdb/optimizer/optimizer.hpp"
+              d="M 415.952911,-238.215897 A 542.130411,542.130411 0,0 1,328.705475,385.280182"
+              stroke="#c9eac9" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_src/optimizer/common_subplan_optimizer.cpp id_src/include/duckdb/planner/column_binding_map.hpp"
+              d="M 403.390686,-253.224747 A 186.680659,186.680659 0,0 1,342.828125,-446.650696"
+              stroke="#d1edc9" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_src/optimizer/common_subplan_optimizer.cpp id_src/include/duckdb/planner/filter/expression_filter.hpp"
+              d="M 407.662170,-237.706055 A 139.380144,139.380144 0,0 1,288.857300,-153.275787"
+              stroke="#d5efca" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_src/optimizer/common_subplan_optimizer.cpp id_src/include/duckdb/planner/operator/list.hpp"
+              d="M 402.734711,-252.284988 A 162.405580,162.405580 0,0 1,331.282623,-410.364838"
+              stroke="#d1edc9" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_src/optimizer/cse_optimizer.cpp id_src/include/duckdb/optimizer/cse_optimizer.hpp"
+              d="M 75.670372,322.454041 A 732.532879,732.532879 0,0 1,338.685455,-494.345703"
+              stroke="#e5f5ca" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_src/optimizer/cse_optimizer.cpp id_src/include/duckdb/planner/binder.hpp"
+              d="M 72.083328,324.558228 A 411.519810,411.519810 0,0 1,17.401306,-145.048660"
+              stroke="#e5f5ca" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_src/optimizer/cse_optimizer.cpp id_src/include/duckdb/planner/column_binding_map.hpp"
+              d="M 75.778419,322.418793 A 698.444288,698.444288 0,0 1,334.663910,-452.678558"
+              stroke="#e5f5ca" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_src/optimizer/cse_optimizer.cpp id_src/include/duckdb/planner/expression/bound_columnref_expression.hpp"
+              d="M 74.751198,341.075165 A 150.348797,150.348797 0,0 1,-59.860424,425.625610"
+              stroke="#ddf2ca" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_src/optimizer/cse_optimizer.cpp id_src/include/duckdb/planner/expression_iterator.hpp"
+              d="M 69.233627,329.117249 A 531.932047,531.932047 0,0 1,-307.234436,-160.134506"
+              stroke="#eaf7cb" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_src/optimizer/cse_optimizer.cpp id_src/include/duckdb/planner/operator/logical_projection.hpp"
+              d="M 70.376289,326.595032 A 278.615610,278.615610 0,0 1,-49.194443,37.139259"
+              stroke="#e1f3ca" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_src/optimizer/join_filter_pushdown_optimizer.cpp id_src/include/duckdb/execution/operator/join/join_filter_pushdown.hpp"
+              d="M -294.101410,117.517715 A 320.956612,320.956612 0,0 1,-30.497307,368.585632"
+              stroke="#c0e6c9" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_src/optimizer/join_filter_pushdown_optimizer.cpp id_src/include/duckdb/execution/operator/join/physical_comparison_join.hpp"
+              d="M -296.353729,109.653198 A 366.181092,366.181092 0,0 1,120.695969,76.777252"
+              stroke="#c5e8c9" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_src/optimizer/join_filter_pushdown_optimizer.cpp id_src/include/duckdb/function/aggregate/distributive_function_utils.hpp"
+              d="M -313.913910,114.787750 A 51.206018,51.206018 0,0 1,-345.557251,92.292122"
+              stroke="#c5e8c9" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_src/optimizer/join_filter_pushdown_optimizer.cpp id_src/include/duckdb/function/function_binder.hpp"
+              d="M -300.801331,106.623230 A 706.860680,706.860680 0,0 1,375.853607,-369.346497"
+              stroke="#bce5c9" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_src/optimizer/join_filter_pushdown_optimizer.cpp id_src/include/duckdb/optimizer/join_filter_pushdown_optimizer.hpp"
+              d="M -305.441833,106.202301 A 506.979299,506.979299 0,0 1,-32.619347,-413.970154"
+              stroke="#bce5c9" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_src/optimizer/join_filter_pushdown_optimizer.cpp id_src/include/duckdb/optimizer/optimizer.hpp"
+              d="M -294.221008,114.007500 A 568.290078,568.290078 0,0 1,309.617432,382.822998"
+              stroke="#b8e3c8" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_src/optimizer/join_filter_pushdown_optimizer.cpp id_src/include/duckdb/planner/expression/bound_aggregate_expression.hpp"
+              d="M -304.001709,106.097824 A 537.899759,537.899759 0,0 1,63.141842,-399.072113"
+              stroke="#bce5c9" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_src/optimizer/join_filter_pushdown_optimizer.cpp id_src/include/duckdb/planner/expression/bound_cast_expression.hpp"
+              d="M -294.571991,112.764519 A 377.292465,377.292465 0,0 1,120.006294,233.084488"
+              stroke="#c5e8c9" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_src/optimizer/join_filter_pushdown_optimizer.cpp id_src/include/duckdb/planner/expression/bound_columnref_expression.hpp"
+              d="M -294.466125,119.115044 A 319.912631,319.912631 0,0 1,-76.127869,408.837952"
+              stroke="#b8e3c8" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_src/optimizer/join_filter_pushdown_optimizer.cpp id_src/include/duckdb/planner/operator/logical_aggregate.hpp"
+              d="M -298.116058,108.012161 A 478.503857,478.503857 0,0 1,227.871552,-63.339130"
+              stroke="#b8e3c8" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_src/optimizer/join_filter_pushdown_optimizer.cpp id_src/include/duckdb/planner/operator/logical_comparison_join.hpp"
+              d="M -302.321075,106.239784 A 661.304702,661.304702 0,0 1,251.973206,-431.987976"
+              stroke="#c0e6c9" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_src/optimizer/join_filter_pushdown_optimizer.cpp id_src/include/duckdb/planner/operator/logical_get.hpp"
+              d="M -295.669708,121.629959 A 241.928727,241.928727 0,0 1,-197.316833,372.115173"
+              stroke="#bce5c9" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_src/optimizer/join_filter_pushdown_optimizer.cpp id_src/include/duckdb/planner/operator/logical_projection.hpp"
+              d="M -298.365631,107.836304 A 229.376339,229.376339 0,0 1,-60.957504,17.491106"
+              stroke="#bce5c9" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_src/optimizer/join_filter_pushdown_optimizer.cpp id_src/include/duckdb/planner/operator/logical_set_operation.hpp"
+              d="M -294.068390,114.931122 A 541.841816,541.841816 0,0 1,254.530685,423.090942"
+              stroke="#c5e8c9" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_src/optimizer/join_filter_pushdown_optimizer.cpp id_src/include/duckdb/planner/operator/logical_unnest.hpp"
+              d="M -294.000763,116.212547 A 323.666750,323.666750 0,0 1,2.725264,332.675446"
+              stroke="#c5e8c9" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_src/optimizer/join_order/join_order_optimizer.cpp id_src/include/duckdb/common/enums/join_type.hpp"
+              d="M 418.768860,-209.494293 A 273.494277,273.494277 0,0 1,195.733841,-420.495544"
+              stroke="#d9f0ca" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_src/optimizer/join_order/join_order_optimizer.cpp id_src/include/duckdb/common/limits.hpp"
+              d="M 425.069183,-198.734177 A 825.339475,825.339475 0,0 1,-391.640839,323.651062"
+              stroke="#d9f0ca" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_src/optimizer/join_order/join_order_optimizer.cpp id_src/include/duckdb/common/pair.hpp"
+              d="M 429.440735,-198.094910 A 463.739097,463.739097 0,0 1,150.144409,258.766052"
+              stroke="#ddf2ca" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_src/optimizer/join_order/join_order_optimizer.cpp id_src/include/duckdb/main/settings.hpp"
+              d="M 423.593475,-199.446991 A 719.645306,719.645306 0,0 1,-350.408997,133.648743"
+              stroke="#d9f0ca" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_src/optimizer/join_order/join_order_optimizer.cpp id_src/include/duckdb/optimizer/join_order/cost_model.hpp"
+              d="M 432.321686,-198.756958 A 217.595435,217.595435 0,0 1,377.055725,34.646542"
+              stroke="#ddf2ca" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_src/optimizer/join_order/join_order_optimizer.cpp id_src/include/duckdb/optimizer/join_order/join_order_optimizer.hpp"
+              d="M 432.589935,-198.866821 A 220.205781,220.205781 0,0 1,383.373749,39.091904"
+              stroke="#d9f0ca" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_src/optimizer/join_order/join_order_optimizer.cpp id_src/include/duckdb/optimizer/join_order/plan_enumerator.hpp"
+              d="M 423.692200,-199.389633 A 695.006330,695.006330 0,0 1,-319.297729,130.817612"
+              stroke="#ddf2ca" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_src/optimizer/join_order/join_order_optimizer.cpp id_src/include/duckdb/planner/expression/list.hpp"
+              d="M 426.641541,-198.271957 A 849.523027,849.523027 0,0 1,-315.526489,469.714935"
+              stroke="#ddf2ca" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_src/optimizer/join_order/join_order_optimizer.cpp id_src/include/duckdb/planner/operator/list.hpp"
+              d="M 420.109558,-213.240234 A 197.977834,197.977834 0,0 1,331.183594,-410.384033"
+              stroke="#d9f0ca" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_src/optimizer/optimizer.cpp id_src/include/duckdb/execution/column_binding_resolver.hpp"
+              d="M -156.411026,-18.497194 A 555.544564,555.544564 0,0 1,429.412201,252.987427"
+              stroke="#9299b0" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_src/optimizer/optimizer.cpp id_src/include/duckdb/function/function_binder.hpp"
+              d="M -162.575851,-25.870037 A 550.023985,550.023985 0,0 1,375.883728,-370.022461"
+              stroke="#8996af" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_src/optimizer/optimizer.cpp id_src/include/duckdb/main/client_context.hpp"
+              d="M -160.759613,-24.934946 A 285.918517,285.918517 0,0 1,138.523697,-143.606796"
+              stroke="#8d97af" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_src/optimizer/optimizer.cpp id_src/include/duckdb/main/config.hpp"
+              d="M -156.983536,-12.728683 A 375.089554,375.089554 0,0 1,69.329353,351.768066"
+              stroke="#9299b0" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_src/optimizer/optimizer.cpp id_src/include/duckdb/main/query_profiler.hpp"
+              d="M -163.327271,-6.986060 A 186.904213,186.904213 0,0 1,-224.677399,186.473648"
+              stroke="#9299b0" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_src/optimizer/optimizer.cpp id_src/include/duckdb/optimizer/aggregate_function_rewriter.hpp"
+              d="M -157.853134,-11.083220 A 83.548237,83.548237 0,0 1,-124.229515,59.633781"
+              stroke="#9299b0" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_src/optimizer/optimizer.cpp id_src/include/duckdb/optimizer/build_probe_side_optimizer.hpp"
+              d="M -169.477036,-7.103007 A 309.627826,309.627826 0,0 1,-454.377014,196.939529"
+              stroke="#8d97af" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_src/optimizer/optimizer.cpp id_src/include/duckdb/optimizer/column_lifetime_analyzer.hpp"
+              d="M -170.693237,-25.502493 A 355.574352,355.574352 0,0 1,-107.126915,-426.097870"
+              stroke="#9299b0" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_src/optimizer/optimizer.cpp id_src/include/duckdb/optimizer/common_aggregate_optimizer.hpp"
+              d="M -167.222778,-26.507872 A 127.017932,127.017932 0,0 1,-106.781616,-142.560883"
+              stroke="#8d97af" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_src/optimizer/optimizer.cpp id_src/include/duckdb/optimizer/common_subplan_optimizer.hpp"
+              d="M -166.917175,-6.582398 A 271.634384,271.634384 0,0 1,-359.443634,229.707031"
+              stroke="#8d97af" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_src/optimizer/optimizer.cpp id_src/include/duckdb/optimizer/cse_optimizer.hpp"
+              d="M -164.421494,-26.394867 A 592.492957,592.492957 0,0 1,335.807709,-501.684845"
+              stroke="#8d97af" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_src/optimizer/optimizer.cpp id_src/include/duckdb/optimizer/cte_filter_pusher.hpp"
+              d="M -159.884888,-24.294470 A 175.867353,175.867353 0,0 1,22.058271,-77.907051"
+              stroke="#9299b0" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_src/optimizer/optimizer.cpp id_src/include/duckdb/optimizer/cte_inlining.hpp"
+              d="M -163.683731,-26.230852 A 633.206152,633.206152 0,0 1,409.284027,-492.775452"
+              stroke="#8d97af" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_src/optimizer/optimizer.cpp id_src/include/duckdb/optimizer/deliminator.hpp"
+              d="M -156.948593,-20.302225 A 251.440089,251.440089 0,0 1,116.327721,43.084808"
+              stroke="#9299b0" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_src/optimizer/optimizer.cpp id_src/include/duckdb/optimizer/empty_result_pullup.hpp"
+              d="M -156.954529,-20.316889 A 453.493431,453.493431 0,0 1,351.156250,104.306068"
+              stroke="#9299b0" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_src/optimizer/optimizer.cpp id_src/include/duckdb/optimizer/expression_heuristics.hpp"
+              d="M -156.223389,-16.351097 A 461.915672,461.915672 0,0 1,269.315002,305.061401"
+              stroke="#9299b0" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_src/optimizer/optimizer.cpp id_src/include/duckdb/optimizer/filter_pullup.hpp"
+              d="M -164.771912,-6.663739 A 164.619490,164.619490 0,0 1,-241.299057,151.986389"
+              stroke="#9299b0" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_src/optimizer/optimizer.cpp id_src/include/duckdb/optimizer/filter_pushdown.hpp"
+              d="M -156.231354,-16.108387 A 629.680507,629.680507 0,0 1,416.957733,443.429047"
+              stroke="#9299b0" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_src/optimizer/optimizer.cpp id_src/include/duckdb/optimizer/in_clause_rewriter.hpp"
+              d="M -168.899963,-26.192696 A 409.459365,409.459365 0,0 1,-6.406896,-467.535919"
+              stroke="#9299b0" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_src/optimizer/optimizer.cpp id_src/include/duckdb/optimizer/join_elimination.hpp"
+              d="M -161.337448,-25.284473 A 359.913519,359.913519 0,0 1,210.473953,-200.005600"
+              stroke="#9299b0" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_src/optimizer/optimizer.cpp id_src/include/duckdb/optimizer/join_filter_pushdown_optimizer.hpp"
+              d="M -168.973267,-26.172014 A 358.877778,358.877778 0,0 1,-31.456955,-411.970123"
+              stroke="#8996af" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_src/optimizer/optimizer.cpp id_src/include/duckdb/optimizer/join_order/join_order_optimizer.hpp"
+              d="M -157.490829,-21.434631 A 451.618024,451.618024 0,0 1,359.903870,39.059406"
+              stroke="#8d97af" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_src/optimizer/optimizer.cpp id_src/include/duckdb/optimizer/late_materialization.hpp"
+              d="M -158.426102,-10.294301 A 169.931367,169.931367 0,0 1,-104.922272,164.223557"
+              stroke="#9299b0" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_src/optimizer/optimizer.cpp id_src/include/duckdb/optimizer/limit_pushdown.hpp"
+              d="M -172.851608,-9.072284 A 274.285496,274.285496 0,0 1,-472.607178,61.619347"
+              stroke="#9299b0" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_src/optimizer/optimizer.cpp id_src/include/duckdb/optimizer/optimizer.hpp"
+              d="M -156.247818,-15.829434 A 530.213246,530.213246 0,0 1,313.798065,381.171021"
+              stroke="#8594af" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_src/optimizer/optimizer.cpp id_src/include/duckdb/optimizer/optimizer_extension.hpp"
+              d="M -172.582092,-24.274336 A 388.911423,388.911423 0,0 1,-202.189011,-468.925476"
+              stroke="#9299b0" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_src/optimizer/optimizer.cpp id_src/include/duckdb/optimizer/outer_join_simplification.hpp"
+              d="M -165.249908,-26.510866 A 569.828265,569.828265 0,0 1,275.153717,-521.860657"
+              stroke="#9299b0" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_src/optimizer/optimizer.cpp id_src/include/duckdb/optimizer/projection_pullup.hpp"
+              d="M -162.987167,-26.020754 A 350.872662,350.872662 0,0 1,162.353806,-258.663208"
+              stroke="#9299b0" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_src/optimizer/optimizer.cpp id_src/include/duckdb/optimizer/regex_range_filter.hpp"
+              d="M -171.916534,-24.777864 A 223.250978,223.250978 0,0 1,-171.490875,-271.432831"
+              stroke="#9299b0" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_src/optimizer/optimizer.cpp id_src/include/duckdb/optimizer/remove_duplicate_groups.hpp"
+              d="M -165.242691,-26.510160 A 239.951239,239.951239 0,0 1,8.247125,-229.103607"
+              stroke="#9299b0" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_src/optimizer/optimizer.cpp id_src/include/duckdb/optimizer/remove_unused_columns.hpp"
+              d="M -170.733047,-25.482479 A 348.642869,348.642869 0,0 1,-110.395844,-418.157959"
+              stroke="#9299b0" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_src/optimizer/optimizer.cpp id_src/include/duckdb/optimizer/row_group_pruner.hpp"
+              d="M -174.074417,-22.749086 A 180.136190,180.136190 0,0 1,-232.414352,-208.621841"
+              stroke="#9299b0" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_src/optimizer/optimizer.cpp id_src/include/duckdb/optimizer/row_number_rewriter.hpp"
+              d="M -168.369431,-6.791615 A 296.760522,296.760522 0,0 1,-416.246490,218.520752"
+              stroke="#9299b0" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_src/optimizer/optimizer.cpp id_src/include/duckdb/optimizer/rule/distinct_aggregate_optimizer.hpp"
+              d="M -159.426590,-23.895233 A 287.638386,287.638386 0,0 1,157.602798,-90.831062"
+              stroke="#8d97af" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_src/optimizer/optimizer.cpp id_src/include/duckdb/optimizer/rule/equal_or_null_simplification.hpp"
+              d="M -171.416672,-25.102591 A 258.606430,258.606430 0,0 1,-152.276962,-313.610260"
+              stroke="#9299b0" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_src/optimizer/optimizer.cpp id_src/include/duckdb/optimizer/rule/in_clause_simplification.hpp"
+              d="M -169.333008,-7.054632 A 303.093301,303.093301 0,0 1,-444.675934,196.780243"
+              stroke="#9299b0" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_src/optimizer/optimizer.cpp id_src/include/duckdb/optimizer/rule/join_dependent_filter.hpp"
+              d="M -176.100906,-15.011482 A 195.620148,195.620148 0,0 1,-368.538940,-107.330582"
+              stroke="#9299b0" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_src/optimizer/optimizer.cpp id_src/include/duckdb/optimizer/rule/list.hpp"
+              d="M -165.731079,-6.570173 A 443.593071,443.593071 0,0 1,-444.398529,422.098724"
+              stroke="#9299b0" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_src/optimizer/optimizer.cpp id_src/include/duckdb/optimizer/rule/predicate_factoring.hpp"
+              d="M -170.480011,-25.605965 A 417.989434,417.989434 0,0 1,-82.354469,-498.003510"
+              stroke="#9299b0" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_src/optimizer/optimizer.cpp id_src/include/duckdb/optimizer/sampling_pushdown.hpp"
+              d="M -157.648376,-21.706554 A 268.852249,268.852249 0,0 1,143.001831,0.255617"
+              stroke="#9299b0" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_src/optimizer/optimizer.cpp id_src/include/duckdb/optimizer/statistics_propagator.hpp"
+              d="M -174.553329,-22.087734 A 394.403315,394.403315 0,0 1,-334.569214,-445.061157"
+              stroke="#9299b0" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_src/optimizer/optimizer.cpp id_src/include/duckdb/optimizer/topn_optimizer.hpp"
+              d="M -161.839020,-25.546820 A 586.831286,586.831286 0,0 1,441.856842,-345.467194"
+              stroke="#8d97af" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_src/optimizer/optimizer.cpp id_src/include/duckdb/optimizer/topn_window_elimination.hpp"
+              d="M -160.591019,-8.293729 A 141.947499,141.947499 0,0 1,-158.964996,140.540634"
+              stroke="#9299b0" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_src/optimizer/optimizer.cpp id_src/include/duckdb/optimizer/unnest_rewriter.hpp"
+              d="M -163.994904,-26.307177 A 609.971391,609.971391 0,0 1,372.458038,-492.933441"
+              stroke="#9299b0" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_src/optimizer/optimizer.cpp id_src/include/duckdb/optimizer/window_self_join.hpp"
+              d="M -156.625854,-19.373941 A 558.423796,558.423796 0,0 1,454.530121,199.386169"
+              stroke="#9299b0" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_src/optimizer/optimizer.cpp id_src/include/duckdb/planner/binder.hpp"
+              d="M -163.141830,-26.072210 A 198.880289,198.880289 0,0 1,9.298310,-158.391739"
+              stroke="#8d97af" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_src/optimizer/optimizer.cpp id_src/include/duckdb/planner/planner.hpp"
+              d="M -175.078400,-21.200420 A 183.423404,183.423404 0,0 1,-268.301147,-196.751205"
+              stroke="#9299b0" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_src/optimizer/rule/distinct_aggregate_optimizer.cpp id_src/include/duckdb/optimizer/expression_rewriter.hpp"
+              d="M 102.606514,140.627335 A 85.053758,85.053758 0,0 1,112.926704,61.165142"
+              stroke="#e9f6ca" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_src/optimizer/rule/distinct_aggregate_optimizer.cpp id_src/include/duckdb/optimizer/rule/distinct_aggregate_optimizer.hpp"
+              d="M 103.295685,140.349686 A 202.578918,202.578918 0,0 1,159.923981,-74.103973"
+              stroke="#e9f6ca" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_src/optimizer/rule/distinct_aggregate_optimizer.cpp id_src/include/duckdb/planner/expression/bound_aggregate_expression.hpp"
+              d="M 100.368515,142.005478 A 462.003868,462.003868 0,0 1,69.685333,-390.498413"
+              stroke="#e5f5ca" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_src/optimizer/rule/distinct_aggregate_optimizer.cpp id_src/include/duckdb/planner/expression/bound_window_expression.hpp"
+              d="M 116.154175,152.973862 A 119.197866,119.197866 0,0 1,191.267441,248.366867"
+              stroke="#eef8cb" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_src/optimizer/rule/distinct_aggregate_optimizer.cpp id_src/include/duckdb/planner/operator/logical_aggregate.hpp"
+              d="M 106.293373,139.765305 A 207.335515,207.335515 0,0 1,228.244354,-52.314831"
+              stroke="#e1f3ca" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_src/optimizer/rule/ordered_aggregate_optimizer.cpp id_src/include/duckdb/catalog/catalog_entry/aggregate_function_catalog_entry.hpp"
+              d="M -37.195869,51.088017 A 398.999160,398.999160 0,0 1,-362.050568,-271.405670"
+              stroke="#ddf2ca" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_src/optimizer/rule/ordered_aggregate_optimizer.cpp id_src/include/duckdb/function/function_binder.hpp"
+              d="M -25.835850,42.775326 A 495.452098,495.452098 0,0 1,376.056091,-366.407379"
+              stroke="#d5eeca" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_src/optimizer/rule/ordered_aggregate_optimizer.cpp id_src/include/duckdb/main/client_context.hpp"
+              d="M -25.972881,42.755714 A 220.293418,220.293418 0,0 1,138.375732,-136.373611"
+              stroke="#d9f0ca" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_src/optimizer/rule/ordered_aggregate_optimizer.cpp id_src/include/duckdb/optimizer/expression_rewriter.hpp"
+              d="M -19.226091,46.792984 A 125.638499,125.638499 0,0 1,109.812080,40.627422"
+              stroke="#d9f0ca" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_src/optimizer/rule/ordered_aggregate_optimizer.cpp id_src/include/duckdb/optimizer/matcher/expression_matcher.hpp"
+              d="M -33.890823,45.125465 A 242.069362,242.069362 0,0 1,-62.480495,-222.623947"
+              stroke="#ddf2ca" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_src/optimizer/rule/ordered_aggregate_optimizer.cpp id_src/include/duckdb/optimizer/rule/ordered_aggregate_optimizer.hpp"
+              d="M -37.197655,54.229626 A 278.938638,278.938638 0,0 1,-318.497192,-84.318489"
+              stroke="#ddf2ca" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_src/optimizer/rule/ordered_aggregate_optimizer.cpp id_src/include/duckdb/planner/expression/bound_aggregate_expression.hpp"
+              d="M -31.244425,43.466290 A 390.554998,390.554998 0,0 1,66.362267,-393.371033"
+              stroke="#d5eeca" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_src/optimizer/rule/ordered_aggregate_optimizer.cpp id_src/include/duckdb/planner/expression/bound_constant_expression.hpp"
+              d="M -28.034565,62.638943 A 359.202638,359.202638 0,0 1,-289.830688,378.128021"
+              stroke="#ddf2ca" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_src/optimizer/rule/ordered_aggregate_optimizer.cpp id_src/include/duckdb/planner/operator/logical_aggregate.hpp"
+              d="M -22.023571,44.182796 A 243.571997,243.571997 0,0 1,227.458282,-61.843628"
+              stroke="#d1edc9" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_src/optimizer/topn_optimizer.cpp id_src/include/duckdb/common/limits.hpp"
+              d="M -198.319244,274.440521 A 185.687566,185.687566 0,0 1,-392.559723,328.006134"
+              stroke="#c0e6c9" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_src/optimizer/topn_optimizer.cpp id_src/include/duckdb/execution/operator/join/join_filter_pushdown.hpp"
+              d="M -181.867310,266.872803 A 168.311863,168.311863 0,0 1,-33.147884,369.313019"
+              stroke="#c0e6c9" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_src/optimizer/topn_optimizer.cpp id_src/include/duckdb/optimizer/join_filter_pushdown_optimizer.hpp"
+              d="M -195.648285,257.542969 A 591.138384,591.138384 0,0 1,-30.544609,-410.760437"
+              stroke="#bce5c9" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_src/optimizer/topn_optimizer.cpp id_src/include/duckdb/optimizer/topn_optimizer.hpp"
+              d="M -190.075836,256.962280 A 742.513246,742.513246 0,0 1,441.800110,-341.178406"
+              stroke="#c0e6c9" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_src/optimizer/topn_optimizer.cpp id_src/include/duckdb/planner/expression/bound_columnref_expression.hpp"
+              d="M -182.389282,269.989868 A 163.378137,163.378137 0,0 1,-76.461288,408.847412"
+              stroke="#b8e3c8" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_src/optimizer/topn_optimizer.cpp id_src/include/duckdb/planner/filter/conjunction_filter.hpp"
+              d="M -185.647461,258.970032 A 467.842541,467.842541 0,0 1,334.713409,113.187004"
+              stroke="#c5e8c9" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_src/optimizer/topn_optimizer.cpp id_src/include/duckdb/planner/filter/constant_filter.hpp"
+              d="M -196.106766,275.857300 A 245.037934,245.037934 0,0 1,-432.593170,411.927490"
+              stroke="#c5e8c9" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_src/optimizer/topn_optimizer.cpp id_src/include/duckdb/planner/filter/dynamic_filter.hpp"
+              d="M -182.928452,262.317078 A 552.393014,552.393014 0,0 1,450.337402,367.181091"
+              stroke="#c5e8c9" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_src/optimizer/topn_optimizer.cpp id_src/include/duckdb/planner/filter/null_filter.hpp"
+              d="M -200.150299,272.403015 A 181.558449,181.558449 0,0 1,-396.672333,271.471710"
+              stroke="#c5e8c9" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_src/optimizer/topn_optimizer.cpp id_src/include/duckdb/planner/filter/optional_filter.hpp"
+              d="M -187.976013,257.588593 A 84.905672,84.905672 0,0 1,-122.999435,211.004883"
+              stroke="#c5e8c9" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_src/optimizer/topn_optimizer.cpp id_src/include/duckdb/planner/operator/logical_get.hpp"
+              d="M -186.929291,275.496429 A 100.988835,100.988835 0,0 1,-191.677307,374.806152"
+              stroke="#bce5c9" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_src/optimizer/topn_optimizer.cpp id_src/include/duckdb/planner/operator/logical_limit.hpp"
+              d="M -183.019592,271.461273 A 90.825033,90.825033 0,0 1,-138.927200,346.603943"
+              stroke="#c5e8c9" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_src/optimizer/topn_optimizer.cpp id_src/include/duckdb/planner/operator/logical_order.hpp"
+              d="M -185.919067,258.761780 A 225.621176,225.621176 0,0 1,50.464264,178.916656"
+              stroke="#c0e6c9" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_src/optimizer/topn_optimizer.cpp id_src/include/duckdb/planner/operator/logical_top_n.hpp"
+              d="M -183.686707,261.048859 A 531.594929,531.594929 0,0 1,433.162537,270.697510"
+              stroke="#c5e8c9" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_src/optimizer/topn_optimizer.cpp id_src/include/duckdb/storage/table/scan_state.hpp"
+              d="M -195.726120,257.575165 A 662.582269,662.582269 0,0 1,-15.293348,-495.250946"
+              stroke="#c5e8c9" stroke-width="2.0" stroke-opacity="1.0"/>
+    </g>
+    <g id="arrows">
+        <polyline fill="#c0e6c9" fill-opacity="1.0"
+                  class="id_src/optimizer/build_probe_side_optimizer.cpp id_src/include/duckdb/common/enums/join_type.hpp"
+                  points="183.546906,-440.137299 176.850983,-439.731842 179.204987,-445.250763"
+                  stroke="none"/>
+        <polyline fill="#c5e8c9" fill-opacity="1.0"
+                  class="id_src/optimizer/build_probe_side_optimizer.cpp id_src/include/duckdb/common/type_visitor.hpp"
+                  points="-19.742561,24.974335 -18.497124,18.382759 -13.722038,22.015739"
+                  stroke="none"/>
+        <polyline fill="#c5e8c9" fill-opacity="1.0"
+                  class="id_src/optimizer/build_probe_side_optimizer.cpp id_src/include/duckdb/common/types/row/tuple_data_layout.hpp"
+                  points="-37.429943,227.447586 -36.012684,220.890793 -31.334164,224.647324"
+                  stroke="none"/>
+        <polyline fill="#c5e8c9" fill-opacity="1.0"
+                  class="id_src/optimizer/build_probe_side_optimizer.cpp id_src/include/duckdb/execution/ht_entry.hpp"
+                  points="-415.383911,294.612305 -411.047577,289.494080 -408.687531,295.010437"
+                  stroke="none"/>
+        <polyline fill="#c0e6c9" fill-opacity="1.0"
+                  class="id_src/optimizer/build_probe_side_optimizer.cpp id_src/include/duckdb/main/settings.hpp"
+                  points="-356.598145,126.556610 -351.997406,121.674690 -349.932159,127.308052"
+                  stroke="none"/>
+        <polyline fill="#c0e6c9" fill-opacity="1.0"
+                  class="id_src/optimizer/build_probe_side_optimizer.cpp id_src/include/duckdb/optimizer/build_probe_side_optimizer.hpp"
+                  points="-460.774384,194.054108 -455.850586,189.498245 -454.175415,195.259659"
+                  stroke="none"/>
+        <polyline fill="#c0e6c9" fill-opacity="1.0"
+                  class="id_src/optimizer/build_probe_side_optimizer.cpp id_src/include/duckdb/optimizer/column_binding_replacer.hpp"
+                  points="132.223648,329.775146 132.069870,323.068695 137.496536,325.628265"
+                  stroke="none"/>
+        <polyline fill="#b8e3c8" fill-opacity="1.0"
+                  class="id_src/optimizer/build_probe_side_optimizer.cpp id_src/include/duckdb/optimizer/optimizer.hpp"
+                  points="319.875824,387.009033 318.367432,380.472626 324.199951,381.880463"
+                  stroke="none"/>
+        <polyline fill="#c5e8c9" fill-opacity="1.0"
+                  class="id_src/optimizer/build_probe_side_optimizer.cpp id_src/include/duckdb/planner/operator/logical_any_join.hpp"
+                  points="48.847717,427.788788 49.518932,421.114258 54.590076,424.321045"
+                  stroke="none"/>
+        <polyline fill="#c0e6c9" fill-opacity="1.0"
+                  class="id_src/optimizer/build_probe_side_optimizer.cpp id_src/include/duckdb/planner/operator/logical_comparison_join.hpp"
+                  points="258.928162,-438.697144 252.220291,-438.762939 254.956070,-444.102905"
+                  stroke="none"/>
+        <polyline fill="#c5e8c9" fill-opacity="1.0"
+                  class="id_src/optimizer/build_probe_side_optimizer.cpp id_src/include/duckdb/planner/operator/logical_cross_product.hpp"
+                  points="-64.994759,160.323959 -63.229897,153.852081 -58.758331,157.852722"
+                  stroke="none"/>
+        <polyline fill="#bce5c9" fill-opacity="1.0"
+                  class="id_src/optimizer/build_probe_side_optimizer.cpp id_src/include/duckdb/planner/operator/logical_get.hpp"
+                  points="-193.629822,381.153076 -190.995789,374.983643 -187.113861,379.558655"
+                  stroke="none"/>
+        <polyline fill="#c5e8c9" fill-opacity="1.0"
+                  class="id_src/optimizer/build_probe_side_optimizer.cpp id_src/include/duckdb/planner/operator/logical_join.hpp"
+                  points="-190.762268,-434.912537 -184.527405,-432.437408 -189.001465,-428.439545"
+                  stroke="none"/>
+        <polyline fill="#c0e6c9" fill-opacity="1.0"
+                  class="id_src/optimizer/build_probe_side_optimizer.cpp id_src/include/duckdb/planner/operator/logical_order.hpp"
+                  points="70.489754,174.761261 70.676514,168.055664 75.966293,170.887299"
+                  stroke="none"/>
+        <polyline fill="#bce5c9" fill-opacity="1.0"
+                  class="id_src/optimizer/build_probe_side_optimizer.cpp id_src/include/duckdb/planner/operator/logical_projection.hpp"
+                  points="-39.062904,13.911330 -37.507210,7.386009 -32.909233,11.240692"
+                  stroke="none"/>
+        <polyline fill="#eef8ca" fill-opacity="1.0"
+                  class="id_src/optimizer/common_aggregate_optimizer.cpp id_src/include/duckdb/optimizer/common_aggregate_optimizer.hpp"
+                  points="-90.531227,-159.817200 -92.199745,-166.314575 -86.334435,-165.050446"
+                  stroke="none"/>
+        <polyline fill="#f2facb" fill-opacity="1.0"
+                  class="id_src/optimizer/common_aggregate_optimizer.cpp id_src/include/duckdb/parser/expression_map.hpp"
+                  points="-95.802025,-266.597656 -99.646179,-272.095154 -93.710526,-272.971497"
+                  stroke="none"/>
+        <polyline fill="#e6f5ca" fill-opacity="1.0"
+                  class="id_src/optimizer/common_aggregate_optimizer.cpp id_src/include/duckdb/planner/expression/bound_columnref_expression.hpp"
+                  points="-70.996681,416.087036 -70.714653,409.384766 -65.465645,412.291321"
+                  stroke="none"/>
+        <polyline fill="#e6f5ca" fill-opacity="1.0"
+                  class="id_src/optimizer/common_aggregate_optimizer.cpp id_src/include/duckdb/planner/operator/logical_aggregate.hpp"
+                  points="239.756332,-67.770050 234.938248,-72.437599 240.599533,-74.425041"
+                  stroke="none"/>
+        <polyline fill="#d5efca" fill-opacity="1.0"
+                  class="id_src/optimizer/common_subplan_optimizer.cpp id_src/include/duckdb/common/arena_containers/arena_unordered_map.hpp"
+                  points="156.175644,140.878418 160.766632,135.987320 162.843109,141.616562"
+                  stroke="none"/>
+        <polyline fill="#d5efca" fill-opacity="1.0"
+                  class="id_src/optimizer/common_subplan_optimizer.cpp id_src/include/duckdb/common/arena_containers/arena_vector.hpp"
+                  points="114.108383,328.525574 118.172714,323.188812 120.816406,328.574982"
+                  stroke="none"/>
+        <polyline fill="#d5efca" fill-opacity="1.0"
+                  class="id_src/optimizer/common_subplan_optimizer.cpp id_src/include/duckdb/common/serializer/binary_serializer.hpp"
+                  points="41.629593,38.077019 47.564476,34.950169 47.692001,40.948811"
+                  stroke="none"/>
+        <polyline fill="#d5efca" fill-opacity="1.0"
+                  class="id_src/optimizer/common_subplan_optimizer.cpp id_src/include/duckdb/common/serializer/memory_stream.hpp"
+                  points="-6.882110,30.555870 -0.739010,27.861000 -1.040353,33.853428"
+                  stroke="none"/>
+        <polyline fill="#d1edc9" fill-opacity="1.0"
+                  class="id_src/optimizer/common_subplan_optimizer.cpp id_src/include/duckdb/optimizer/column_binding_replacer.hpp"
+                  points="136.773285,334.098785 140.646362,328.621643 143.478851,333.910950"
+                  stroke="none"/>
+        <polyline fill="#d1edc9" fill-opacity="1.0"
+                  class="id_src/optimizer/common_subplan_optimizer.cpp id_src/include/duckdb/optimizer/common_subplan_optimizer.hpp"
+                  points="-364.932922,234.691376 -358.702118,232.205994 -359.206146,238.184784"
+                  stroke="none"/>
+        <polyline fill="#d1edc9" fill-opacity="1.0"
+                  class="id_src/optimizer/common_subplan_optimizer.cpp id_src/include/duckdb/optimizer/cte_inlining.hpp"
+                  points="419.123474,-485.648224 417.805450,-479.070770 413.070709,-482.756134"
+                  stroke="none"/>
+        <polyline fill="#c9eac9" fill-opacity="1.0"
+                  class="id_src/optimizer/common_subplan_optimizer.cpp id_src/include/duckdb/optimizer/optimizer.hpp"
+                  points="324.514465,389.573822 326.558655,383.184662 330.852295,387.375702"
+                  stroke="none"/>
+        <polyline fill="#d1edc9" fill-opacity="1.0"
+                  class="id_src/optimizer/common_subplan_optimizer.cpp id_src/include/duckdb/planner/column_binding_map.hpp"
+                  points="344.677216,-452.358673 345.682098,-445.726166 339.974152,-447.575226"
+                  stroke="none"/>
+        <polyline fill="#d5efca" fill-opacity="1.0"
+                  class="id_src/optimizer/common_subplan_optimizer.cpp id_src/include/duckdb/planner/filter/expression_filter.hpp"
+                  points="282.857605,-153.214432 288.826630,-156.275635 288.887970,-150.275940"
+                  stroke="none"/>
+        <polyline fill="#d1edc9" fill-opacity="1.0"
+                  class="id_src/optimizer/common_subplan_optimizer.cpp id_src/include/duckdb/planner/operator/list.hpp"
+                  points="332.405121,-416.258911 334.229645,-409.803589 328.335602,-410.926086"
+                  stroke="none"/>
+        <polyline fill="#e5f5ca" fill-opacity="1.0"
+                  class="id_src/optimizer/cse_optimizer.cpp id_src/include/duckdb/optimizer/cse_optimizer.hpp"
+                  points="343.559662,-497.844604 340.434906,-491.908600 336.936005,-496.782806"
+                  stroke="none"/>
+        <polyline fill="#e5f5ca" fill-opacity="1.0"
+                  class="id_src/optimizer/cse_optimizer.cpp id_src/include/duckdb/planner/binder.hpp"
+                  points="20.358763,-150.269150 20.011547,-143.569931 14.791064,-146.527390"
+                  stroke="none"/>
+        <polyline fill="#e5f5ca" fill-opacity="1.0"
+                  class="id_src/optimizer/cse_optimizer.cpp id_src/include/duckdb/planner/column_binding_map.hpp"
+                  points="339.574585,-456.126068 336.387665,-450.223236 332.940155,-455.133881"
+                  stroke="none"/>
+        <polyline fill="#ddf2ca" fill-opacity="1.0"
+                  class="id_src/optimizer/cse_optimizer.cpp id_src/include/duckdb/planner/expression/bound_columnref_expression.hpp"
+                  points="-65.853104,425.329285 -59.712254,422.629272 -60.008587,428.621948"
+                  stroke="none"/>
+        <polyline fill="#eaf7cb" fill-opacity="1.0"
+                  class="id_src/optimizer/cse_optimizer.cpp id_src/include/duckdb/planner/expression_iterator.hpp"
+                  points="-307.364929,-166.133087 -304.235138,-160.199753 -310.233734,-160.069260"
+                  stroke="none"/>
+        <polyline fill="#e1f3ca" fill-opacity="1.0"
+                  class="id_src/optimizer/cse_optimizer.cpp id_src/include/duckdb/planner/operator/logical_projection.hpp"
+                  points="-47.804295,31.302521 -46.276073,37.834335 -52.112812,36.444183"
+                  stroke="none"/>
+        <polyline fill="#c0e6c9" fill-opacity="1.0"
+                  class="id_src/optimizer/join_filter_pushdown_optimizer.cpp id_src/include/duckdb/execution/operator/join/join_filter_pushdown.hpp"
+                  points="-29.412334,374.486725 -33.447849,369.128113 -27.546762,368.043152"
+                  stroke="none"/>
+        <polyline fill="#c5e8c9" fill-opacity="1.0"
+                  class="id_src/optimizer/join_filter_pushdown_optimizer.cpp id_src/include/duckdb/execution/operator/join/physical_comparison_join.hpp"
+                  points="125.807419,79.919403 119.124893,79.332977 122.267044,74.221527"
+                  stroke="none"/>
+        <polyline fill="#c5e8c9" fill-opacity="1.0"
+                  class="id_src/optimizer/join_filter_pushdown_optimizer.cpp id_src/include/duckdb/function/aggregate/distributive_function_utils.hpp"
+                  points="-347.932861,86.782448 -342.802399,91.104324 -348.312103,93.479919"
+                  stroke="none"/>
+        <polyline fill="#bce5c9" fill-opacity="1.0"
+                  class="id_src/optimizer/join_filter_pushdown_optimizer.cpp id_src/include/duckdb/function/function_binder.hpp"
+                  points="381.851959,-369.206024 375.783386,-366.347321 375.923828,-372.345673"
+                  stroke="none"/>
+        <polyline fill="#bce5c9" fill-opacity="1.0"
+                  class="id_src/optimizer/join_filter_pushdown_optimizer.cpp id_src/include/duckdb/optimizer/join_filter_pushdown_optimizer.hpp"
+                  points="-27.227448,-416.602173 -31.303347,-411.274200 -33.935349,-416.666107"
+                  stroke="none"/>
+        <polyline fill="#b8e3c8" fill-opacity="1.0"
+                  class="id_src/optimizer/join_filter_pushdown_optimizer.cpp id_src/include/duckdb/optimizer/optimizer.hpp"
+                  points="312.584412,388.038055 307.009888,384.306488 312.224976,381.339508"
+                  stroke="none"/>
+        <polyline fill="#bce5c9" fill-opacity="1.0"
+                  class="id_src/optimizer/join_filter_pushdown_optimizer.cpp id_src/include/duckdb/planner/expression/bound_aggregate_expression.hpp"
+                  points="68.859276,-400.891754 64.051651,-396.213409 62.232037,-401.930817"
+                  stroke="none"/>
+        <polyline fill="#c5e8c9" fill-opacity="1.0"
+                  class="id_src/optimizer/join_filter_pushdown_optimizer.cpp id_src/include/duckdb/planner/expression/bound_cast_expression.hpp"
+                  points="123.675919,237.831467 117.632797,234.919296 122.379791,231.249680"
+                  stroke="none"/>
+        <polyline fill="#b8e3c8" fill-opacity="1.0"
+                  class="id_src/optimizer/join_filter_pushdown_optimizer.cpp id_src/include/duckdb/planner/expression/bound_columnref_expression.hpp"
+                  points="-76.020256,414.837006 -79.127388,408.891754 -73.128349,408.784149"
+                  stroke="none"/>
+        <polyline fill="#b8e3c8" fill-opacity="1.0"
+                  class="id_src/optimizer/join_filter_pushdown_optimizer.cpp id_src/include/duckdb/planner/operator/logical_aggregate.hpp"
+                  points="233.570496,-61.462425 226.933197,-60.489658 228.809906,-66.188606"
+                  stroke="none"/>
+        <polyline fill="#c0e6c9" fill-opacity="1.0"
+                  class="id_src/optimizer/join_filter_pushdown_optimizer.cpp id_src/include/duckdb/planner/operator/logical_comparison_join.hpp"
+                  points="257.918823,-432.794067 252.376236,-429.015167 251.570175,-434.960785"
+                  stroke="none"/>
+        <polyline fill="#bce5c9" fill-opacity="1.0"
+                  class="id_src/optimizer/join_filter_pushdown_optimizer.cpp id_src/include/duckdb/planner/operator/logical_get.hpp"
+                  points="-198.793564,377.930603 -200.224548,371.376801 -194.409119,372.853546"
+                  stroke="none"/>
+        <polyline fill="#bce5c9" fill-opacity="1.0"
+                  class="id_src/optimizer/join_filter_pushdown_optimizer.cpp id_src/include/duckdb/planner/operator/logical_projection.hpp"
+                  points="-55.156208,19.022429 -61.723164,20.391758 -60.191845,14.590459"
+                  stroke="none"/>
+        <polyline fill="#c5e8c9" fill-opacity="1.0"
+                  class="id_src/optimizer/join_filter_pushdown_optimizer.cpp id_src/include/duckdb/planner/operator/logical_set_operation.hpp"
+                  points="257.003113,428.557861 251.797226,424.327148 257.264130,421.854736"
+                  stroke="none"/>
+        <polyline fill="#c5e8c9" fill-opacity="1.0"
+                  class="id_src/optimizer/join_filter_pushdown_optimizer.cpp id_src/include/duckdb/planner/operator/logical_unnest.hpp"
+                  points="4.569836,338.384857 -0.129448,333.597717 5.579978,331.753174"
+                  stroke="none"/>
+        <polyline fill="#d9f0ca" fill-opacity="1.0"
+                  class="id_src/optimizer/join_order/join_order_optimizer.cpp id_src/include/duckdb/common/enums/join_type.hpp"
+                  points="194.613083,-426.389923 198.681046,-421.055939 192.786636,-419.935150"
+                  stroke="none"/>
+        <polyline fill="#d9f0ca" fill-opacity="1.0"
+                  class="id_src/optimizer/join_order/join_order_optimizer.cpp id_src/include/duckdb/common/limits.hpp"
+                  points="-397.626801,323.240967 -391.435791,320.658081 -391.845886,326.644043"
+                  stroke="none"/>
+        <polyline fill="#ddf2ca" fill-opacity="1.0"
+                  class="id_src/optimizer/join_order/join_order_optimizer.cpp id_src/include/duckdb/common/pair.hpp"
+                  points="144.593506,261.043640 149.005615,255.990601 151.283203,261.541504"
+                  stroke="none"/>
+        <polyline fill="#d9f0ca" fill-opacity="1.0"
+                  class="id_src/optimizer/join_order/join_order_optimizer.cpp id_src/include/duckdb/main/settings.hpp"
+                  points="-356.250793,132.279968 -349.724609,130.727844 -351.093384,136.569641"
+                  stroke="none"/>
+        <polyline fill="#ddf2ca" fill-opacity="1.0"
+                  class="id_src/optimizer/join_order/join_order_optimizer.cpp id_src/include/duckdb/optimizer/join_order/cost_model.hpp"
+                  points="372.536102,38.592804 375.082581,32.386726 379.028870,36.906357"
+                  stroke="none"/>
+        <polyline fill="#d9f0ca" fill-opacity="1.0"
+                  class="id_src/optimizer/join_order/join_order_optimizer.cpp id_src/include/duckdb/optimizer/join_order/join_order_optimizer.hpp"
+                  points="378.967499,43.164375 381.337494,36.888783 385.409943,41.295025"
+                  stroke="none"/>
+        <polyline fill="#ddf2ca" fill-opacity="1.0"
+                  class="id_src/optimizer/join_order/join_order_optimizer.cpp id_src/include/duckdb/optimizer/join_order/plan_enumerator.hpp"
+                  points="-325.155579,129.519394 -318.648621,127.888680 -319.946838,133.746552"
+                  stroke="none"/>
+        <polyline fill="#ddf2ca" fill-opacity="1.0"
+                  class="id_src/optimizer/join_order/join_order_optimizer.cpp id_src/include/duckdb/planner/expression/list.hpp"
+                  points="-321.499329,470.285431 -315.811737,466.728516 -315.241241,472.701355"
+                  stroke="none"/>
+        <polyline fill="#d9f0ca" fill-opacity="1.0"
+                  class="id_src/optimizer/join_order/join_order_optimizer.cpp id_src/include/duckdb/planner/operator/list.hpp"
+                  points="332.343231,-416.270874 334.127014,-409.804199 328.240173,-410.963867"
+                  stroke="none"/>
+        <polyline fill="#9299b0" fill-opacity="1.0"
+                  class="id_src/optimizer/optimizer.cpp id_src/include/duckdb/execution/column_binding_resolver.hpp"
+                  points="432.301025,258.246185 426.782806,254.431839 432.041595,251.543015"
+                  stroke="none"/>
+        <polyline fill="#8996af" fill-opacity="1.0"
+                  class="id_src/optimizer/optimizer.cpp id_src/include/duckdb/function/function_binder.hpp"
+                  points="381.870789,-369.628510 375.686737,-367.028931 376.080719,-373.015991"
+                  stroke="none"/>
+        <polyline fill="#8d97af" fill-opacity="1.0"
+                  class="id_src/optimizer/optimizer.cpp id_src/include/duckdb/main/client_context.hpp"
+                  points="144.339386,-142.131027 137.785812,-140.698959 139.261581,-146.514633"
+                  stroke="none"/>
+        <polyline fill="#9299b0" fill-opacity="1.0"
+                  class="id_src/optimizer/optimizer.cpp id_src/include/duckdb/main/config.hpp"
+                  points="68.882576,357.751404 66.337685,351.544678 72.321022,351.991455"
+                  stroke="none"/>
+        <polyline fill="#9299b0" fill-opacity="1.0"
+                  class="id_src/optimizer/optimizer.cpp id_src/include/duckdb/main/query_profiler.hpp"
+                  points="-229.464920,190.090225 -226.485687,184.079895 -222.869110,188.867401"
+                  stroke="none"/>
+        <polyline fill="#9299b0" fill-opacity="1.0"
+                  class="id_src/optimizer/optimizer.cpp id_src/include/duckdb/optimizer/aggregate_function_rewriter.hpp"
+                  points="-125.065521,65.575256 -127.200249,59.215775 -121.258781,60.051788"
+                  stroke="none"/>
+        <polyline fill="#8d97af" fill-opacity="1.0"
+                  class="id_src/optimizer/optimizer.cpp id_src/include/duckdb/optimizer/build_probe_side_optimizer.hpp"
+                  points="-460.376923,196.904480 -454.359497,193.939575 -454.394531,199.939484"
+                  stroke="none"/>
+        <polyline fill="#9299b0" fill-opacity="1.0"
+                  class="id_src/optimizer/optimizer.cpp id_src/include/duckdb/optimizer/column_lifetime_analyzer.hpp"
+                  points="-102.878304,-430.334534 -105.008583,-423.973572 -109.245247,-428.222168"
+                  stroke="none"/>
+        <polyline fill="#8d97af" fill-opacity="1.0"
+                  class="id_src/optimizer/optimizer.cpp id_src/include/duckdb/optimizer/common_aggregate_optimizer.hpp"
+                  points="-101.477814,-145.366180 -105.378967,-139.908981 -108.184265,-145.212784"
+                  stroke="none"/>
+        <polyline fill="#8d97af" fill-opacity="1.0"
+                  class="id_src/optimizer/optimizer.cpp id_src/include/duckdb/optimizer/common_subplan_optimizer.hpp"
+                  points="-365.238861,231.261154 -360.220703,226.809418 -358.666565,232.604645"
+                  stroke="none"/>
+        <polyline fill="#8d97af" fill-opacity="1.0"
+                  class="id_src/optimizer/optimizer.cpp id_src/include/duckdb/optimizer/cse_optimizer.hpp"
+                  points="341.761078,-502.431549 336.181061,-498.708160 335.434357,-504.661530"
+                  stroke="none"/>
+        <polyline fill="#9299b0" fill-opacity="1.0"
+                  class="id_src/optimizer/optimizer.cpp id_src/include/duckdb/optimizer/cte_filter_pusher.hpp"
+                  points="27.737415,-75.971252 21.090370,-75.067482 23.026169,-80.746620"
+                  stroke="none"/>
+        <polyline fill="#8d97af" fill-opacity="1.0"
+                  class="id_src/optimizer/optimizer.cpp id_src/include/duckdb/optimizer/cte_inlining.hpp"
+                  points="415.277191,-493.061951 409.427277,-489.778870 409.140778,-495.772034"
+                  stroke="none"/>
+        <polyline fill="#9299b0" fill-opacity="1.0"
+                  class="id_src/optimizer/optimizer.cpp id_src/include/duckdb/optimizer/deliminator.hpp"
+                  points="120.280685,47.598568 114.070839,45.061295 118.584602,41.108322"
+                  stroke="none"/>
+        <polyline fill="#9299b0" fill-opacity="1.0"
+                  class="id_src/optimizer/optimizer.cpp id_src/include/duckdb/optimizer/empty_result_pullup.hpp"
+                  points="355.011444,108.903610 348.857483,106.233673 353.455017,102.378464"
+                  stroke="none"/>
+        <polyline fill="#9299b0" fill-opacity="1.0"
+                  class="id_src/optimizer/optimizer.cpp id_src/include/duckdb/optimizer/expression_heuristics.hpp"
+                  points="271.037781,310.808746 266.441315,305.922791 272.188690,304.200012"
+                  stroke="none"/>
+        <polyline fill="#9299b0" fill-opacity="1.0"
+                  class="id_src/optimizer/optimizer.cpp id_src/include/duckdb/optimizer/filter_pullup.hpp"
+                  points="-246.540695,154.906189 -242.758957,149.365570 -239.839157,154.607208"
+                  stroke="none"/>
+        <polyline fill="#9299b0" fill-opacity="1.0"
+                  class="id_src/optimizer/optimizer.cpp id_src/include/duckdb/optimizer/filter_pushdown.hpp"
+                  points="418.497009,449.228241 414.058136,444.198669 419.857330,442.659424"
+                  stroke="none"/>
+        <polyline fill="#9299b0" fill-opacity="1.0"
+                  class="id_src/optimizer/optimizer.cpp id_src/include/duckdb/optimizer/in_clause_rewriter.hpp"
+                  points="-1.410363,-470.857758 -4.745974,-465.037659 -8.067819,-470.034180"
+                  stroke="none"/>
+        <polyline fill="#9299b0" fill-opacity="1.0"
+                  class="id_src/optimizer/optimizer.cpp id_src/include/duckdb/optimizer/join_elimination.hpp"
+                  points="216.365631,-198.870605 209.906448,-197.059769 211.041458,-202.951431"
+                  stroke="none"/>
+        <polyline fill="#8996af" fill-opacity="1.0"
+                  class="id_src/optimizer/optimizer.cpp id_src/include/duckdb/optimizer/join_filter_pushdown_optimizer.hpp"
+                  points="-26.500954,-415.352142 -29.765945,-409.492126 -33.147964,-414.448120"
+                  stroke="none"/>
+        <polyline fill="#8d97af" fill-opacity="1.0"
+                  class="id_src/optimizer/optimizer.cpp id_src/include/duckdb/optimizer/join_order/join_order_optimizer.hpp"
+                  points="364.298828,43.144062 357.861542,41.256882 361.946198,36.861931"
+                  stroke="none"/>
+        <polyline fill="#9299b0" fill-opacity="1.0"
+                  class="id_src/optimizer/optimizer.cpp id_src/include/duckdb/optimizer/late_materialization.hpp"
+                  points="-106.790237,169.925369 -107.773178,163.289551 -102.071365,165.157532"
+                  stroke="none"/>
+        <polyline fill="#9299b0" fill-opacity="1.0"
+                  class="id_src/optimizer/optimizer.cpp id_src/include/duckdb/optimizer/limit_pushdown.hpp"
+                  points="-478.148224,59.317856 -471.456421,58.848827 -473.757935,64.389870"
+                  stroke="none"/>
+        <polyline fill="#8594af" fill-opacity="1.0"
+                  class="id_src/optimizer/optimizer.cpp id_src/include/duckdb/optimizer/optimizer.hpp"
+                  points="315.197296,387.005585 310.880798,381.870636 316.715332,380.471405"
+                  stroke="none"/>
+        <polyline fill="#9299b0" fill-opacity="1.0"
+                  class="id_src/optimizer/optimizer.cpp id_src/include/duckdb/optimizer/optimizer_extension.hpp"
+                  points="-198.980789,-473.995728 -199.653900,-467.321350 -204.724121,-470.529602"
+                  stroke="none"/>
+        <polyline fill="#9299b0" fill-opacity="1.0"
+                  class="id_src/optimizer/optimizer.cpp id_src/include/duckdb/optimizer/outer_join_simplification.hpp"
+                  points="281.022766,-523.107422 275.777100,-518.926147 274.530334,-524.795166"
+                  stroke="none"/>
+        <polyline fill="#9299b0" fill-opacity="1.0"
+                  class="id_src/optimizer/optimizer.cpp id_src/include/duckdb/optimizer/projection_pullup.hpp"
+                  points="168.353592,-258.612335 162.328369,-255.663315 162.379242,-261.663086"
+                  stroke="none"/>
+        <polyline fill="#9299b0" fill-opacity="1.0"
+                  class="id_src/optimizer/optimizer.cpp id_src/include/duckdb/optimizer/regex_range_filter.hpp"
+                  points="-167.990860,-276.306213 -169.054184,-269.682831 -173.927567,-273.182831"
+                  stroke="none"/>
+        <polyline fill="#9299b0" fill-opacity="1.0"
+                  class="id_src/optimizer/optimizer.cpp id_src/include/duckdb/optimizer/remove_duplicate_groups.hpp"
+                  points="14.075197,-230.529633 8.960140,-226.189575 7.534109,-232.017639"
+                  stroke="none"/>
+        <polyline fill="#9299b0" fill-opacity="1.0"
+                  class="id_src/optimizer/optimizer.cpp id_src/include/duckdb/optimizer/remove_unused_columns.hpp"
+                  points="-106.169250,-422.416565 -108.266533,-416.044647 -112.525154,-420.271271"
+                  stroke="none"/>
+        <polyline fill="#9299b0" fill-opacity="1.0"
+                  class="id_src/optimizer/optimizer.cpp id_src/include/duckdb/optimizer/row_group_pruner.hpp"
+                  points="-230.574829,-214.332886 -229.558823,-207.702057 -235.269882,-209.541595"
+                  stroke="none"/>
+        <polyline fill="#9299b0" fill-opacity="1.0"
+                  class="id_src/optimizer/optimizer.cpp id_src/include/duckdb/optimizer/row_number_rewriter.hpp"
+                  points="-422.209503,219.185959 -416.579102,215.539246 -415.913879,221.502258"
+                  stroke="none"/>
+        <polyline fill="#8d97af" fill-opacity="1.0"
+                  class="id_src/optimizer/optimizer.cpp id_src/include/duckdb/optimizer/rule/distinct_aggregate_optimizer.hpp"
+                  points="163.086121,-88.395248 156.384888,-88.089401 158.820709,-93.572723"
+                  stroke="none"/>
+        <polyline fill="#9299b0" fill-opacity="1.0"
+                  class="id_src/optimizer/optimizer.cpp id_src/include/duckdb/optimizer/rule/equal_or_null_simplification.hpp"
+                  points="-148.455856,-318.236176 -149.964005,-311.699707 -154.589920,-315.520813"
+                  stroke="none"/>
+        <polyline fill="#9299b0" fill-opacity="1.0"
+                  class="id_src/optimizer/optimizer.cpp id_src/include/duckdb/optimizer/rule/in_clause_simplification.hpp"
+                  points="-450.675598,196.841782 -444.706696,193.780396 -444.645172,199.780090"
+                  stroke="none"/>
+        <polyline fill="#9299b0" fill-opacity="1.0"
+                  class="id_src/optimizer/optimizer.cpp id_src/include/duckdb/optimizer/rule/join_dependent_filter.hpp"
+                  points="-371.444702,-112.580025 -365.914215,-108.783455 -371.163666,-105.877708"
+                  stroke="none"/>
+        <polyline fill="#9299b0" fill-opacity="1.0"
+                  class="id_src/optimizer/optimizer.cpp id_src/include/duckdb/optimizer/rule/list.hpp"
+                  points="-450.009369,424.224365 -445.461365,419.293304 -443.335693,424.904144"
+                  stroke="none"/>
+        <polyline fill="#9299b0" fill-opacity="1.0"
+                  class="id_src/optimizer/optimizer.cpp id_src/include/duckdb/optimizer/rule/predicate_factoring.hpp"
+                  points="-77.984138,-502.114502 -80.298988,-495.818329 -84.409966,-500.188690"
+                  stroke="none"/>
+        <polyline fill="#9299b0" fill-opacity="1.0"
+                  class="id_src/optimizer/optimizer.cpp id_src/include/duckdb/optimizer/sampling_pushdown.hpp"
+                  points="147.599304,4.110919 141.074173,2.554348 144.929489,-2.043114"
+                  stroke="none"/>
+        <polyline fill="#9299b0" fill-opacity="1.0"
+                  class="id_src/optimizer/optimizer.cpp id_src/include/duckdb/optimizer/statistics_propagator.hpp"
+                  points="-332.973724,-450.845154 -331.677216,-444.263428 -337.461212,-445.858887"
+                  stroke="none"/>
+        <polyline fill="#8d97af" fill-opacity="1.0"
+                  class="id_src/optimizer/optimizer.cpp id_src/include/duckdb/optimizer/topn_optimizer.hpp"
+                  points="447.791534,-344.584381 441.415436,-342.499847 442.298248,-348.434540"
+                  stroke="none"/>
+        <polyline fill="#9299b0" fill-opacity="1.0"
+                  class="id_src/optimizer/optimizer.cpp id_src/include/duckdb/optimizer/topn_window_elimination.hpp"
+                  points="-162.339691,145.501617 -161.445496,138.853287 -156.484497,142.227982"
+                  stroke="none"/>
+        <polyline fill="#9299b0" fill-opacity="1.0"
+                  class="id_src/optimizer/optimizer.cpp id_src/include/duckdb/optimizer/unnest_rewriter.hpp"
+                  points="378.438568,-493.416504 372.699554,-489.943176 372.216522,-495.923706"
+                  stroke="none"/>
+        <polyline fill="#9299b0" fill-opacity="1.0"
+                  class="id_src/optimizer/optimizer.cpp id_src/include/duckdb/optimizer/window_self_join.hpp"
+                  points="457.880829,204.363403 452.041504,201.061508 457.018738,197.710831"
+                  stroke="none"/>
+        <polyline fill="#8d97af" fill-opacity="1.0"
+                  class="id_src/optimizer/optimizer.cpp id_src/include/duckdb/planner/binder.hpp"
+                  points="15.294391,-158.608566 9.406726,-155.393692 9.189895,-161.389786"
+                  stroke="none"/>
+        <polyline fill="#9299b0" fill-opacity="1.0"
+                  class="id_src/optimizer/optimizer.cpp id_src/include/duckdb/planner/planner.hpp"
+                  points="-267.534790,-202.702072 -265.325714,-196.368027 -271.276581,-197.134384"
+                  stroke="none"/>
+        <polyline fill="#e9f6ca" fill-opacity="1.0"
+                  class="id_src/optimizer/rule/distinct_aggregate_optimizer.cpp id_src/include/duckdb/optimizer/expression_rewriter.hpp"
+                  points="116.855118,56.629997 115.194275,63.129353 110.659134,59.200939"
+                  stroke="none"/>
+        <polyline fill="#e9f6ca" fill-opacity="1.0"
+                  class="id_src/optimizer/rule/distinct_aggregate_optimizer.cpp id_src/include/duckdb/optimizer/rule/distinct_aggregate_optimizer.hpp"
+                  points="164.536865,-77.940819 161.842407,-71.797531 158.005554,-76.410416"
+                  stroke="none"/>
+        <polyline fill="#e5f5ca" fill-opacity="1.0"
+                  class="id_src/optimizer/rule/distinct_aggregate_optimizer.cpp id_src/include/duckdb/planner/expression/bound_aggregate_expression.hpp"
+                  points="72.948952,-395.533173 72.202713,-388.866608 67.167953,-392.130219"
+                  stroke="none"/>
+        <polyline fill="#eef8cb" fill-opacity="1.0"
+                  class="id_src/optimizer/rule/distinct_aggregate_optimizer.cpp id_src/include/duckdb/planner/expression/bound_window_expression.hpp"
+                  points="191.660004,254.354004 188.273865,248.563156 194.261017,248.170578"
+                  stroke="none"/>
+        <polyline fill="#e1f3ca" fill-opacity="1.0"
+                  class="id_src/optimizer/rule/distinct_aggregate_optimizer.cpp id_src/include/duckdb/planner/operator/logical_aggregate.hpp"
+                  points="233.803497,-54.572239 229.373062,-49.535255 227.115646,-55.094406"
+                  stroke="none"/>
+        <polyline fill="#ddf2ca" fill-opacity="1.0"
+                  class="id_src/optimizer/rule/ordered_aggregate_optimizer.cpp id_src/include/duckdb/catalog/catalog_entry/aggregate_function_catalog_entry.hpp"
+                  points="-362.995087,-277.330872 -359.087982,-271.877930 -365.013153,-270.933411"
+                  stroke="none"/>
+        <polyline fill="#d5eeca" fill-opacity="1.0"
+                  class="id_src/optimizer/rule/ordered_aggregate_optimizer.cpp id_src/include/duckdb/function/function_binder.hpp"
+                  points="381.978516,-367.369080 376.536957,-363.446167 375.575226,-369.368591"
+                  stroke="none"/>
+        <polyline fill="#d9f0ca" fill-opacity="1.0"
+                  class="id_src/optimizer/rule/ordered_aggregate_optimizer.cpp id_src/include/duckdb/main/client_context.hpp"
+                  points="144.246902,-137.610291 138.994080,-133.438034 137.757385,-139.309189"
+                  stroke="none"/>
+        <polyline fill="#d9f0ca" fill-opacity="1.0"
+                  class="id_src/optimizer/rule/ordered_aggregate_optimizer.cpp id_src/include/duckdb/optimizer/expression_rewriter.hpp"
+                  points="114.908485,43.793922 108.228836,43.175625 111.395340,38.079227"
+                  stroke="none"/>
+        <polyline fill="#ddf2ca" fill-opacity="1.0"
+                  class="id_src/optimizer/rule/ordered_aggregate_optimizer.cpp id_src/include/duckdb/optimizer/matcher/expression_matcher.hpp"
+                  points="-59.517612,-227.841354 -59.871792,-221.142502 -65.089203,-224.105392"
+                  stroke="none"/>
+        <polyline fill="#ddf2ca" fill-opacity="1.0"
+                  class="id_src/optimizer/rule/ordered_aggregate_optimizer.cpp id_src/include/duckdb/optimizer/rule/ordered_aggregate_optimizer.hpp"
+                  points="-321.308075,-89.619339 -315.846771,-85.723930 -321.147614,-82.913063"
+                  stroke="none"/>
+        <polyline fill="#d5eeca" fill-opacity="1.0"
+                  class="id_src/optimizer/rule/ordered_aggregate_optimizer.cpp id_src/include/duckdb/planner/expression/bound_aggregate_expression.hpp"
+                  points="70.872040,-397.328583 68.341034,-391.116150 64.383514,-395.625916"
+                  stroke="none"/>
+        <polyline fill="#ddf2ca" fill-opacity="1.0"
+                  class="id_src/optimizer/rule/ordered_aggregate_optimizer.cpp id_src/include/duckdb/planner/expression/bound_constant_expression.hpp"
+                  points="-295.646271,379.604065 -290.568726,375.220215 -289.092651,381.035828"
+                  stroke="none"/>
+        <polyline fill="#d1edc9" fill-opacity="1.0"
+                  class="id_src/optimizer/rule/ordered_aggregate_optimizer.cpp id_src/include/duckdb/planner/operator/logical_aggregate.hpp"
+                  points="233.312195,-60.527737 226.800339,-58.916664 228.116226,-64.770592"
+                  stroke="none"/>
+        <polyline fill="#c0e6c9" fill-opacity="1.0"
+                  class="id_src/optimizer/topn_optimizer.cpp id_src/include/duckdb/common/limits.hpp"
+                  points="-398.201111,325.962921 -391.538116,325.185455 -393.581329,330.826813"
+                  stroke="none"/>
+        <polyline fill="#c0e6c9" fill-opacity="1.0"
+                  class="id_src/optimizer/topn_optimizer.cpp id_src/include/duckdb/execution/operator/join/join_filter_pushdown.hpp"
+                  points="-31.068945,374.941345 -35.962044,370.352478 -30.333723,368.273560"
+                  stroke="none"/>
+        <polyline fill="#bce5c9" fill-opacity="1.0"
+                  class="id_src/optimizer/topn_optimizer.cpp id_src/include/duckdb/optimizer/join_filter_pushdown_optimizer.hpp"
+                  points="-25.930737,-414.596100 -28.626785,-408.453491 -32.462433,-413.067383"
+                  stroke="none"/>
+        <polyline fill="#c0e6c9" fill-opacity="1.0"
+                  class="id_src/optimizer/topn_optimizer.cpp id_src/include/duckdb/optimizer/topn_optimizer.hpp"
+                  points="447.756073,-341.903900 442.162842,-338.200409 441.437378,-344.156403"
+                  stroke="none"/>
+        <polyline fill="#b8e3c8" fill-opacity="1.0"
+                  class="id_src/optimizer/topn_optimizer.cpp id_src/include/duckdb/planner/expression/bound_columnref_expression.hpp"
+                  points="-76.228645,414.842896 -79.459030,408.963745 -73.463547,408.731079"
+                  stroke="none"/>
+        <polyline fill="#c5e8c9" fill-opacity="1.0"
+                  class="id_src/optimizer/topn_optimizer.cpp id_src/include/duckdb/planner/filter/conjunction_filter.hpp"
+                  points="340.329498,115.298737 333.657532,115.995056 335.769287,110.378952"
+                  stroke="none"/>
+        <polyline fill="#c5e8c9" fill-opacity="1.0"
+                  class="id_src/optimizer/topn_optimizer.cpp id_src/include/duckdb/planner/filter/constant_filter.hpp"
+                  points="-438.562622,411.322693 -432.290771,408.942780 -432.895569,414.912201"
+                  stroke="none"/>
+        <polyline fill="#c5e8c9" fill-opacity="1.0"
+                  class="id_src/optimizer/topn_optimizer.cpp id_src/include/duckdb/planner/filter/dynamic_filter.hpp"
+                  points="454.523865,371.479156 448.188354,369.274323 452.486450,365.087860"
+                  stroke="none"/>
+        <polyline fill="#c5e8c9" fill-opacity="1.0"
+                  class="id_src/optimizer/topn_optimizer.cpp id_src/include/duckdb/planner/filter/null_filter.hpp"
+                  points="-401.553162,267.982117 -394.927521,269.031281 -398.417145,273.912140"
+                  stroke="none"/>
+        <polyline fill="#c5e8c9" fill-opacity="1.0"
+                  class="id_src/optimizer/topn_optimizer.cpp id_src/include/duckdb/planner/filter/optional_filter.hpp"
+                  points="-117.003632,210.780411 -122.887199,214.002777 -123.111671,208.006989"
+                  stroke="none"/>
+        <polyline fill="#bce5c9" fill-opacity="1.0"
+                  class="id_src/optimizer/topn_optimizer.cpp id_src/include/duckdb/planner/operator/logical_get.hpp"
+                  points="-195.268875,379.612457 -194.080460,373.010376 -189.274155,376.601929"
+                  stroke="none"/>
+        <polyline fill="#c5e8c9" fill-opacity="1.0"
+                  class="id_src/optimizer/topn_optimizer.cpp id_src/include/duckdb/planner/operator/logical_limit.hpp"
+                  points="-139.273682,352.593933 -141.922195,346.430695 -135.932205,346.777191"
+                  stroke="none"/>
+        <polyline fill="#c0e6c9" fill-opacity="1.0"
+                  class="id_src/optimizer/topn_optimizer.cpp id_src/include/duckdb/planner/operator/logical_order.hpp"
+                  points="56.204044,180.664490 49.590343,181.786545 51.338184,176.046768"
+                  stroke="none"/>
+        <polyline fill="#c5e8c9" fill-opacity="1.0"
+                  class="id_src/optimizer/topn_optimizer.cpp id_src/include/duckdb/planner/operator/logical_top_n.hpp"
+                  points="437.940002,274.327362 431.347595,273.086243 434.977478,268.308777"
+                  stroke="none"/>
+        <polyline fill="#c5e8c9" fill-opacity="1.0"
+                  class="id_src/optimizer/topn_optimizer.cpp id_src/include/duckdb/storage/table/scan_state.hpp"
+                  points="-10.702768,-499.114441 -13.361602,-492.955658 -17.225094,-497.546234"
+                  stroke="none"/>
+    </g>
+    <g id="nodes">
+        <circle fill-opacity="1.0" fill="#8bd2c7" r="9.2" cx="-13.245038"
+                class="id_src/optimizer/build_probe_side_optimizer.cpp"
+                cy="-395.61633" stroke="#456963" stroke-opacity="1.0"
+                stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#f6fbcb" r="9.2" cx="192.74513"
+                class="id_src/include/duckdb/common/enums/join_type.hpp"
+                cy="-436.21393" stroke="#7b7d65" stroke-opacity="1.0"
+                stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#ffffcc" r="9.2" cx="-25.79753"
+                class="id_src/include/duckdb/common/type_visitor.hpp"
+                cy="32.93281" stroke="#7f7f66" stroke-opacity="1.0"
+                stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#ffffcc" r="9.2" cx="-43.690807"
+                class="id_src/include/duckdb/common/types/row/tuple_data_layout.hpp"
+                cy="235.24512" stroke="#7f7f66" stroke-opacity="1.0"
+                stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#ffffcc" r="9.2" cx="-424.57785"
+                class="id_src/include/duckdb/execution/ht_entry.hpp"
+                cy="298.54572" stroke="#7f7f66" stroke-opacity="1.0"
+                stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#f6fbcb" r="9.2" cx="-365.9871"
+                class="id_src/include/duckdb/main/settings.hpp" cy="129.99867"
+                stroke="#7b7d65" stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#f6fbcb" r="9.2" cx="-470.37674"
+                class="id_src/include/duckdb/optimizer/build_probe_side_optimizer.hpp"
+                cy="196.84605" stroke="#7b7d65" stroke-opacity="1.0"
+                stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#f6fbcb" r="9.2" cx="127.95772"
+                class="id_src/include/duckdb/optimizer/column_binding_replacer.hpp"
+                cy="338.81958" stroke="#7b7d65" stroke-opacity="1.0"
+                stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#e6f5ca" r="9.2" cx="317.5294"
+                class="id_src/include/duckdb/optimizer/optimizer.hpp"
+                cy="396.72986" stroke="#737a65" stroke-opacity="1.0"
+                stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#ffffcc" r="9.2" cx="43.50307"
+                class="id_src/include/duckdb/planner/operator/logical_any_join.hpp"
+                cy="436.2407" stroke="#7f7f66" stroke-opacity="1.0"
+                stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#f6fbcb" r="9.2" cx="267.82816"
+                class="id_src/include/duckdb/planner/operator/logical_comparison_join.hpp"
+                cy="-434.1375" stroke="#7b7d65" stroke-opacity="1.0"
+                stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#ffffcc" r="9.2" cx="-71.66249"
+                class="id_src/include/duckdb/planner/operator/logical_cross_product.hpp"
+                cy="167.77657" stroke="#7f7f66" stroke-opacity="1.0"
+                stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#eef8cb" r="9.2" cx="-201.2548"
+                class="id_src/include/duckdb/planner/operator/logical_get.hpp"
+                cy="387.623" stroke="#777c65" stroke-opacity="1.0"
+                stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#ffffcc" r="9.2" cx="-197.42534"
+                class="id_src/include/duckdb/planner/operator/logical_join.hpp"
+                cy="-442.36932" stroke="#7f7f66" stroke-opacity="1.0"
+                stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#f6fbcb" r="9.2" cx="65.77034"
+                class="id_src/include/duckdb/planner/operator/logical_order.hpp"
+                cy="183.57756" stroke="#7b7d65" stroke-opacity="1.0"
+                stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#eef8cb" r="9.2" cx="-45.487377"
+                class="id_src/include/duckdb/planner/operator/logical_projection.hpp"
+                cy="21.574629" stroke="#777c65" stroke-opacity="1.0"
+                stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#e6f5ca" r="9.2" cx="-173.39888"
+                class="id_src/optimizer/common_aggregate_optimizer.cpp"
+                cy="-348.53876" stroke="#737a65" stroke-opacity="1.0"
+                stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#f6fbcb" r="9.2" cx="-92.63814"
+                class="id_src/include/duckdb/optimizer/common_aggregate_optimizer.hpp"
+                cy="-150.04167" stroke="#7b7d65" stroke-opacity="1.0"
+                stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#ffffcc" r="9.2" cx="-94.34148"
+                class="id_src/include/duckdb/parser/expression_map.hpp"
+                cy="-256.7049" stroke="#7f7f66" stroke-opacity="1.0"
+                stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#e6f5ca" r="9.2" cx="-75.8409"
+                class="id_src/include/duckdb/planner/expression/bound_columnref_expression.hpp"
+                cy="424.8354" stroke="#737a65" stroke-opacity="1.0"
+                stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#e6f5ca" r="9.2" cx="243.06874"
+                class="id_src/include/duckdb/planner/operator/logical_aggregate.hpp"
+                cy="-58.334583" stroke="#737a65" stroke-opacity="1.0"
+                stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#acdfc8" r="9.2" cx="411.24918"
+                class="id_src/optimizer/common_subplan_optimizer.cpp"
+                cy="-247.04057" stroke="#566f64" stroke-opacity="1.0"
+                stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#ffffcc" r="9.2" cx="146.7936"
+                class="id_src/include/duckdb/common/arena_containers/arena_unordered_map.hpp"
+                cy="144.33922" stroke="#7f7f66" stroke-opacity="1.0"
+                stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#ffffcc" r="9.2" cx="105.131424"
+                class="id_src/include/duckdb/common/arena_containers/arena_vector.hpp"
+                cy="332.93173" stroke="#7f7f66" stroke-opacity="1.0"
+                stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#ffffcc" r="9.2" cx="31.631853"
+                class="id_src/include/duckdb/common/serializer/binary_serializer.hpp"
+                cy="38.289562" stroke="#7f7f66" stroke-opacity="1.0"
+                stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#ffffcc" r="9.2" cx="-16.86949"
+                class="id_src/include/duckdb/common/serializer/memory_stream.hpp"
+                cy="30.053633" stroke="#7f7f66" stroke-opacity="1.0"
+                stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#f6fbcb" r="9.2" cx="-374.89758"
+                class="id_src/include/duckdb/optimizer/common_subplan_optimizer.hpp"
+                cy="233.85136" stroke="#7b7d65" stroke-opacity="1.0"
+                stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#f6fbcb" r="9.2" cx="425.26578"
+                class="id_src/include/duckdb/optimizer/cte_inlining.hpp"
+                cy="-493.5395" stroke="#7b7d65" stroke-opacity="1.0"
+                stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#f6fbcb" r="9.2" cx="347.759"
+                class="id_src/include/duckdb/planner/column_binding_map.hpp"
+                cy="-461.87195" stroke="#7b7d65" stroke-opacity="1.0"
+                stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#ffffcc" r="9.2" cx="272.85812"
+                class="id_src/include/duckdb/planner/filter/expression_filter.hpp"
+                cy="-153.11217" stroke="#7f7f66" stroke-opacity="1.0"
+                stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#f6fbcb" r="9.2" cx="334.27597"
+                class="id_src/include/duckdb/planner/operator/list.hpp"
+                cy="-426.08234" stroke="#7b7d65" stroke-opacity="1.0"
+                stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#d5efca" r="9.2" cx="78.826065"
+                class="id_src/optimizer/cse_optimizer.cpp" cy="331.94305"
+                stroke="#6a7765" stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#f6fbcb" r="9.2" cx="351.68332"
+                class="id_src/include/duckdb/optimizer/cse_optimizer.hpp"
+                cy="-503.6761" stroke="#7b7d65" stroke-opacity="1.0"
+                stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#f6fbcb" r="9.2" cx="25.287859"
+                class="id_src/include/duckdb/planner/binder.hpp" cy="-158.96996"
+                stroke="#7b7d65" stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#ffffcc" r="9.2" cx="-307.5824"
+                class="id_src/include/duckdb/planner/expression_iterator.hpp"
+                cy="-176.13072" stroke="#7f7f66" stroke-opacity="1.0"
+                stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#8bd2c7" r="9.2" cx="-304.0001"
+                class="id_src/optimizer/join_filter_pushdown_optimizer.cpp"
+                cy="116.097824" stroke="#456963" stroke-opacity="1.0"
+                stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#f6fbcb" r="9.2" cx="-27.604048"
+                class="id_src/include/duckdb/execution/operator/join/join_filter_pushdown.hpp"
+                cy="384.32187" stroke="#7b7d65" stroke-opacity="1.0"
+                stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#ffffcc" r="9.2" cx="134.32649"
+                class="id_src/include/duckdb/execution/operator/join/physical_comparison_join.hpp"
+                cy="85.15633" stroke="#7f7f66" stroke-opacity="1.0"
+                stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#ffffcc" r="9.2" cx="-351.89218"
+                class="id_src/include/duckdb/function/aggregate/distributive_function_utils.hpp"
+                cy="77.599655" stroke="#7f7f66" stroke-opacity="1.0"
+                stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#eef8cb" r="9.2" cx="391.8492"
+                class="id_src/include/duckdb/function/function_binder.hpp"
+                cy="-368.97192" stroke="#777c65" stroke-opacity="1.0"
+                stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#eef8cb" r="9.2" cx="-18.24095"
+                class="id_src/include/duckdb/optimizer/join_filter_pushdown_optimizer.hpp"
+                cy="-420.98883" stroke="#777c65" stroke-opacity="1.0"
+                stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#eef8cb" r="9.2" cx="78.38832"
+                class="id_src/include/duckdb/planner/expression/bound_aggregate_expression.hpp"
+                cy="-403.92444" stroke="#777c65" stroke-opacity="1.0"
+                stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#ffffcc" r="9.2" cx="129.79195"
+                class="id_src/include/duckdb/planner/expression/bound_cast_expression.hpp"
+                cy="245.74312" stroke="#7f7f66" stroke-opacity="1.0"
+                stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#ffffcc" r="9.2" cx="261.1238"
+                class="id_src/include/duckdb/planner/operator/logical_set_operation.hpp"
+                cy="437.66937" stroke="#7f7f66" stroke-opacity="1.0"
+                stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#ffffcc" r="9.2" cx="7.6441216"
+                class="id_src/include/duckdb/planner/operator/logical_unnest.hpp"
+                cy="347.90057" stroke="#7f7f66" stroke-opacity="1.0"
+                stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#bce5c9" r="9.2" cx="428.66617"
+                class="id_src/optimizer/join_order/join_order_optimizer.cpp"
+                cy="-208.06487" stroke="#5e7264" stroke-opacity="1.0"
+                stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#f6fbcb" r="9.2" cx="-407.60342"
+                class="id_src/include/duckdb/common/limits.hpp" cy="322.55753"
+                stroke="#7b7d65" stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#ffffcc" r="9.2" cx="135.342"
+                class="id_src/include/duckdb/common/pair.hpp" cy="264.83963"
+                stroke="#7f7f66" stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#ffffcc" r="9.2" cx="365.0034"
+                class="id_src/include/duckdb/optimizer/join_order/cost_model.hpp"
+                cy="45.169903" stroke="#7f7f66" stroke-opacity="1.0"
+                stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#f6fbcb" r="9.2" cx="371.62375"
+                class="id_src/include/duckdb/optimizer/join_order/join_order_optimizer.hpp"
+                cy="49.951824" stroke="#7b7d65" stroke-opacity="1.0"
+                stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#ffffcc" r="9.2" cx="-334.9187"
+                class="id_src/include/duckdb/optimizer/join_order/plan_enumerator.hpp"
+                cy="127.3557" stroke="#7f7f66" stroke-opacity="1.0"
+                stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#ffffcc" r="9.2" cx="-331.454"
+                class="id_src/include/duckdb/planner/expression/list.hpp"
+                cy="471.23627" stroke="#7f7f66" stroke-opacity="1.0"
+                stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#253494" r="9.2" cx="-166.22124"
+                class="id_src/optimizer/optimizer.cpp" cy="-16.558153"
+                stroke="#121a4a" stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#ffffcc" r="9.2" cx="437.11575"
+                class="id_src/include/duckdb/execution/column_binding_resolver.hpp"
+                cy="267.0108" stroke="#7f7f66" stroke-opacity="1.0"
+                stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#f6fbcb" r="9.2" cx="154.03218"
+                class="id_src/include/duckdb/main/client_context.hpp"
+                cy="-139.67143" stroke="#7b7d65" stroke-opacity="1.0"
+                stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#ffffcc" r="9.2" cx="68.137955"
+                class="id_src/include/duckdb/main/config.hpp" cy="367.72363"
+                stroke="#7f7f66" stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#ffffcc" r="9.2" cx="-237.4441"
+                class="id_src/include/duckdb/main/query_profiler.hpp"
+                cy="196.11787" stroke="#7f7f66" stroke-opacity="1.0"
+                stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#ffffcc" r="9.2" cx="-126.45888"
+                class="id_src/include/duckdb/optimizer/aggregate_function_rewriter.hpp"
+                cy="75.47771" stroke="#7f7f66" stroke-opacity="1.0"
+                stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#ffffcc" r="9.2" cx="-95.79729"
+                class="id_src/include/duckdb/optimizer/column_lifetime_analyzer.hpp"
+                cy="-437.39563" stroke="#7f7f66" stroke-opacity="1.0"
+                stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#ffffcc" r="9.2" cx="37.202656"
+                class="id_src/include/duckdb/optimizer/cte_filter_pusher.hpp"
+                cy="-72.74492" stroke="#7f7f66" stroke-opacity="1.0"
+                stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#ffffcc" r="9.2" cx="126.86897"
+                class="id_src/include/duckdb/optimizer/deliminator.hpp"
+                cy="55.121502" stroke="#7f7f66" stroke-opacity="1.0"
+                stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#ffffcc" r="9.2" cx="361.4368"
+                class="id_src/include/duckdb/optimizer/empty_result_pullup.hpp"
+                cy="116.56618" stroke="#7f7f66" stroke-opacity="1.0"
+                stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#ffffcc" r="9.2" cx="273.9091"
+                class="id_src/include/duckdb/optimizer/expression_heuristics.hpp"
+                cy="320.38766" stroke="#7f7f66" stroke-opacity="1.0"
+                stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#ffffcc" r="9.2" cx="-255.27675"
+                class="id_src/include/duckdb/optimizer/filter_pullup.hpp"
+                cy="159.77254" stroke="#7f7f66" stroke-opacity="1.0"
+                stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#ffffcc" r="9.2" cx="421.06247"
+                class="id_src/include/duckdb/optimizer/filter_pushdown.hpp"
+                cy="458.89355" stroke="#7f7f66" stroke-opacity="1.0"
+                stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#ffffcc" r="9.2" cx="6.917193"
+                class="id_src/include/duckdb/optimizer/in_clause_rewriter.hpp"
+                cy="-476.39417" stroke="#7f7f66" stroke-opacity="1.0"
+                stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#ffffcc" r="9.2" cx="226.18507"
+                class="id_src/include/duckdb/optimizer/join_elimination.hpp"
+                cy="-196.97893" stroke="#7f7f66" stroke-opacity="1.0"
+                stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#ffffcc" r="9.2" cx="-109.90352"
+                class="id_src/include/duckdb/optimizer/late_materialization.hpp"
+                cy="179.42839" stroke="#7f7f66" stroke-opacity="1.0"
+                stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#ffffcc" r="9.2" cx="-487.3833"
+                class="id_src/include/duckdb/optimizer/limit_pushdown.hpp"
+                cy="55.482037" stroke="#7f7f66" stroke-opacity="1.0"
+                stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#ffffcc" r="9.2" cx="-193.63374"
+                class="id_src/include/duckdb/optimizer/optimizer_extension.hpp"
+                cy="-482.4461" stroke="#7f7f66" stroke-opacity="1.0"
+                stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#ffffcc" r="9.2" cx="290.80447"
+                class="id_src/include/duckdb/optimizer/outer_join_simplification.hpp"
+                cy="-525.1854" stroke="#7f7f66" stroke-opacity="1.0"
+                stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#ffffcc" r="9.2" cx="178.35323"
+                class="id_src/include/duckdb/optimizer/projection_pullup.hpp"
+                cy="-258.52753" stroke="#7f7f66" stroke-opacity="1.0"
+                stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#ffffcc" r="9.2" cx="-162.15752"
+                class="id_src/include/duckdb/optimizer/regex_range_filter.hpp"
+                cy="-284.42853" stroke="#7f7f66" stroke-opacity="1.0"
+                stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#ffffcc" r="9.2" cx="23.788652"
+                class="id_src/include/duckdb/optimizer/remove_duplicate_groups.hpp"
+                cy="-232.90636" stroke="#7f7f66" stroke-opacity="1.0"
+                stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#ffffcc" r="9.2" cx="-99.12492"
+                class="id_src/include/duckdb/optimizer/remove_unused_columns.hpp"
+                cy="-429.51428" stroke="#7f7f66" stroke-opacity="1.0"
+                stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#ffffcc" r="9.2" cx="-227.50893"
+                class="id_src/include/duckdb/optimizer/row_group_pruner.hpp"
+                cy="-223.8513" stroke="#7f7f66" stroke-opacity="1.0"
+                stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#ffffcc" r="9.2" cx="-432.14786"
+                class="id_src/include/duckdb/optimizer/row_number_rewriter.hpp"
+                cy="220.29463" stroke="#7f7f66" stroke-opacity="1.0"
+                stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#f6fbcb" r="9.2" cx="172.22499"
+                class="id_src/include/duckdb/optimizer/rule/distinct_aggregate_optimizer.hpp"
+                cy="-84.335556" stroke="#7b7d65" stroke-opacity="1.0"
+                stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#ffffcc" r="9.2" cx="-142.08733"
+                class="id_src/include/duckdb/optimizer/rule/equal_or_null_simplification.hpp"
+                cy="-325.94604" stroke="#7f7f66" stroke-opacity="1.0"
+                stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#ffffcc" r="9.2" cx="-460.67508"
+                class="id_src/include/duckdb/optimizer/rule/in_clause_simplification.hpp"
+                cy="196.94435" stroke="#7f7f66" stroke-opacity="1.0"
+                stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#ffffcc" r="9.2" cx="-376.28763"
+                class="id_src/include/duckdb/optimizer/rule/join_dependent_filter.hpp"
+                cy="-121.32909" stroke="#7f7f66" stroke-opacity="1.0"
+                stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#ffffcc" r="9.2" cx="-459.36078"
+                class="id_src/include/duckdb/optimizer/rule/list.hpp"
+                cy="427.76712" stroke="#7f7f66" stroke-opacity="1.0"
+                stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#ffffcc" r="9.2" cx="-70.70024"
+                class="id_src/include/duckdb/optimizer/rule/predicate_factoring.hpp"
+                cy="-508.96613" stroke="#7f7f66" stroke-opacity="1.0"
+                stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#ffffcc" r="9.2" cx="155.26173"
+                class="id_src/include/duckdb/optimizer/sampling_pushdown.hpp"
+                cy="10.536421" stroke="#7f7f66" stroke-opacity="1.0"
+                stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#ffffcc" r="9.2" cx="-330.31458"
+                class="id_src/include/duckdb/optimizer/statistics_propagator.hpp"
+                cy="-460.4851" stroke="#7f7f66" stroke-opacity="1.0"
+                stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#f6fbcb" r="9.2" cx="457.6827"
+                class="id_src/include/duckdb/optimizer/topn_optimizer.hpp"
+                cy="-343.11304" stroke="#7b7d65" stroke-opacity="1.0"
+                stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#ffffcc" r="9.2" cx="-167.96419"
+                class="id_src/include/duckdb/optimizer/topn_window_elimination.hpp"
+                cy="153.76994" stroke="#7f7f66" stroke-opacity="1.0"
+                stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#ffffcc" r="9.2" cx="388.4061"
+                class="id_src/include/duckdb/optimizer/unnest_rewriter.hpp"
+                cy="-494.22156" stroke="#7f7f66" stroke-opacity="1.0"
+                stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#ffffcc" r="9.2" cx="463.4653"
+                class="id_src/include/duckdb/optimizer/window_self_join.hpp"
+                cy="212.6588" stroke="#7f7f66" stroke-opacity="1.0"
+                stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#ffffcc" r="9.2" cx="-266.25754"
+                class="id_src/include/duckdb/planner/planner.hpp"
+                cy="-212.62016" stroke="#7f7f66" stroke-opacity="1.0"
+                stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#ddf2ca" r="9.2" cx="106.6855"
+                class="id_src/optimizer/rule/distinct_aggregate_optimizer.cpp"
+                cy="149.75761" stroke="#6e7965" stroke-opacity="1.0"
+                stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#f6fbcb" r="9.2" cx="123.40248"
+                class="id_src/include/duckdb/optimizer/expression_rewriter.hpp"
+                cy="49.071423" stroke="#7b7d65" stroke-opacity="1.0"
+                stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#ffffcc" r="9.2" cx="192.31429"
+                class="id_src/include/duckdb/planner/expression/bound_window_expression.hpp"
+                cy="264.33258" stroke="#7f7f66" stroke-opacity="1.0"
+                stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#bce5c9" r="9.2" cx="-27.320906"
+                class="id_src/optimizer/rule/ordered_aggregate_optimizer.cpp"
+                cy="52.66444" stroke="#5e7264" stroke-opacity="1.0"
+                stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#ffffcc" r="9.2" cx="-364.56927"
+                class="id_src/include/duckdb/catalog/catalog_entry/aggregate_function_catalog_entry.hpp"
+                cy="-287.20618" stroke="#7f7f66" stroke-opacity="1.0"
+                stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#ffffcc" r="9.2" cx="-54.57948"
+                class="id_src/include/duckdb/optimizer/matcher/expression_matcher.hpp"
+                cy="-236.53703" stroke="#7f7f66" stroke-opacity="1.0"
+                stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#ffffcc" r="9.2" cx="-325.99286"
+                class="id_src/include/duckdb/optimizer/rule/ordered_aggregate_optimizer.hpp"
+                cy="-98.45409" stroke="#7f7f66" stroke-opacity="1.0"
+                stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#ffffcc" r="9.2" cx="-305.33896"
+                class="id_src/include/duckdb/planner/expression/bound_constant_expression.hpp"
+                cy="382.06415" stroke="#7f7f66" stroke-opacity="1.0"
+                stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#8bd2c7" r="9.2" cx="-191.86705"
+                class="id_src/optimizer/topn_optimizer.cpp" cy="266.80054"
+                stroke="#456963" stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#ffffcc" r="9.2" cx="349.68967"
+                class="id_src/include/duckdb/planner/filter/conjunction_filter.hpp"
+                cy="118.81828" stroke="#7f7f66" stroke-opacity="1.0"
+                stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#ffffcc" r="9.2" cx="-448.5117"
+                class="id_src/include/duckdb/planner/filter/constant_filter.hpp"
+                cy="410.31467" stroke="#7f7f66" stroke-opacity="1.0"
+                stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#ffffcc" r="9.2" cx="461.5013"
+                class="id_src/include/duckdb/planner/filter/dynamic_filter.hpp"
+                cy="378.64264" stroke="#7f7f66" stroke-opacity="1.0"
+                stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#ffffcc" r="9.2" cx="-409.6879"
+                class="id_src/include/duckdb/planner/filter/null_filter.hpp"
+                cy="262.16608" stroke="#7f7f66" stroke-opacity="1.0"
+                stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#ffffcc" r="9.2" cx="-107.010635"
+                class="id_src/include/duckdb/planner/filter/optional_filter.hpp"
+                cy="210.4063" stroke="#7f7f66" stroke-opacity="1.0"
+                stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#ffffcc" r="9.2" cx="-139.85115"
+                class="id_src/include/duckdb/planner/operator/logical_limit.hpp"
+                cy="362.57724" stroke="#7f7f66" stroke-opacity="1.0"
+                stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#ffffcc" r="9.2" cx="445.90244"
+                class="id_src/include/duckdb/planner/operator/logical_top_n.hpp"
+                cy="280.37714" stroke="#7f7f66" stroke-opacity="1.0"
+                stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#ffffcc" r="9.2" cx="-3.0518012"
+                class="id_src/include/duckdb/storage/table/scan_state.hpp"
+                cy="-505.5536" stroke="#7f7f66" stroke-opacity="1.0"
+                stroke-width="1.5999999"/>
+    </g>
+    <g id="node-labels">
+        <text font-size="8" x="-13.245038" y="-392.51236" fill-opacity="1.0"
+              fill="#000000" font-family="Dialog" style="text-anchor: middle;"
+              class="id_src/optimizer/build_probe_side_optimizer.cpp"
+              font-weight="bold">
+            src/optimizer/build_probe_side_optimizer.cpp
+        </text>
+        <text font-size="8" x="192.74513" y="-433.10995" fill-opacity="1.0"
+              fill="#000000" font-family="Dialog" style="text-anchor: middle;"
+              class="id_src/include/duckdb/common/enums/join_type.hpp"
+              font-weight="bold">
+            src/include/duckdb/common/enums/join_type.hpp
+        </text>
+        <text font-size="8" x="-25.79753" y="36.036774" fill-opacity="1.0"
+              fill="#000000" font-family="Dialog" style="text-anchor: middle;"
+              class="id_src/include/duckdb/common/type_visitor.hpp"
+              font-weight="bold">
+            src/include/duckdb/common/type_visitor.hpp
+        </text>
+        <text font-size="8" x="-43.690807" y="238.34908" fill-opacity="1.0"
+              fill="#000000" font-family="Dialog" style="text-anchor: middle;"
+              class="id_src/include/duckdb/common/types/row/tuple_data_layout.hpp"
+              font-weight="bold">
+            src/include/duckdb/common/types/row/tuple_data_layout.hpp
+        </text>
+        <text font-size="8" x="-424.57785" y="301.6497" fill-opacity="1.0"
+              fill="#000000" font-family="Dialog" style="text-anchor: middle;"
+              class="id_src/include/duckdb/execution/ht_entry.hpp"
+              font-weight="bold">
+            src/include/duckdb/execution/ht_entry.hpp
+        </text>
+        <text font-size="8" x="-365.9871" y="133.10263" fill-opacity="1.0"
+              fill="#000000" font-family="Dialog" style="text-anchor: middle;"
+              class="id_src/include/duckdb/main/settings.hpp" font-weight="bold">
+            src/include/duckdb/main/settings.hpp
+        </text>
+        <text font-size="8" x="-470.37674" y="199.95001" fill-opacity="1.0"
+              fill="#000000" font-family="Dialog" style="text-anchor: middle;"
+              class="id_src/include/duckdb/optimizer/build_probe_side_optimizer.hpp"
+              font-weight="bold">
+            src/include/duckdb/optimizer/build_probe_side_optimizer.hpp
+        </text>
+        <text font-size="8" x="127.95772" y="341.92355" fill-opacity="1.0"
+              fill="#000000" font-family="Dialog" style="text-anchor: middle;"
+              class="id_src/include/duckdb/optimizer/column_binding_replacer.hpp"
+              font-weight="bold">
+            src/include/duckdb/optimizer/column_binding_replacer.hpp
+        </text>
+        <text font-size="8" x="317.5294" y="399.83383" fill-opacity="1.0"
+              fill="#000000" font-family="Dialog" style="text-anchor: middle;"
+              class="id_src/include/duckdb/optimizer/optimizer.hpp"
+              font-weight="bold">
+            src/include/duckdb/optimizer/optimizer.hpp
+        </text>
+        <text font-size="8" x="43.50307" y="439.34467" fill-opacity="1.0"
+              fill="#000000" font-family="Dialog" style="text-anchor: middle;"
+              class="id_src/include/duckdb/planner/operator/logical_any_join.hpp"
+              font-weight="bold">
+            src/include/duckdb/planner/operator/logical_any_join.hpp
+        </text>
+        <text font-size="8" x="-71.66249" y="170.88052" fill-opacity="1.0"
+              fill="#000000" font-family="Dialog" style="text-anchor: middle;"
+              class="id_src/include/duckdb/planner/operator/logical_cross_product.hpp"
+              font-weight="bold">
+            src/include/duckdb/planner/operator/logical_cross_product.hpp
+        </text>
+        <text font-size="8" x="-201.2548" y="390.72696" fill-opacity="1.0"
+              fill="#000000" font-family="Dialog" style="text-anchor: middle;"
+              class="id_src/include/duckdb/planner/operator/logical_get.hpp"
+              font-weight="bold">
+            src/include/duckdb/planner/operator/logical_get.hpp
+        </text>
+        <text font-size="8" x="-197.42534" y="-439.26535" fill-opacity="1.0"
+              fill="#000000" font-family="Dialog" style="text-anchor: middle;"
+              class="id_src/include/duckdb/planner/operator/logical_join.hpp"
+              font-weight="bold">
+            src/include/duckdb/planner/operator/logical_join.hpp
+        </text>
+        <text font-size="8" x="65.77034" y="186.68152" fill-opacity="1.0"
+              fill="#000000" font-family="Dialog" style="text-anchor: middle;"
+              class="id_src/include/duckdb/planner/operator/logical_order.hpp"
+              font-weight="bold">
+            src/include/duckdb/planner/operator/logical_order.hpp
+        </text>
+        <text font-size="8" x="-173.39888" y="-345.43478" fill-opacity="1.0"
+              fill="#000000" font-family="Dialog" style="text-anchor: middle;"
+              class="id_src/optimizer/common_aggregate_optimizer.cpp"
+              font-weight="bold">
+            src/optimizer/common_aggregate_optimizer.cpp
+        </text>
+        <text font-size="8" x="-92.63814" y="-146.93771" fill-opacity="1.0"
+              fill="#000000" font-family="Dialog" style="text-anchor: middle;"
+              class="id_src/include/duckdb/optimizer/common_aggregate_optimizer.hpp"
+              font-weight="bold">
+            src/include/duckdb/optimizer/common_aggregate_optimizer.hpp
+        </text>
+        <text font-size="8" x="-94.34148" y="-253.60094" fill-opacity="1.0"
+              fill="#000000" font-family="Dialog" style="text-anchor: middle;"
+              class="id_src/include/duckdb/parser/expression_map.hpp"
+              font-weight="bold">
+            src/include/duckdb/parser/expression_map.hpp
+        </text>
+        <text font-size="8" x="243.06874" y="-55.23062" fill-opacity="1.0"
+              fill="#000000" font-family="Dialog" style="text-anchor: middle;"
+              class="id_src/include/duckdb/planner/operator/logical_aggregate.hpp"
+              font-weight="bold">
+            src/include/duckdb/planner/operator/logical_aggregate.hpp
+        </text>
+        <text font-size="8" x="411.24918" y="-243.93661" fill-opacity="1.0"
+              fill="#000000" font-family="Dialog" style="text-anchor: middle;"
+              class="id_src/optimizer/common_subplan_optimizer.cpp"
+              font-weight="bold">
+            src/optimizer/common_subplan_optimizer.cpp
+        </text>
+        <text font-size="8" x="146.7936" y="147.44318" fill-opacity="1.0"
+              fill="#000000" font-family="Dialog" style="text-anchor: middle;"
+              class="id_src/include/duckdb/common/arena_containers/arena_unordered_map.hpp"
+              font-weight="bold">
+            src/include/duckdb/common/arena_containers/arena_unordered_map.hpp
+        </text>
+        <text font-size="8" x="-374.89758" y="236.95532" fill-opacity="1.0"
+              fill="#000000" font-family="Dialog" style="text-anchor: middle;"
+              class="id_src/include/duckdb/optimizer/common_subplan_optimizer.hpp"
+              font-weight="bold">
+            src/include/duckdb/optimizer/common_subplan_optimizer.hpp
+        </text>
+        <text font-size="8" x="425.26578" y="-490.43552" fill-opacity="1.0"
+              fill="#000000" font-family="Dialog" style="text-anchor: middle;"
+              class="id_src/include/duckdb/optimizer/cte_inlining.hpp"
+              font-weight="bold">
+            src/include/duckdb/optimizer/cte_inlining.hpp
+        </text>
+        <text font-size="8" x="347.759" y="-458.76797" fill-opacity="1.0"
+              fill="#000000" font-family="Dialog" style="text-anchor: middle;"
+              class="id_src/include/duckdb/planner/column_binding_map.hpp"
+              font-weight="bold">
+            src/include/duckdb/planner/column_binding_map.hpp
+        </text>
+        <text font-size="8" x="272.85812" y="-150.00821" fill-opacity="1.0"
+              fill="#000000" font-family="Dialog" style="text-anchor: middle;"
+              class="id_src/include/duckdb/planner/filter/expression_filter.hpp"
+              font-weight="bold">
+            src/include/duckdb/planner/filter/expression_filter.hpp
+        </text>
+        <text font-size="8" x="-307.5824" y="-173.02676" fill-opacity="1.0"
+              fill="#000000" font-family="Dialog" style="text-anchor: middle;"
+              class="id_src/include/duckdb/planner/expression_iterator.hpp"
+              font-weight="bold">
+            src/include/duckdb/planner/expression_iterator.hpp
+        </text>
+        <text font-size="8" x="134.32649" y="88.260284" fill-opacity="1.0"
+              fill="#000000" font-family="Dialog" style="text-anchor: middle;"
+              class="id_src/include/duckdb/execution/operator/join/physical_comparison_join.hpp"
+              font-weight="bold">
+            src/include/duckdb/execution/operator/join/physical_comparison_join.hpp
+        </text>
+        <text font-size="8" x="-351.89218" y="80.70361" fill-opacity="1.0"
+              fill="#000000" font-family="Dialog" style="text-anchor: middle;"
+              class="id_src/include/duckdb/function/aggregate/distributive_function_utils.hpp"
+              font-weight="bold">
+            src/include/duckdb/function/aggregate/distributive_function_utils.hpp
+        </text>
+        <text font-size="8" x="391.8492" y="-365.86795" fill-opacity="1.0"
+              fill="#000000" font-family="Dialog" style="text-anchor: middle;"
+              class="id_src/include/duckdb/function/function_binder.hpp"
+              font-weight="bold">
+            src/include/duckdb/function/function_binder.hpp
+        </text>
+        <text font-size="8" x="428.66617" y="-204.9609" fill-opacity="1.0"
+              fill="#000000" font-family="Dialog" style="text-anchor: middle;"
+              class="id_src/optimizer/join_order/join_order_optimizer.cpp"
+              font-weight="bold">
+            src/optimizer/join_order/join_order_optimizer.cpp
+        </text>
+        <text font-size="8" x="-407.60342" y="325.6615" fill-opacity="1.0"
+              fill="#000000" font-family="Dialog" style="text-anchor: middle;"
+              class="id_src/include/duckdb/common/limits.hpp" font-weight="bold">
+            src/include/duckdb/common/limits.hpp
+        </text>
+        <text font-size="8" x="135.342" y="267.9436" fill-opacity="1.0"
+              fill="#000000" font-family="Dialog" style="text-anchor: middle;"
+              class="id_src/include/duckdb/common/pair.hpp" font-weight="bold">
+            src/include/duckdb/common/pair.hpp
+        </text>
+        <text font-size="8" x="365.0034" y="48.273865" fill-opacity="1.0"
+              fill="#000000" font-family="Dialog" style="text-anchor: middle;"
+              class="id_src/include/duckdb/optimizer/join_order/cost_model.hpp"
+              font-weight="bold">
+            src/include/duckdb/optimizer/join_order/cost_model.hpp
+        </text>
+        <text font-size="8" x="-331.454" y="474.34024" fill-opacity="1.0"
+              fill="#000000" font-family="Dialog" style="text-anchor: middle;"
+              class="id_src/include/duckdb/planner/expression/list.hpp"
+              font-weight="bold">
+            src/include/duckdb/planner/expression/list.hpp
+        </text>
+        <text font-size="8" x="-166.22124" y="-13.454193" fill-opacity="1.0"
+              fill="#000000" font-family="Dialog" style="text-anchor: middle;"
+              class="id_src/optimizer/optimizer.cpp" font-weight="bold">
+            src/optimizer/optimizer.cpp
+        </text>
+        <text font-size="8" x="437.11575" y="270.11478" fill-opacity="1.0"
+              fill="#000000" font-family="Dialog" style="text-anchor: middle;"
+              class="id_src/include/duckdb/execution/column_binding_resolver.hpp"
+              font-weight="bold">
+            src/include/duckdb/execution/column_binding_resolver.hpp
+        </text>
+        <text font-size="8" x="154.03218" y="-136.56747" fill-opacity="1.0"
+              fill="#000000" font-family="Dialog" style="text-anchor: middle;"
+              class="id_src/include/duckdb/main/client_context.hpp"
+              font-weight="bold">
+            src/include/duckdb/main/client_context.hpp
+        </text>
+        <text font-size="8" x="68.137955" y="370.8276" fill-opacity="1.0"
+              fill="#000000" font-family="Dialog" style="text-anchor: middle;"
+              class="id_src/include/duckdb/main/config.hpp" font-weight="bold">
+            src/include/duckdb/main/config.hpp
+        </text>
+        <text font-size="8" x="-237.4441" y="199.22183" fill-opacity="1.0"
+              fill="#000000" font-family="Dialog" style="text-anchor: middle;"
+              class="id_src/include/duckdb/main/query_profiler.hpp"
+              font-weight="bold">
+            src/include/duckdb/main/query_profiler.hpp
+        </text>
+        <text font-size="8" x="37.202656" y="-69.64096" fill-opacity="1.0"
+              fill="#000000" font-family="Dialog" style="text-anchor: middle;"
+              class="id_src/include/duckdb/optimizer/cte_filter_pusher.hpp"
+              font-weight="bold">
+            src/include/duckdb/optimizer/cte_filter_pusher.hpp
+        </text>
+        <text font-size="8" x="126.86897" y="58.225464" fill-opacity="1.0"
+              fill="#000000" font-family="Dialog" style="text-anchor: middle;"
+              class="id_src/include/duckdb/optimizer/deliminator.hpp"
+              font-weight="bold">
+            src/include/duckdb/optimizer/deliminator.hpp
+        </text>
+        <text font-size="8" x="361.4368" y="119.670135" fill-opacity="1.0"
+              fill="#000000" font-family="Dialog" style="text-anchor: middle;"
+              class="id_src/include/duckdb/optimizer/empty_result_pullup.hpp"
+              font-weight="bold">
+            src/include/duckdb/optimizer/empty_result_pullup.hpp
+        </text>
+        <text font-size="8" x="421.06247" y="461.99753" fill-opacity="1.0"
+              fill="#000000" font-family="Dialog" style="text-anchor: middle;"
+              class="id_src/include/duckdb/optimizer/filter_pushdown.hpp"
+              font-weight="bold">
+            src/include/duckdb/optimizer/filter_pushdown.hpp
+        </text>
+        <text font-size="8" x="6.917193" y="-473.2902" fill-opacity="1.0"
+              fill="#000000" font-family="Dialog" style="text-anchor: middle;"
+              class="id_src/include/duckdb/optimizer/in_clause_rewriter.hpp"
+              font-weight="bold">
+            src/include/duckdb/optimizer/in_clause_rewriter.hpp
+        </text>
+        <text font-size="8" x="-487.3833" y="58.586" fill-opacity="1.0"
+              fill="#000000" font-family="Dialog" style="text-anchor: middle;"
+              class="id_src/include/duckdb/optimizer/limit_pushdown.hpp"
+              font-weight="bold">
+            src/include/duckdb/optimizer/limit_pushdown.hpp
+        </text>
+        <text font-size="8" x="290.80447" y="-522.0815" fill-opacity="1.0"
+              fill="#000000" font-family="Dialog" style="text-anchor: middle;"
+              class="id_src/include/duckdb/optimizer/outer_join_simplification.hpp"
+              font-weight="bold">
+            src/include/duckdb/optimizer/outer_join_simplification.hpp
+        </text>
+        <text font-size="8" x="178.35323" y="-255.42357" fill-opacity="1.0"
+              fill="#000000" font-family="Dialog" style="text-anchor: middle;"
+              class="id_src/include/duckdb/optimizer/projection_pullup.hpp"
+              font-weight="bold">
+            src/include/duckdb/optimizer/projection_pullup.hpp
+        </text>
+        <text font-size="8" x="-162.15752" y="-281.32455" fill-opacity="1.0"
+              fill="#000000" font-family="Dialog" style="text-anchor: middle;"
+              class="id_src/include/duckdb/optimizer/regex_range_filter.hpp"
+              font-weight="bold">
+            src/include/duckdb/optimizer/regex_range_filter.hpp
+        </text>
+        <text font-size="8" x="23.788652" y="-229.8024" fill-opacity="1.0"
+              fill="#000000" font-family="Dialog" style="text-anchor: middle;"
+              class="id_src/include/duckdb/optimizer/remove_duplicate_groups.hpp"
+              font-weight="bold">
+            src/include/duckdb/optimizer/remove_duplicate_groups.hpp
+        </text>
+        <text font-size="8" x="-99.12492" y="-426.4103" fill-opacity="1.0"
+              fill="#000000" font-family="Dialog" style="text-anchor: middle;"
+              class="id_src/include/duckdb/optimizer/remove_unused_columns.hpp"
+              font-weight="bold">
+            src/include/duckdb/optimizer/remove_unused_columns.hpp
+        </text>
+        <text font-size="8" x="-227.50893" y="-220.74734" fill-opacity="1.0"
+              fill="#000000" font-family="Dialog" style="text-anchor: middle;"
+              class="id_src/include/duckdb/optimizer/row_group_pruner.hpp"
+              font-weight="bold">
+            src/include/duckdb/optimizer/row_group_pruner.hpp
+        </text>
+        <text font-size="8" x="-142.08733" y="-322.84207" fill-opacity="1.0"
+              fill="#000000" font-family="Dialog" style="text-anchor: middle;"
+              class="id_src/include/duckdb/optimizer/rule/equal_or_null_simplification.hpp"
+              font-weight="bold">
+            src/include/duckdb/optimizer/rule/equal_or_null_simplification.hpp
+        </text>
+        <text font-size="8" x="-376.28763" y="-118.22513" fill-opacity="1.0"
+              fill="#000000" font-family="Dialog" style="text-anchor: middle;"
+              class="id_src/include/duckdb/optimizer/rule/join_dependent_filter.hpp"
+              font-weight="bold">
+            src/include/duckdb/optimizer/rule/join_dependent_filter.hpp
+        </text>
+        <text font-size="8" x="-459.36078" y="430.8711" fill-opacity="1.0"
+              fill="#000000" font-family="Dialog" style="text-anchor: middle;"
+              class="id_src/include/duckdb/optimizer/rule/list.hpp"
+              font-weight="bold">
+            src/include/duckdb/optimizer/rule/list.hpp
+        </text>
+        <text font-size="8" x="-70.70024" y="-505.86215" fill-opacity="1.0"
+              fill="#000000" font-family="Dialog" style="text-anchor: middle;"
+              class="id_src/include/duckdb/optimizer/rule/predicate_factoring.hpp"
+              font-weight="bold">
+            src/include/duckdb/optimizer/rule/predicate_factoring.hpp
+        </text>
+        <text font-size="8" x="155.26173" y="13.640381" fill-opacity="1.0"
+              fill="#000000" font-family="Dialog" style="text-anchor: middle;"
+              class="id_src/include/duckdb/optimizer/sampling_pushdown.hpp"
+              font-weight="bold">
+            src/include/duckdb/optimizer/sampling_pushdown.hpp
+        </text>
+        <text font-size="8" x="457.6827" y="-340.00906" fill-opacity="1.0"
+              fill="#000000" font-family="Dialog" style="text-anchor: middle;"
+              class="id_src/include/duckdb/optimizer/topn_optimizer.hpp"
+              font-weight="bold">
+            src/include/duckdb/optimizer/topn_optimizer.hpp
+        </text>
+        <text font-size="8" x="463.4653" y="215.76276" fill-opacity="1.0"
+              fill="#000000" font-family="Dialog" style="text-anchor: middle;"
+              class="id_src/include/duckdb/optimizer/window_self_join.hpp"
+              font-weight="bold">
+            src/include/duckdb/optimizer/window_self_join.hpp
+        </text>
+        <text font-size="8" x="-325.99286" y="-95.35013" fill-opacity="1.0"
+              fill="#000000" font-family="Dialog" style="text-anchor: middle;"
+              class="id_src/include/duckdb/optimizer/rule/ordered_aggregate_optimizer.hpp"
+              font-weight="bold">
+            src/include/duckdb/optimizer/rule/ordered_aggregate_optimizer.hpp
+        </text>
+        <text font-size="8" x="-191.86705" y="269.9045" fill-opacity="1.0"
+              fill="#000000" font-family="Dialog" style="text-anchor: middle;"
+              class="id_src/optimizer/topn_optimizer.cpp" font-weight="bold">
+            src/optimizer/topn_optimizer.cpp
+        </text>
+        <text font-size="8" x="461.5013" y="381.7466" fill-opacity="1.0"
+              fill="#000000" font-family="Dialog" style="text-anchor: middle;"
+              class="id_src/include/duckdb/planner/filter/dynamic_filter.hpp"
+              font-weight="bold">
+            src/include/duckdb/planner/filter/dynamic_filter.hpp
+        </text>
+        <text font-size="8" x="-409.6879" y="265.27005" fill-opacity="1.0"
+              fill="#000000" font-family="Dialog" style="text-anchor: middle;"
+              class="id_src/include/duckdb/planner/filter/null_filter.hpp"
+              font-weight="bold">
+            src/include/duckdb/planner/filter/null_filter.hpp
+        </text>
+        <text font-size="8" x="-107.010635" y="213.51025" fill-opacity="1.0"
+              fill="#000000" font-family="Dialog" style="text-anchor: middle;"
+              class="id_src/include/duckdb/planner/filter/optional_filter.hpp"
+              font-weight="bold">
+            src/include/duckdb/planner/filter/optional_filter.hpp
+        </text>
+        <text font-size="8" x="-139.85115" y="365.6812" fill-opacity="1.0"
+              fill="#000000" font-family="Dialog" style="text-anchor: middle;"
+              class="id_src/include/duckdb/planner/operator/logical_limit.hpp"
+              font-weight="bold">
+            src/include/duckdb/planner/operator/logical_limit.hpp
+        </text>
+        <text font-size="8" x="445.90244" y="283.4811" fill-opacity="1.0"
+              fill="#000000" font-family="Dialog" style="text-anchor: middle;"
+              class="id_src/include/duckdb/planner/operator/logical_top_n.hpp"
+              font-weight="bold">
+            src/include/duckdb/planner/operator/logical_top_n.hpp
+        </text>
+    </g>
+</svg>
