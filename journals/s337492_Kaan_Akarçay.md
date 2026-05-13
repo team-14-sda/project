@@ -7,3 +7,4 @@
 | 05/07 - 05/07 | Doxygen Review and Class Check-in | I used the existing Doxyfile setup to gather extra visual/documentation material and joined a short team meeting. |
 | 05/08 - 05/08 | CppDepend Deep Dive | I continued graph and metric analysis with CppDepend. |
 | 05/10 - 05/10 | UML and Main Meeting | I worked on overall UML diagrams; in the main meeting we drafted the dependency section, and Federico and I took ownership of the design pattern section. |
+| 05/12 - 05/13 | Design Pattern analysis | Searched over the code base, especially important component files for possible patterns. Tried to compile my findings into a report pdf with doxygen uml diagrams for visual support |
