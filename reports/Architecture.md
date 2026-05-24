@@ -1,11 +1,17 @@
 # Software Architecture Report
 
 ## 1. Introduction 
-
+This document provides a comprehensive overview of the software architecture of DuckDB, an in-process analytical database management system. The architecture is documented using the C4 model to describe the system at different levels of abstraction. The diagrams in this report were created using **PlantUML** in conjunction with the **C4-PlantUML** library and managed via **c4builder**.
 
 ## 2. First level: Context level
+The Context Level diagram illustrates DuckDB at a high level, showing its interactions with users and external systems. As an in-process analytical database, it is primarily used by Data Professionals and Developers for analytical queries, data transformations, and application development. DuckDB interacts with various external elements such as Cloud Storage (like S3, GCS, Azure Blob Storage via httpfs), other External Databases (like PostgreSQL, MySQL, SQLite via extensions), various Data Formats (Parquet, CSV, JSON, Iceberg), and BI & Analytics Tools (Tableau, PowerBI, MotherDuck).
+
+![Context level](graphyc/c4/context.png)
 
 ## 3. Second level: Container level
+The Container Level diagram breaks down the DuckDB system into its core internal containers and their interactions. The system starts with Client APIs available for multiple languages (Python, R, Java, C++, WASM, Node.js), which act as the entry point for queries and session management. The SQL strings are processed by the SQL Parser (using libpg_query) into an Abstract Syntax Tree (AST). The AST is then sent to the Planner & Optimizer, which binds the query by fetching schema and metadata from the Catalog container. After generating logical plans, the optimizer converts them into highly optimized physical execution plans. These plans are executed by the Execution Engine using a vectorized, push-based model. During execution, the engine interacts with the Buffer Manager for memory allocation and block caching, and the Storage Manager for ACID-compliant reading and writing to the DuckDB file format. Operations are guarded by the Transaction Manager to ensure isolation via MVCC, while the Extensions Manager dynamically loads specialized functionalities like connecting to Cloud Storage via httpfs or processing alternative data formats.
+
+![Container level](graphyc/c4/container.png)
 
 ## 4. Third level: Component level
 ### 4.1 Client API
