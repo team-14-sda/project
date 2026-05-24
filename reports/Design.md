@@ -1,8 +1,3 @@
----
-title: Software Design Report
-
----
-
 # Software Design Report
 
 ## 1. Dependencies
@@ -103,6 +98,39 @@ Several implementation modules depend heavily on their matching header modules, 
 Overall, the static dependencies match DuckDB's organization as an embedded analytical database engine with a SQL frontend, optimizer, execution layer, storage layer, and shared common infrastructure. The highest coupling appears around session state, binding, optimizer orchestration, configuration, exceptions, and schema catalog management, which represent areas where many subsystems meet.
 
 ### 1.3 Knowledge Dependencies
+
+Knowledge dependencies were measured from Git co-change relations reported in the linked [dataset](https://docs.google.com/spreadsheets/d/1pa1tWlTltAW4g8DvtOI5R4BQnfUC8SB2dUq-Mi9qVB4/edit?usp=sharing). Each row is a pair of files that changed together in the same commits. The `degree` column is the percentage of revisions in which the pair co-changed, while `average-revs` is the average number of revisions of the two files in the pair. To keep the comparison focused on source code, only `.hpp` and `.cpp` files were considered.
+
+After this filter, the co-change dataset contains `2512` pairs. These pairs were compared with the static include dataset by checking whether either file directly includes the other. `781` co-change pairs also have a direct include dependency, while `1731` do not. So only `31.1%` of the knowledge dependencies are also direct static dependencies.
+
+For the comparison, the most useful examples are pairs connected to files already identified in the static analysis. Some of them are consistent with static dependencies:
+
+| File Pair                                   | Degree | Avg. File Revs | Interpretation                 |
+|---------------------------------------------|-------:|----------:|--------------------------------|
+| `enum_util.cpp` / `enum_util.hpp`           |     50 |       420 | generated enum conversion code |
+| `client_context.hpp` / `client_context.cpp` |     37 |       379 | broad session interface        |
+| `binder.hpp` / `binder.cpp`                 |     40 |       290 | binding infrastructure         |
+| `data_table.hpp` / `data_table.cpp`         |     47 |       473 | broad storage class            |
+
+These are implementation/header relations, but they also support the static dependency findings. `client_context`, `binder`, and `data_table` were already identified as central or broad files, and their implementations co-change with their declarations. `enum_util` again needs to be interpreted separately, because it is generated code.
+
+The percentages are not always very high because these files are large interfaces. A commit can change only `client_context.cpp` or only `client_context.hpp`, for example, without changing both. This is why a moderate percentage with many revisions can be more meaningful than a `100%` pair with only a few revisions.
+
+The more interesting cases are co-change pairs that do not have a direct include relation:
+
+| File Pair                                       | Degree | Avg. File Revs | Interpretation                              |
+|-------------------------------------------------|-------:|----------:|---------------------------------------------|
+| `data_table.cpp` / `local_storage.cpp`          |     30 |       498 | table storage and transaction-local changes |
+| `join_hashtable.cpp` / `physical_hash_join.cpp` |     34 |       473 | hash join implementation split              |
+| `row_group.cpp` / `row_group_collection.cpp`    |     33 |       375 | table storage structures                    |
+| `config.hpp` / `settings.hpp`                   |     36 |       358 | configuration/settings interface            |
+| `config.cpp` / `settings.cpp`                   |     32 |       324 | configuration/settings implementation       |
+
+These are the main co-change relations that are not represented by direct include edges. `data_table.cpp` was already discussed as a high outgoing-dependency implementation file. Its co-change with `local_storage.cpp` shows that table storage and transaction-local changes are maintained together even when the relation is not a direct include edge. The same applies to `row_group.cpp` and `row_group_collection.cpp`, which sit below `DataTable` in the storage layer.
+
+`physical_hash_join.cpp` was also mentioned in the static dependency section. Its co-change with `join_hashtable.cpp` shows the same pattern: one file implements the physical operator and pipeline behavior, while the other implements the hash table mechanics. The configuration pairs are similar. `config.hpp` and `config.cpp` have direct static dependencies, but the co-change data also connects them to `settings.hpp` and `settings.cpp`, because settings declarations, lookup helpers, and configuration registration evolve together.
+
+Overall, static dependencies are better for compile-time coupling and central headers. Co-change dependencies add a different view: they show maintenance coupling around the same areas found in the static analysis, especially storage, hash joins, configuration, and session/binding infrastructure.
 
 ## 2. Patterns
 
