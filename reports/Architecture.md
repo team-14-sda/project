@@ -9,7 +9,12 @@ The Context Level diagram illustrates DuckDB at a high level, showing its intera
 ![Context level](graphyc/context.png)
 
 ## 3. Second level: Container level
-The Container Level diagram breaks down the DuckDB system into its core internal containers and their interactions. The system starts with Client APIs available for multiple languages (Python, R, Java, C++, WASM, Node.js), which act as the entry point for queries and session management. The SQL strings are processed by the SQL Parser (using libpg_query) into an Abstract Syntax Tree (AST). The AST is then sent to the Planner & Optimizer, which binds the query by fetching schema and metadata from the Catalog container. After generating logical plans, the optimizer converts them into highly optimized physical execution plans. These plans are executed by the Execution Engine using a vectorized, push-based model. During execution, the engine interacts with the Buffer Manager for memory allocation and block caching, and the Storage Manager for ACID-compliant reading and writing to the DuckDB file format. Operations are guarded by the Transaction Manager to ensure isolation via MVCC, while the Extensions Manager dynamically loads specialized functionalities like connecting to Cloud Storage via httpfs or processing alternative data formats.
+The Container Level diagram breaks down the DuckDB system into four core internal containers: Client API, Query Processing Layer (QPL), Execution Engine, and Database Engine.
+
+- **Client API**: Acts as the entry point for applications across multiple languages (Python, R, Java, C++, WASM, Node.js), receiving queries and orchestrating sessions.
+- **Query Processing Layer (QPL)**: Combines the parser, planner, and optimizer. It parses SQL into an Abstract Syntax Tree (AST), binds the variables by querying the Database Engine (Catalog), and translates the AST into a highly optimized physical execution plan.
+- **Execution Engine**: Receives the physical plan from the QPL and executes it using a highly efficient vectorized, push-based execution model. 
+- **Database Engine**: Encapsulates data management, including the Storage Manager, Buffer Manager, Transaction Manager (for MVCC), Catalog, and Extensions. It serves metadata to the QPL and data blocks to the Execution Engine.
 
 ![Container level](graphyc/container.png)
 
