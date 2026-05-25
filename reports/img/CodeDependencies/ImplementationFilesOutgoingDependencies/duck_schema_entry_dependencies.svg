@@ -1,0 +1,734 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+    "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
+<svg contentScriptType="text/ecmascript" width="1174.7682"
+     xmlns:xlink="http://www.w3.org/1999/xlink" zoomAndPan="magnify"
+     contentStyleType="text/css"
+     viewBox="-528.753296 -515.000000 1174.768188 998.000000" height="998.0"
+     preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg"
+     version="1.1">
+    <g id="edges">
+        <path stroke-linecap="round" fill="none"
+              class="id_src/catalog/catalog_entry/duck_schema_entry.cpp id_src/include/duckdb/catalog/catalog_entry/aggregate_function_catalog_entry.hpp"
+              d="M -101.331703,268.687866 A 465.920137,465.920137 0,0 1,-351.620728,-207.646698"
+              stroke="#9299b0" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_src/catalog/catalog_entry/duck_schema_entry.cpp id_src/include/duckdb/catalog/catalog_entry/collate_catalog_entry.hpp"
+              d="M -83.303635,268.923126 A 239.655778,239.655778 0,0 1,178.973816,315.442841"
+              stroke="#9299b0" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_src/catalog/catalog_entry/duck_schema_entry.cpp id_src/include/duckdb/catalog/catalog_entry/coordinate_system_catalog_entry.hpp"
+              d="M -100.068405,266.745972 A 436.439802,436.439802 0,0 1,-225.787262,-219.977448"
+              stroke="#9299b0" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_src/catalog/catalog_entry/duck_schema_entry.cpp id_src/include/duckdb/catalog/catalog_entry/copy_function_catalog_entry.hpp"
+              d="M -93.857414,263.243958 A 644.650701,644.650701 0,0 1,255.166153,-403.559143"
+              stroke="#9299b0" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_src/catalog/catalog_entry/duck_schema_entry.cpp id_src/include/duckdb/catalog/catalog_entry/duck_index_entry.hpp"
+              d="M -92.569778,263.135254 A 455.642224,455.642224 0,0 1,207.052628,-168.882889"
+              stroke="#9299b0" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_src/catalog/catalog_entry/duck_schema_entry.cpp id_src/include/duckdb/catalog/catalog_entry/duck_schema_entry.hpp"
+              d="M -95.135254,263.522064 A 629.696986,629.696986 0,0 1,157.508484,-426.347931"
+              stroke="#9299b0" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_src/catalog/catalog_entry/duck_schema_entry.cpp id_src/include/duckdb/catalog/catalog_entry/duck_table_entry.hpp"
+              d="M -82.405457,273.924042 A 109.174902,109.174902 0,0 1,4.664638,340.020599"
+              stroke="#9299b0" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_src/catalog/catalog_entry/duck_schema_entry.cpp id_src/include/duckdb/catalog/catalog_entry/pragma_function_catalog_entry.hpp"
+              d="M -89.749870,263.483826 A 206.017461,206.017461 0,0 1,82.970207,117.826675"
+              stroke="#9299b0" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_src/catalog/catalog_entry/duck_schema_entry.cpp id_src/include/duckdb/catalog/catalog_entry/scalar_function_catalog_entry.hpp"
+              d="M -98.313622,265.088287 A 343.176968,343.176968 0,0 1,-104.474632,-125.583565"
+              stroke="#9299b0" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_src/catalog/catalog_entry/duck_schema_entry.cpp id_src/include/duckdb/catalog/catalog_entry/scalar_macro_catalog_entry.hpp"
+              d="M -83.842583,267.916779 A 221.882036,221.882036 0,0 1,160.746078,282.277893"
+              stroke="#9299b0" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_src/catalog/catalog_entry/duck_schema_entry.cpp id_src/include/duckdb/catalog/catalog_entry/sequence_catalog_entry.hpp"
+              d="M -102.168457,271.115540 A 365.092581,365.092581 0,0 1,-385.224426,-35.150307"
+              stroke="#9299b0" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_src/catalog/catalog_entry/duck_schema_entry.cpp id_src/include/duckdb/catalog/catalog_entry/table_catalog_entry.hpp"
+              d="M -101.546158,277.117584 A 239.312531,239.312531 0,0 1,-362.189117,224.209976"
+              stroke="#9299b0" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_src/catalog/catalog_entry/duck_schema_entry.cpp id_src/include/duckdb/catalog/catalog_entry/table_function_catalog_entry.hpp"
+              d="M -100.398598,267.166077 A 620.494513,620.494513 0,0 1,-314.783081,-423.978882"
+              stroke="#9299b0" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_src/catalog/catalog_entry/duck_schema_entry.cpp id_src/include/duckdb/catalog/catalog_entry/table_macro_catalog_entry.hpp"
+              d="M -91.740784,283.113251 A 120.796835,120.796835 0,0 1,-152.368759,390.529663"
+              stroke="#9299b0" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_src/catalog/catalog_entry/duck_schema_entry.cpp id_src/include/duckdb/catalog/catalog_entry/type_catalog_entry.hpp"
+              d="M -92.782944,263.141693 A 574.831164,574.831164 0,0 1,278.596497,-293.096191"
+              stroke="#9299b0" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_src/catalog/catalog_entry/duck_schema_entry.cpp id_src/include/duckdb/catalog/catalog_entry/view_catalog_entry.hpp"
+              d="M -100.214447,279.340546 A 250.493078,250.493078 0,0 1,-379.136444,295.565613"
+              stroke="#9299b0" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_src/catalog/catalog_entry/duck_schema_entry.cpp id_src/include/duckdb/catalog/catalog_entry/window_function_catalog_entry.hpp"
+              d="M -82.393814,273.760193 A 262.684621,262.684621 0,0 1,147.024841,457.682800"
+              stroke="#9299b0" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_src/catalog/catalog_entry/duck_schema_entry.cpp id_src/include/duckdb/catalog/default/default_coordinate_systems.hpp"
+              d="M -98.894440,280.715271 A 48.717936,48.717936 0,0 1,-132.071716,294.043488"
+              stroke="#9299b0" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_src/catalog/catalog_entry/duck_schema_entry.cpp id_src/include/duckdb/catalog/default/default_functions.hpp"
+              d="M -92.533279,263.134583 A 703.488386,703.488386 0,0 1,383.260193,-408.690765"
+              stroke="#9299b0" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_src/catalog/catalog_entry/duck_schema_entry.cpp id_src/include/duckdb/catalog/default/default_table_functions.hpp"
+              d="M -99.735016,266.364471 A 626.889166,626.889166 0,0 1,-242.535355,-450.864227"
+              stroke="#9299b0" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_src/catalog/catalog_entry/duck_schema_entry.cpp id_src/include/duckdb/catalog/default/default_types.hpp"
+              d="M -94.886887,263.454163 A 651.616388,651.616388 0,0 1,185.418182,-444.025391"
+              stroke="#9299b0" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_src/catalog/catalog_entry/duck_schema_entry.cpp id_src/include/duckdb/catalog/default/default_views.hpp"
+              d="M -82.864052,270.041687 A 518.274617,518.274617 0,0 1,488.734924,455.508636"
+              stroke="#9299b0" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_src/catalog/catalog_entry/duck_schema_entry.cpp id_src/include/duckdb/catalog/dependency_list.hpp"
+              d="M -93.034477,263.155151 A 770.362773,770.362773 0,0 1,392.267761,-498.948578"
+              stroke="#9299b0" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_src/catalog/catalog_entry/duck_schema_entry.cpp id_src/include/duckdb/main/attached_database.hpp"
+              d="M -90.730423,263.269348 A 568.124927,568.124927 0,0 1,380.758636,-199.676331"
+              stroke="#9299b0" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_src/catalog/catalog_entry/duck_schema_entry.cpp id_src/include/duckdb/main/database.hpp"
+              d="M -100.026222,266.695496 A 116.674126,116.674126 0,0 1,-134.609131,153.489685"
+              stroke="#9299b0" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_src/catalog/catalog_entry/duck_schema_entry.cpp id_src/include/duckdb/parser/constraints/foreign_key_constraint.hpp"
+              d="M -100.887939,267.887817 A 590.287859,590.287859 0,0 1,-361.369812,-368.220184"
+              stroke="#9299b0" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_src/catalog/catalog_entry/duck_schema_entry.cpp id_src/include/duckdb/parser/parsed_data/alter_table_info.hpp"
+              d="M -82.703308,270.588745 A 402.208338,402.208338 0,0 1,348.270660,435.926147"
+              stroke="#9299b0" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_src/catalog/catalog_entry/duck_schema_entry.cpp id_src/include/duckdb/parser/parsed_data/create_aggregate_function_info.hpp"
+              d="M -83.669327,268.211334 A 460.105827,460.105827 0,0 1,444.141266,327.306824"
+              stroke="#9299b0" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_src/catalog/catalog_entry/duck_schema_entry.cpp id_src/include/duckdb/parser/parsed_data/create_collation_info.hpp"
+              d="M -90.646927,263.283630 A 699.111453,699.111453 0,0 1,499.353912,-303.290283"
+              stroke="#9299b0" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_src/catalog/catalog_entry/duck_schema_entry.cpp id_src/include/duckdb/parser/parsed_data/create_copy_function_info.hpp"
+              d="M -100.809486,267.762573 A 309.058215,309.058215 0,0 1,-232.554230,-56.221474"
+              stroke="#9299b0" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_src/catalog/catalog_entry/duck_schema_entry.cpp id_src/include/duckdb/parser/parsed_data/create_index_info.hpp"
+              d="M -101.974403,270.334229 A 277.534169,277.534169 0,0 1,-296.239960,26.345112"
+              stroke="#9299b0" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_src/catalog/catalog_entry/duck_schema_entry.cpp id_src/include/duckdb/parser/parsed_data/create_pragma_function_info.hpp"
+              d="M -102.277000,271.742859 A 281.783868,281.783868 0,0 1,-333.214233,54.606606"
+              stroke="#9299b0" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_src/catalog/catalog_entry/duck_schema_entry.cpp id_src/include/duckdb/parser/parsed_data/create_scalar_function_info.hpp"
+              d="M -92.639900,263.136871 A 168.726736,168.726736 0,0 1,5.002051,110.630875"
+              stroke="#9299b0" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_src/catalog/catalog_entry/duck_schema_entry.cpp id_src/include/duckdb/parser/parsed_data/create_schema_info.hpp"
+              d="M -102.223862,271.406158 A 293.749683,293.749683 0,0 1,-335.484680,36.058891"
+              stroke="#9299b0" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_src/catalog/catalog_entry/duck_schema_entry.cpp id_src/include/duckdb/parser/parsed_data/create_sequence_info.hpp"
+              d="M -91.625267,263.161407 A 592.285540,592.285540 0,0 1,355.345428,-262.199005"
+              stroke="#9299b0" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_src/catalog/catalog_entry/duck_schema_entry.cpp id_src/include/duckdb/parser/parsed_data/create_table_function_info.hpp"
+              d="M -83.823662,267.947845 A 483.071473,483.071473 0,0 1,472.986603,313.588440"
+              stroke="#9299b0" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_src/catalog/catalog_entry/duck_schema_entry.cpp id_src/include/duckdb/parser/parsed_data/create_type_info.hpp"
+              d="M -85.002586,279.890564 A 112.347306,112.347306 0,0 1,-56.284527,389.332428"
+              stroke="#9299b0" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_src/catalog/catalog_entry/duck_schema_entry.cpp id_src/include/duckdb/parser/parsed_data/create_view_info.hpp"
+              d="M -100.655426,267.527954 A 591.683123,591.683123 0,0 1,-334.194061,-380.738190"
+              stroke="#9299b0" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_src/catalog/catalog_entry/duck_schema_entry.cpp id_src/include/duckdb/parser/parsed_data/drop_info.hpp"
+              d="M -85.245926,266.119873 A 81.299626,81.299626 0,0 1,-11.701697,248.718185"
+              stroke="#9299b0" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_src/catalog/catalog_entry/duck_schema_entry.cpp id_src/include/duckdb/planner/parsed_data/bound_create_table_info.hpp"
+              d="M -96.112701,263.858459 A 395.483713,395.483713 0,0 1,11.739563,-176.657608"
+              stroke="#9299b0" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_src/catalog/catalog_entry/duck_schema_entry.cpp id_src/include/duckdb/storage/data_table.hpp"
+              d="M -99.217896,280.424622 A 203.875762,203.875762 0,0 1,-317.543213,327.598083"
+              stroke="#9299b0" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_src/catalog/catalog_entry/duck_schema_entry.cpp id_src/include/duckdb/transaction/duck_transaction.hpp"
+              d="M -99.774139,266.407257 A 386.076136,386.076136 0,0 1,-192.087753,-166.081955"
+              stroke="#9299b0" stroke-width="2.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_src/catalog/catalog_entry/duck_schema_entry.cpp id_src/include/duckdb/transaction/meta_transaction.hpp"
+              d="M -98.859978,280.744781 A 216.427985,216.427985 0,0 1,-329.388367,341.711517"
+              stroke="#9299b0" stroke-width="2.0" stroke-opacity="1.0"/>
+    </g>
+    <g id="arrows">
+        <polyline fill="#9299b0" fill-opacity="1.0"
+                  class="id_src/catalog/catalog_entry/duck_schema_entry.cpp id_src/include/duckdb/catalog/catalog_entry/aggregate_function_catalog_entry.hpp"
+                  points="-350.730225,-213.580246 -348.653961,-207.201431 -354.587494,-208.091965"
+                  stroke="none"/>
+        <polyline fill="#9299b0" fill-opacity="1.0"
+                  class="id_src/catalog/catalog_entry/duck_schema_entry.cpp id_src/include/duckdb/catalog/catalog_entry/collate_catalog_entry.hpp"
+                  points="183.161880,319.739349 176.825562,317.536865 181.122070,313.348816"
+                  stroke="none"/>
+        <polyline fill="#9299b0" fill-opacity="1.0"
+                  class="id_src/catalog/catalog_entry/duck_schema_entry.cpp id_src/include/duckdb/catalog/catalog_entry/coordinate_system_catalog_entry.hpp"
+                  points="-223.565796,-225.551056 -223.000458,-218.866714 -228.574066,-221.088181"
+                  stroke="none"/>
+        <polyline fill="#9299b0" fill-opacity="1.0"
+                  class="id_src/catalog/catalog_entry/duck_schema_entry.cpp id_src/include/duckdb/catalog/catalog_entry/copy_function_catalog_entry.hpp"
+                  points="260.561401,-406.184265 256.478699,-400.861511 253.853592,-406.256775"
+                  stroke="none"/>
+        <polyline fill="#9299b0" fill-opacity="1.0"
+                  class="id_src/catalog/catalog_entry/duck_schema_entry.cpp id_src/include/duckdb/catalog/catalog_entry/duck_index_entry.hpp"
+                  points="212.725189,-170.837875 208.030121,-166.046600 206.075134,-171.719177"
+                  stroke="none"/>
+        <polyline fill="#9299b0" fill-opacity="1.0"
+                  class="id_src/catalog/catalog_entry/duck_schema_entry.cpp id_src/include/duckdb/catalog/catalog_entry/duck_schema_entry.hpp"
+                  points="162.513458,-429.657043 159.163040,-423.845459 155.853928,-428.850403"
+                  stroke="none"/>
+        <polyline fill="#9299b0" fill-opacity="1.0"
+                  class="id_src/catalog/catalog_entry/duck_schema_entry.cpp id_src/include/duckdb/catalog/catalog_entry/duck_table_entry.hpp"
+                  points="6.573652,345.708801 1.820537,340.975098 7.508740,339.066101"
+                  stroke="none"/>
+        <polyline fill="#9299b0" fill-opacity="1.0"
+                  class="id_src/catalog/catalog_entry/duck_schema_entry.cpp id_src/include/duckdb/catalog/catalog_entry/pragma_function_catalog_entry.hpp"
+                  points="88.950356,117.338989 83.214050,120.816750 82.726364,114.836601"
+                  stroke="none"/>
+        <polyline fill="#9299b0" fill-opacity="1.0"
+                  class="id_src/catalog/catalog_entry/duck_schema_entry.cpp id_src/include/duckdb/catalog/catalog_entry/scalar_function_catalog_entry.hpp"
+                  points="-101.021896,-130.490555 -102.021133,-123.857193 -106.928131,-127.309937"
+                  stroke="none"/>
+        <polyline fill="#9299b0" fill-opacity="1.0"
+                  class="id_src/catalog/catalog_entry/duck_schema_entry.cpp id_src/include/duckdb/catalog/catalog_entry/scalar_macro_catalog_entry.hpp"
+                  points="165.412964,286.048859 158.860596,284.611328 162.631561,279.944458"
+                  stroke="none"/>
+        <polyline fill="#9299b0" fill-opacity="1.0"
+                  class="id_src/catalog/catalog_entry/duck_schema_entry.cpp id_src/include/duckdb/catalog/catalog_entry/sequence_catalog_entry.hpp"
+                  points="-385.920227,-41.109825 -382.244659,-35.498207 -388.204193,-34.802406"
+                  stroke="none"/>
+        <polyline fill="#9299b0" fill-opacity="1.0"
+                  class="id_src/catalog/catalog_entry/duck_schema_entry.cpp id_src/include/duckdb/catalog/catalog_entry/table_catalog_entry.hpp"
+                  points="-366.269806,219.811356 -359.989807,222.169632 -364.388428,226.250320"
+                  stroke="none"/>
+        <polyline fill="#9299b0" fill-opacity="1.0"
+                  class="id_src/catalog/catalog_entry/duck_schema_entry.cpp id_src/include/duckdb/catalog/catalog_entry/table_function_catalog_entry.hpp"
+                  points="-312.812347,-429.645996 -311.949524,-422.993530 -317.616638,-424.964233"
+                  stroke="none"/>
+        <polyline fill="#9299b0" fill-opacity="1.0"
+                  class="id_src/catalog/catalog_entry/duck_schema_entry.cpp id_src/include/duckdb/catalog/catalog_entry/table_macro_catalog_entry.hpp"
+                  points="-157.758713,393.165649 -153.686752,387.834686 -151.050766,393.224640"
+                  stroke="none"/>
+        <polyline fill="#9299b0" fill-opacity="1.0"
+                  class="id_src/catalog/catalog_entry/duck_schema_entry.cpp id_src/include/duckdb/catalog/catalog_entry/type_catalog_entry.hpp"
+                  points="284.238251,-295.138367 279.617584,-290.275299 277.575409,-295.917084"
+                  stroke="none"/>
+        <polyline fill="#9299b0" fill-opacity="1.0"
+                  class="id_src/catalog/catalog_entry/duck_schema_entry.cpp id_src/include/duckdb/catalog/catalog_entry/view_catalog_entry.hpp"
+                  points="-384.202576,292.350922 -377.529083,293.032532 -380.743805,298.098694"
+                  stroke="none"/>
+        <polyline fill="#9299b0" fill-opacity="1.0"
+                  class="id_src/catalog/catalog_entry/duck_schema_entry.cpp id_src/include/duckdb/catalog/catalog_entry/window_function_catalog_entry.hpp"
+                  points="148.628464,463.464539 144.133972,458.484619 149.915710,456.880981"
+                  stroke="none"/>
+        <polyline fill="#9299b0" fill-opacity="1.0"
+                  class="id_src/catalog/catalog_entry/duck_schema_entry.cpp id_src/include/duckdb/catalog/default/default_coordinate_systems.hpp"
+                  points="-137.996323,293.095306 -131.597626,291.081177 -132.545807,297.005798"
+                  stroke="none"/>
+        <polyline fill="#9299b0" fill-opacity="1.0"
+                  class="id_src/catalog/catalog_entry/duck_schema_entry.cpp id_src/include/duckdb/catalog/default/default_functions.hpp"
+                  points="388.959015,-410.567841 384.198730,-405.841339 382.321655,-411.540192"
+                  stroke="none"/>
+        <polyline fill="#9299b0" fill-opacity="1.0"
+                  class="id_src/catalog/catalog_entry/duck_schema_entry.cpp id_src/include/duckdb/catalog/default/default_table_functions.hpp"
+                  points="-239.985184,-456.295319 -239.819824,-449.589142 -245.250885,-452.139313"
+                  stroke="none"/>
+        <polyline fill="#9299b0" fill-opacity="1.0"
+                  class="id_src/catalog/catalog_entry/duck_schema_entry.cpp id_src/include/duckdb/catalog/default/default_types.hpp"
+                  points="190.508911,-447.201019 187.005997,-441.480042 183.830368,-446.570740"
+                  stroke="none"/>
+        <polyline fill="#9299b0" fill-opacity="1.0"
+                  class="id_src/catalog/catalog_entry/duck_schema_entry.cpp id_src/include/duckdb/catalog/default/default_views.hpp"
+                  points="492.236694,460.380768 486.298859,457.259521 491.170990,453.757751"
+                  stroke="none"/>
+        <polyline fill="#9299b0" fill-opacity="1.0"
+                  class="id_src/catalog/catalog_entry/duck_schema_entry.cpp id_src/include/duckdb/catalog/dependency_list.hpp"
+                  points="397.868744,-501.100067 393.343506,-496.148041 391.192017,-501.749054"
+                  stroke="none"/>
+        <polyline fill="#9299b0" fill-opacity="1.0"
+                  class="id_src/catalog/catalog_entry/duck_schema_entry.cpp id_src/include/duckdb/main/attached_database.hpp"
+                  points="386.698639,-200.522827 381.181885,-196.706345 380.335388,-202.646317"
+                  stroke="none"/>
+        <polyline fill="#9299b0" fill-opacity="1.0"
+                  class="id_src/catalog/catalog_entry/duck_schema_entry.cpp id_src/include/duckdb/main/database.hpp"
+                  points="-132.812241,147.765076 -131.746826,154.388138 -137.471436,152.591232"
+                  stroke="none"/>
+        <polyline fill="#9299b0" fill-opacity="1.0"
+                  class="id_src/catalog/catalog_entry/duck_schema_entry.cpp id_src/include/duckdb/parser/constraints/foreign_key_constraint.hpp"
+                  points="-359.906494,-374.039001 -358.460388,-367.488525 -364.279236,-368.951843"
+                  stroke="none"/>
+        <polyline fill="#9299b0" fill-opacity="1.0"
+                  class="id_src/catalog/catalog_entry/duck_schema_entry.cpp id_src/include/duckdb/parser/parsed_data/alter_table_info.hpp"
+                  points="351.525635,440.966492 345.750488,437.553650 350.790833,434.298645"
+                  stroke="none"/>
+        <polyline fill="#9299b0" fill-opacity="1.0"
+                  class="id_src/catalog/catalog_entry/duck_schema_entry.cpp id_src/include/duckdb/parser/parsed_data/create_aggregate_function_info.hpp"
+                  points="448.555328,331.370819 442.109253,329.513855 446.173279,325.099792"
+                  stroke="none"/>
+        <polyline fill="#9299b0" fill-opacity="1.0"
+                  class="id_src/catalog/catalog_entry/duck_schema_entry.cpp id_src/include/duckdb/parser/parsed_data/create_collation_info.hpp"
+                  points="505.304199,-304.060944 499.739227,-300.315125 498.968597,-306.265442"
+                  stroke="none"/>
+        <polyline fill="#9299b0" fill-opacity="1.0"
+                  class="id_src/catalog/catalog_entry/duck_schema_entry.cpp id_src/include/duckdb/parser/parsed_data/create_copy_function_info.hpp"
+                  points="-231.121567,-62.047920 -229.641006,-55.505146 -235.467453,-56.937801"
+                  stroke="none"/>
+        <polyline fill="#9299b0" fill-opacity="1.0"
+                  class="id_src/catalog/catalog_entry/duck_schema_entry.cpp id_src/include/duckdb/parser/parsed_data/create_index_info.hpp"
+                  points="-296.521484,20.351719 -293.243256,26.204348 -299.236664,26.485876"
+                  stroke="none"/>
+        <polyline fill="#9299b0" fill-opacity="1.0"
+                  class="id_src/catalog/catalog_entry/duck_schema_entry.cpp id_src/include/duckdb/parser/parsed_data/create_pragma_function_info.hpp"
+                  points="-334.349915,48.715073 -330.268463,54.038754 -336.160004,55.174458"
+                  stroke="none"/>
+        <polyline fill="#9299b0" fill-opacity="1.0"
+                  class="id_src/catalog/catalog_entry/duck_schema_entry.cpp id_src/include/duckdb/parser/parsed_data/create_scalar_function_info.hpp"
+                  points="10.557320,108.363945 6.135516,113.408508 3.868585,107.853241"
+                  stroke="none"/>
+        <polyline fill="#9299b0" fill-opacity="1.0"
+                  class="id_src/catalog/catalog_entry/duck_schema_entry.cpp id_src/include/duckdb/parser/parsed_data/create_schema_info.hpp"
+                  points="-336.407776,30.130329 -332.520386,35.597332 -338.448975,36.520451"
+                  stroke="none"/>
+        <polyline fill="#9299b0" fill-opacity="1.0"
+                  class="id_src/catalog/catalog_entry/duck_schema_entry.cpp id_src/include/duckdb/parser/parsed_data/create_sequence_info.hpp"
+                  points="361.186371,-263.571472 356.031647,-259.278534 354.659210,-265.119476"
+                  stroke="none"/>
+        <polyline fill="#9299b0" fill-opacity="1.0"
+                  class="id_src/catalog/catalog_entry/duck_schema_entry.cpp id_src/include/duckdb/parser/parsed_data/create_table_function_info.hpp"
+                  points="477.517395,317.521851 471.019897,315.853851 474.953308,311.323029"
+                  stroke="none"/>
+        <polyline fill="#9299b0" fill-opacity="1.0"
+                  class="id_src/catalog/catalog_entry/duck_schema_entry.cpp id_src/include/duckdb/parser/parsed_data/create_type_info.hpp"
+                  points="-58.298805,394.984222 -59.110420,388.325317 -53.458633,390.339600"
+                  stroke="none"/>
+        <polyline fill="#9299b0" fill-opacity="1.0"
+                  class="id_src/catalog/catalog_entry/duck_schema_entry.cpp id_src/include/duckdb/parser/parsed_data/create_view_info.hpp"
+                  points="-332.482513,-386.488922 -331.318695,-379.882416 -337.069427,-381.593964"
+                  stroke="none"/>
+        <polyline fill="#9299b0" fill-opacity="1.0"
+                  class="id_src/catalog/catalog_entry/duck_schema_entry.cpp id_src/include/duckdb/parser/parsed_data/drop_info.hpp"
+                  points="-6.064678,250.773422 -12.729317,251.536697 -10.674078,245.899673"
+                  stroke="none"/>
+        <polyline fill="#9299b0" fill-opacity="1.0"
+                  class="id_src/catalog/catalog_entry/duck_schema_entry.cpp id_src/include/duckdb/planner/parsed_data/bound_create_table_info.hpp"
+                  points="16.329275,-180.522141 13.671826,-174.362747 9.807302,-178.952469"
+                  stroke="none"/>
+        <polyline fill="#9299b0" fill-opacity="1.0"
+                  class="id_src/catalog/catalog_entry/duck_schema_entry.cpp id_src/include/duckdb/storage/data_table.hpp"
+                  points="-323.055054,325.227478 -316.357910,324.842163 -318.728516,330.354004"
+                  stroke="none"/>
+        <polyline fill="#9299b0" fill-opacity="1.0"
+                  class="id_src/catalog/catalog_entry/duck_schema_entry.cpp id_src/include/duckdb/transaction/duck_transaction.hpp"
+                  points="-189.639786,-171.559860 -189.348801,-164.857971 -194.826706,-167.305939"
+                  stroke="none"/>
+        <polyline fill="#9299b0" fill-opacity="1.0"
+                  class="id_src/catalog/catalog_entry/duck_schema_entry.cpp id_src/include/duckdb/transaction/meta_transaction.hpp"
+                  points="-334.999817,339.587494 -328.326355,338.905792 -330.450378,344.517242"
+                  stroke="none"/>
+    </g>
+    <g id="nodes">
+        <circle fill-opacity="1.0" fill="#253494" r="9.2" cx="-92.374146"
+                class="id_src/catalog/catalog_entry/duck_schema_entry.cpp"
+                cy="273.13333" stroke="#121a4a" stroke-opacity="1.0"
+                stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#ffffcc" r="9.2" cx="-349.246"
+                class="id_src/include/duckdb/catalog/catalog_entry/aggregate_function_catalog_entry.hpp"
+                cy="-223.46948" stroke="#7f7f66" stroke-opacity="1.0"
+                stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#ffffcc" r="9.2" cx="190.142"
+                class="id_src/include/duckdb/catalog/catalog_entry/collate_catalog_entry.hpp"
+                cy="326.9002" stroke="#7f7f66" stroke-opacity="1.0"
+                stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#ffffcc" r="9.2" cx="-219.86334"
+                class="id_src/include/duckdb/catalog/catalog_entry/coordinate_system_catalog_entry.hpp"
+                cy="-234.8404" stroke="#7f7f66" stroke-opacity="1.0"
+                stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#ffffcc" r="9.2" cx="269.5535"
+                class="id_src/include/duckdb/catalog/catalog_entry/copy_function_catalog_entry.hpp"
+                cy="-410.55945" stroke="#7f7f66" stroke-opacity="1.0"
+                stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#ffffcc" r="9.2" cx="222.17947"
+                class="id_src/include/duckdb/catalog/catalog_entry/duck_index_entry.hpp"
+                cy="-174.09619" stroke="#7f7f66" stroke-opacity="1.0"
+                stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#ffffcc" r="9.2" cx="170.85507"
+                class="id_src/include/duckdb/catalog/catalog_entry/duck_schema_entry.hpp"
+                cy="-435.17224" stroke="#7f7f66" stroke-opacity="1.0"
+                stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#ffffcc" r="9.2" cx="9.7553425"
+                class="id_src/include/duckdb/catalog/catalog_entry/duck_table_entry.hpp"
+                cy="355.18915" stroke="#7f7f66" stroke-opacity="1.0"
+                stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#ffffcc" r="9.2" cx="98.91727"
+                class="id_src/include/duckdb/catalog/catalog_entry/pragma_function_catalog_entry.hpp"
+                cy="116.526184" stroke="#7f7f66" stroke-opacity="1.0"
+                stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#ffffcc" r="9.2" cx="-95.267334"
+                class="id_src/include/duckdb/catalog/catalog_entry/scalar_function_catalog_entry.hpp"
+                cy="-138.66888" stroke="#7f7f66" stroke-opacity="1.0"
+                stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#ffffcc" r="9.2" cx="173.19113"
+                class="id_src/include/duckdb/catalog/catalog_entry/scalar_macro_catalog_entry.hpp"
+                cy="292.33377" stroke="#7f7f66" stroke-opacity="1.0"
+                stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#ffffcc" r="9.2" cx="-387.0799"
+                class="id_src/include/duckdb/catalog/catalog_entry/sequence_catalog_entry.hpp"
+                cy="-51.042355" stroke="#7f7f66" stroke-opacity="1.0"
+                stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#ffffcc" r="9.2" cx="-373.07098"
+                class="id_src/include/duckdb/catalog/catalog_entry/table_catalog_entry.hpp"
+                cy="212.48032" stroke="#7f7f66" stroke-opacity="1.0"
+                stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#ffffcc" r="9.2" cx="-309.5278"
+                class="id_src/include/duckdb/catalog/catalog_entry/table_function_catalog_entry.hpp"
+                cy="-439.0912" stroke="#7f7f66" stroke-opacity="1.0"
+                stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#ffffcc" r="9.2" cx="-166.74197"
+                class="id_src/include/duckdb/catalog/catalog_entry/table_macro_catalog_entry.hpp"
+                cy="397.55893" stroke="#7f7f66" stroke-opacity="1.0"
+                stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#ffffcc" r="9.2" cx="293.6412"
+                class="id_src/include/duckdb/catalog/catalog_entry/type_catalog_entry.hpp"
+                cy="-298.542" stroke="#7f7f66" stroke-opacity="1.0"
+                stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#ffffcc" r="9.2" cx="-392.64615"
+                class="id_src/include/duckdb/catalog/catalog_entry/view_catalog_entry.hpp"
+                cy="286.9931" stroke="#7f7f66" stroke-opacity="1.0"
+                stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#ffffcc" r="9.2" cx="151.30118"
+                class="id_src/include/duckdb/catalog/catalog_entry/window_function_catalog_entry.hpp"
+                cy="473.10074" stroke="#7f7f66" stroke-opacity="1.0"
+                stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#ffffcc" r="9.2" cx="-147.87067"
+                class="id_src/include/duckdb/catalog/default/default_coordinate_systems.hpp"
+                cy="291.515" stroke="#7f7f66" stroke-opacity="1.0"
+                stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#ffffcc" r="9.2" cx="398.45706"
+                class="id_src/include/duckdb/catalog/default/default_functions.hpp"
+                cy="-413.6963" stroke="#7f7f66" stroke-opacity="1.0"
+                stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#ffffcc" r="9.2" cx="-235.73488"
+                class="id_src/include/duckdb/catalog/default/default_table_functions.hpp"
+                cy="-465.3471" stroke="#7f7f66" stroke-opacity="1.0"
+                stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#ffffcc" r="9.2" cx="198.99344"
+                class="id_src/include/duckdb/catalog/default/default_types.hpp"
+                cy="-452.4937" stroke="#7f7f66" stroke-opacity="1.0"
+                stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#ffffcc" r="9.2" cx="498.07297"
+                class="id_src/include/duckdb/catalog/default/default_views.hpp"
+                cy="468.50098" stroke="#7f7f66" stroke-opacity="1.0"
+                stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#ffffcc" r="9.2" cx="407.2037"
+                class="id_src/include/duckdb/catalog/dependency_list.hpp"
+                cy="-504.6859" stroke="#7f7f66" stroke-opacity="1.0"
+                stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#ffffcc" r="9.2" cx="396.5986"
+                class="id_src/include/duckdb/main/attached_database.hpp"
+                cy="-201.93365" stroke="#7f7f66" stroke-opacity="1.0"
+                stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#ffffcc" r="9.2" cx="-129.81741"
+                class="id_src/include/duckdb/main/database.hpp" cy="138.22406"
+                stroke="#7f7f66" stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#ffffcc" r="9.2" cx="-357.46768"
+                class="id_src/include/duckdb/parser/constraints/foreign_key_constraint.hpp"
+                cy="-383.73706" stroke="#7f7f66" stroke-opacity="1.0"
+                stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#ffffcc" r="9.2" cx="356.9506"
+                class="id_src/include/duckdb/parser/parsed_data/alter_table_info.hpp"
+                cy="449.36707" stroke="#7f7f66" stroke-opacity="1.0"
+                stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#ffffcc" r="9.2" cx="455.91208"
+                class="id_src/include/duckdb/parser/parsed_data/create_aggregate_function_info.hpp"
+                cy="338.14417" stroke="#7f7f66" stroke-opacity="1.0"
+                stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#ffffcc" r="9.2" cx="515.2214"
+                class="id_src/include/duckdb/parser/parsed_data/create_collation_info.hpp"
+                cy="-305.34534" stroke="#7f7f66" stroke-opacity="1.0"
+                stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#ffffcc" r="9.2" cx="-228.73381"
+                class="id_src/include/duckdb/parser/parsed_data/create_copy_function_info.hpp"
+                cy="-71.75867" stroke="#7f7f66" stroke-opacity="1.0"
+                stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#ffffcc" r="9.2" cx="-296.9907"
+                class="id_src/include/duckdb/parser/parsed_data/create_index_info.hpp"
+                cy="10.362734" stroke="#7f7f66" stroke-opacity="1.0"
+                stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#ffffcc" r="9.2" cx="-336.24277"
+                class="id_src/include/duckdb/parser/parsed_data/create_pragma_function_info.hpp"
+                cy="38.895847" stroke="#7f7f66" stroke-opacity="1.0"
+                stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#ffffcc" r="9.2" cx="19.816103"
+                class="id_src/include/duckdb/parser/parsed_data/create_scalar_function_info.hpp"
+                cy="104.585724" stroke="#7f7f66" stroke-opacity="1.0"
+                stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#ffffcc" r="9.2" cx="-337.94632"
+                class="id_src/include/duckdb/parser/parsed_data/create_schema_info.hpp"
+                cy="20.249392" stroke="#7f7f66" stroke-opacity="1.0"
+                stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#ffffcc" r="9.2" cx="370.92123"
+                class="id_src/include/duckdb/parser/parsed_data/create_sequence_info.hpp"
+                cy="-265.8589" stroke="#7f7f66" stroke-opacity="1.0"
+                stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#ffffcc" r="9.2" cx="485.06876"
+                class="id_src/include/duckdb/parser/parsed_data/create_table_function_info.hpp"
+                cy="324.07755" stroke="#7f7f66" stroke-opacity="1.0"
+                stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#ffffcc" r="9.2" cx="-61.65594"
+                class="id_src/include/duckdb/parser/parsed_data/create_type_info.hpp"
+                cy="404.40387" stroke="#7f7f66" stroke-opacity="1.0"
+                stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#ffffcc" r="9.2" cx="-329.62997"
+                class="id_src/include/duckdb/parser/parsed_data/create_view_info.hpp"
+                cy="-396.07343" stroke="#7f7f66" stroke-opacity="1.0"
+                stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#ffffcc" r="9.2" cx="3.330355"
+                class="id_src/include/duckdb/parser/parsed_data/drop_info.hpp"
+                cy="254.19882" stroke="#7f7f66" stroke-opacity="1.0"
+                stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#ffffcc" r="9.2" cx="23.978792"
+                class="id_src/include/duckdb/planner/parsed_data/bound_create_table_info.hpp"
+                cy="-186.96301" stroke="#7f7f66" stroke-opacity="1.0"
+                stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#ffffcc" r="9.2" cx="-332.24142"
+                class="id_src/include/duckdb/storage/data_table.hpp"
+                cy="321.2765" stroke="#7f7f66" stroke-opacity="1.0"
+                stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#ffffcc" r="9.2" cx="-185.55981"
+                class="id_src/include/duckdb/transaction/duck_transaction.hpp"
+                cy="-180.6897" stroke="#7f7f66" stroke-opacity="1.0"
+                stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#ffffcc" r="9.2" cx="-344.35226"
+                class="id_src/include/duckdb/transaction/meta_transaction.hpp"
+                cy="336.04742" stroke="#7f7f66" stroke-opacity="1.0"
+                stroke-width="1.5999999"/>
+    </g>
+    <g id="node-labels">
+        <text font-size="8" x="-92.374146" y="276.2373" fill-opacity="1.0"
+              fill="#000000" font-family="Dialog" style="text-anchor: middle;"
+              class="id_src/catalog/catalog_entry/duck_schema_entry.cpp"
+              font-weight="bold">
+            src/catalog/catalog_entry/duck_schema_entry.cpp
+        </text>
+        <text font-size="8" x="-349.246" y="-220.36552" fill-opacity="1.0"
+              fill="#000000" font-family="Dialog" style="text-anchor: middle;"
+              class="id_src/include/duckdb/catalog/catalog_entry/aggregate_function_catalog_entry.hpp"
+              font-weight="bold">
+            src/include/duckdb/catalog/catalog_entry/aggregate_function_catalog_entry.hpp
+        </text>
+        <text font-size="8" x="190.142" y="330.00418" fill-opacity="1.0"
+              fill="#000000" font-family="Dialog" style="text-anchor: middle;"
+              class="id_src/include/duckdb/catalog/catalog_entry/collate_catalog_entry.hpp"
+              font-weight="bold">
+            src/include/duckdb/catalog/catalog_entry/collate_catalog_entry.hpp
+        </text>
+        <text font-size="8" x="269.5535" y="-407.45547" fill-opacity="1.0"
+              fill="#000000" font-family="Dialog" style="text-anchor: middle;"
+              class="id_src/include/duckdb/catalog/catalog_entry/copy_function_catalog_entry.hpp"
+              font-weight="bold">
+            src/include/duckdb/catalog/catalog_entry/copy_function_catalog_entry.hpp
+        </text>
+        <text font-size="8" x="222.17947" y="-170.99223" fill-opacity="1.0"
+              fill="#000000" font-family="Dialog" style="text-anchor: middle;"
+              class="id_src/include/duckdb/catalog/catalog_entry/duck_index_entry.hpp"
+              font-weight="bold">
+            src/include/duckdb/catalog/catalog_entry/duck_index_entry.hpp
+        </text>
+        <text font-size="8" x="170.85507" y="-432.06827" fill-opacity="1.0"
+              fill="#000000" font-family="Dialog" style="text-anchor: middle;"
+              class="id_src/include/duckdb/catalog/catalog_entry/duck_schema_entry.hpp"
+              font-weight="bold">
+            src/include/duckdb/catalog/catalog_entry/duck_schema_entry.hpp
+        </text>
+        <text font-size="8" x="9.7553425" y="358.29312" fill-opacity="1.0"
+              fill="#000000" font-family="Dialog" style="text-anchor: middle;"
+              class="id_src/include/duckdb/catalog/catalog_entry/duck_table_entry.hpp"
+              font-weight="bold">
+            src/include/duckdb/catalog/catalog_entry/duck_table_entry.hpp
+        </text>
+        <text font-size="8" x="98.91727" y="119.63014" fill-opacity="1.0"
+              fill="#000000" font-family="Dialog" style="text-anchor: middle;"
+              class="id_src/include/duckdb/catalog/catalog_entry/pragma_function_catalog_entry.hpp"
+              font-weight="bold">
+            src/include/duckdb/catalog/catalog_entry/pragma_function_catalog_entry.hpp
+        </text>
+        <text font-size="8" x="-95.267334" y="-135.56493" fill-opacity="1.0"
+              fill="#000000" font-family="Dialog" style="text-anchor: middle;"
+              class="id_src/include/duckdb/catalog/catalog_entry/scalar_function_catalog_entry.hpp"
+              font-weight="bold">
+            src/include/duckdb/catalog/catalog_entry/scalar_function_catalog_entry.hpp
+        </text>
+        <text font-size="8" x="173.19113" y="295.43774" fill-opacity="1.0"
+              fill="#000000" font-family="Dialog" style="text-anchor: middle;"
+              class="id_src/include/duckdb/catalog/catalog_entry/scalar_macro_catalog_entry.hpp"
+              font-weight="bold">
+            src/include/duckdb/catalog/catalog_entry/scalar_macro_catalog_entry.hpp
+        </text>
+        <text font-size="8" x="-387.0799" y="-47.938393" fill-opacity="1.0"
+              fill="#000000" font-family="Dialog" style="text-anchor: middle;"
+              class="id_src/include/duckdb/catalog/catalog_entry/sequence_catalog_entry.hpp"
+              font-weight="bold">
+            src/include/duckdb/catalog/catalog_entry/sequence_catalog_entry.hpp
+        </text>
+        <text font-size="8" x="-373.07098" y="215.58427" fill-opacity="1.0"
+              fill="#000000" font-family="Dialog" style="text-anchor: middle;"
+              class="id_src/include/duckdb/catalog/catalog_entry/table_catalog_entry.hpp"
+              font-weight="bold">
+            src/include/duckdb/catalog/catalog_entry/table_catalog_entry.hpp
+        </text>
+        <text font-size="8" x="-309.5278" y="-435.9872" fill-opacity="1.0"
+              fill="#000000" font-family="Dialog" style="text-anchor: middle;"
+              class="id_src/include/duckdb/catalog/catalog_entry/table_function_catalog_entry.hpp"
+              font-weight="bold">
+            src/include/duckdb/catalog/catalog_entry/table_function_catalog_entry.hpp
+        </text>
+        <text font-size="8" x="-166.74197" y="400.6629" fill-opacity="1.0"
+              fill="#000000" font-family="Dialog" style="text-anchor: middle;"
+              class="id_src/include/duckdb/catalog/catalog_entry/table_macro_catalog_entry.hpp"
+              font-weight="bold">
+            src/include/duckdb/catalog/catalog_entry/table_macro_catalog_entry.hpp
+        </text>
+        <text font-size="8" x="293.6412" y="-295.43802" fill-opacity="1.0"
+              fill="#000000" font-family="Dialog" style="text-anchor: middle;"
+              class="id_src/include/duckdb/catalog/catalog_entry/type_catalog_entry.hpp"
+              font-weight="bold">
+            src/include/duckdb/catalog/catalog_entry/type_catalog_entry.hpp
+        </text>
+        <text font-size="8" x="-392.64615" y="290.09708" fill-opacity="1.0"
+              fill="#000000" font-family="Dialog" style="text-anchor: middle;"
+              class="id_src/include/duckdb/catalog/catalog_entry/view_catalog_entry.hpp"
+              font-weight="bold">
+            src/include/duckdb/catalog/catalog_entry/view_catalog_entry.hpp
+        </text>
+        <text font-size="8" x="151.30118" y="476.2047" fill-opacity="1.0"
+              fill="#000000" font-family="Dialog" style="text-anchor: middle;"
+              class="id_src/include/duckdb/catalog/catalog_entry/window_function_catalog_entry.hpp"
+              font-weight="bold">
+            src/include/duckdb/catalog/catalog_entry/window_function_catalog_entry.hpp
+        </text>
+        <text font-size="8" x="-235.73488" y="-462.24313" fill-opacity="1.0"
+              fill="#000000" font-family="Dialog" style="text-anchor: middle;"
+              class="id_src/include/duckdb/catalog/default/default_table_functions.hpp"
+              font-weight="bold">
+            src/include/duckdb/catalog/default/default_table_functions.hpp
+        </text>
+        <text font-size="8" x="198.99344" y="-449.38974" fill-opacity="1.0"
+              fill="#000000" font-family="Dialog" style="text-anchor: middle;"
+              class="id_src/include/duckdb/catalog/default/default_types.hpp"
+              font-weight="bold">
+            src/include/duckdb/catalog/default/default_types.hpp
+        </text>
+        <text font-size="8" x="498.07297" y="471.60495" fill-opacity="1.0"
+              fill="#000000" font-family="Dialog" style="text-anchor: middle;"
+              class="id_src/include/duckdb/catalog/default/default_views.hpp"
+              font-weight="bold">
+            src/include/duckdb/catalog/default/default_views.hpp
+        </text>
+        <text font-size="8" x="407.2037" y="-501.58194" fill-opacity="1.0"
+              fill="#000000" font-family="Dialog" style="text-anchor: middle;"
+              class="id_src/include/duckdb/catalog/dependency_list.hpp"
+              font-weight="bold">
+            src/include/duckdb/catalog/dependency_list.hpp
+        </text>
+        <text font-size="8" x="396.5986" y="-198.8297" fill-opacity="1.0"
+              fill="#000000" font-family="Dialog" style="text-anchor: middle;"
+              class="id_src/include/duckdb/main/attached_database.hpp"
+              font-weight="bold">
+            src/include/duckdb/main/attached_database.hpp
+        </text>
+        <text font-size="8" x="-129.81741" y="141.32802" fill-opacity="1.0"
+              fill="#000000" font-family="Dialog" style="text-anchor: middle;"
+              class="id_src/include/duckdb/main/database.hpp" font-weight="bold">
+            src/include/duckdb/main/database.hpp
+        </text>
+        <text font-size="8" x="-357.46768" y="-380.6331" fill-opacity="1.0"
+              fill="#000000" font-family="Dialog" style="text-anchor: middle;"
+              class="id_src/include/duckdb/parser/constraints/foreign_key_constraint.hpp"
+              font-weight="bold">
+            src/include/duckdb/parser/constraints/foreign_key_constraint.hpp
+        </text>
+        <text font-size="8" x="356.9506" y="452.47104" fill-opacity="1.0"
+              fill="#000000" font-family="Dialog" style="text-anchor: middle;"
+              class="id_src/include/duckdb/parser/parsed_data/alter_table_info.hpp"
+              font-weight="bold">
+            src/include/duckdb/parser/parsed_data/alter_table_info.hpp
+        </text>
+        <text font-size="8" x="-228.73381" y="-68.65471" fill-opacity="1.0"
+              fill="#000000" font-family="Dialog" style="text-anchor: middle;"
+              class="id_src/include/duckdb/parser/parsed_data/create_copy_function_info.hpp"
+              font-weight="bold">
+            src/include/duckdb/parser/parsed_data/create_copy_function_info.hpp
+        </text>
+        <text font-size="8" x="-296.9907" y="13.466694" fill-opacity="1.0"
+              fill="#000000" font-family="Dialog" style="text-anchor: middle;"
+              class="id_src/include/duckdb/parser/parsed_data/create_index_info.hpp"
+              font-weight="bold">
+            src/include/duckdb/parser/parsed_data/create_index_info.hpp
+        </text>
+        <text font-size="8" x="-336.24277" y="41.99981" fill-opacity="1.0"
+              fill="#000000" font-family="Dialog" style="text-anchor: middle;"
+              class="id_src/include/duckdb/parser/parsed_data/create_pragma_function_info.hpp"
+              font-weight="bold">
+            src/include/duckdb/parser/parsed_data/create_pragma_function_info.hpp
+        </text>
+        <text font-size="8" x="370.92123" y="-262.7549" fill-opacity="1.0"
+              fill="#000000" font-family="Dialog" style="text-anchor: middle;"
+              class="id_src/include/duckdb/parser/parsed_data/create_sequence_info.hpp"
+              font-weight="bold">
+            src/include/duckdb/parser/parsed_data/create_sequence_info.hpp
+        </text>
+        <text font-size="8" x="485.06876" y="327.18152" fill-opacity="1.0"
+              fill="#000000" font-family="Dialog" style="text-anchor: middle;"
+              class="id_src/include/duckdb/parser/parsed_data/create_table_function_info.hpp"
+              font-weight="bold">
+            src/include/duckdb/parser/parsed_data/create_table_function_info.hpp
+        </text>
+        <text font-size="8" x="3.330355" y="257.3028" fill-opacity="1.0"
+              fill="#000000" font-family="Dialog" style="text-anchor: middle;"
+              class="id_src/include/duckdb/parser/parsed_data/drop_info.hpp"
+              font-weight="bold">
+            src/include/duckdb/parser/parsed_data/drop_info.hpp
+        </text>
+        <text font-size="8" x="-332.24142" y="324.38046" fill-opacity="1.0"
+              fill="#000000" font-family="Dialog" style="text-anchor: middle;"
+              class="id_src/include/duckdb/storage/data_table.hpp"
+              font-weight="bold">
+            src/include/duckdb/storage/data_table.hpp
+        </text>
+        <text font-size="8" x="-185.55981" y="-177.58574" fill-opacity="1.0"
+              fill="#000000" font-family="Dialog" style="text-anchor: middle;"
+              class="id_src/include/duckdb/transaction/duck_transaction.hpp"
+              font-weight="bold">
+            src/include/duckdb/transaction/duck_transaction.hpp
+        </text>
+    </g>
+</svg>
