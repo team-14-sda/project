@@ -6,7 +6,7 @@ This document provides a comprehensive overview of the software architecture of 
 ## 2. First level: Context level
 The Context Level diagram illustrates DuckDB at a high level, showing its interactions with users and external systems. As an in-process analytical database, it is primarily used by Data Professionals and Developers for analytical queries, data transformations, and application development. DuckDB interacts with various external elements such as Cloud Storage (like S3, GCS, Azure Blob Storage via httpfs), other External Databases (like PostgreSQL, MySQL, SQLite via extensions), various Data Formats (Parquet, CSV, JSON, Iceberg), and BI & Analytics Tools (Tableau, PowerBI, MotherDuck).
 
-![Context level](graphyc/context.png)
+![Context level](img/context.png)
 
 ## 3. Second level: Container level
 The Container Level diagram breaks down the DuckDB system into four core internal containers: Client API, Query Processing Layer (QPL), Execution Engine, and Database Engine.
@@ -16,7 +16,7 @@ The Container Level diagram breaks down the DuckDB system into four core interna
 - **Execution Engine**: Receives the physical plan from the QPL and executes it using a highly efficient vectorized, push-based execution model. 
 - **Database Engine**: Encapsulates data management, including the Storage Manager, Buffer Manager, Transaction Manager (for MVCC), Catalog, and Extensions. It serves metadata to the QPL and data blocks to the Execution Engine.
 
-![Container level](graphyc/container.png)
+![Container level](img/container.png)
 
 ## 4. Third level: Component level
 ### 4.1 Client API
@@ -28,7 +28,7 @@ The Prepared Parser avoids executing the parser for every query. This is particu
 
 The Result Handling component, the last one analyzed, is responsible for translating the results into formats that are useful for the user, such as objects or tables.
 
-![clientAPI](graphyc/c4/level3/clientApi.png)
+![clientAPI](img/c4/level3/clientApi.png)
 
 
 ### 4.2 Query Processing Layer
@@ -38,7 +38,7 @@ Afterwards, the Binder comes into play, a component designed to translate the AS
 
 In the subsequent steps, the Logical Planner, Optimizer, and Physical Planner are encountered in order. These components are used to obtain an optimized operator tree based on rules and cost-based comparison. It is important to note that first a logical tree is produced, which is then optimized, and only afterwards is the physical plan generated, defining how data is accessed.
 
-![QPL](graphyc/c4/level3/QPL.png)
+![QPL](img/c4/level3/QPL.png)
 
 
 ### 4.3 Execution Engine
@@ -54,7 +54,7 @@ Another very important component is the Data Chunks Manager (DCM), which handles
 
 It is worth noting that the last analyzed containers follow a pipeline-based architecture.
 
-![executionEngine](graphyc/c4/level3/executionEngine.png)
+![executionEngine](img/c4/level3/executionEngine.png)
 
 
 ### 4.4 DataBase Engine
@@ -70,7 +70,7 @@ The Checkpoint Manager handles log files that are useful for database recovery. 
 
 The Transaction Manager is invoked by the Client API to support atomic operations and ensure data consistency, while the Extension Manager is responsible for integrating additional software functionalities when needed, keeping the core system lightweight.
 
-![databaseEngine](graphyc/c4/level3/databaseEngine.png)
+![databaseEngine](img/c4/level3/databaseEngine.png)
 
 ### 4.5 SOLID & component principle and conclusion
 Regarding the SOLID principles, the first one analyzed is the Single Responsibility Principle (SRP). It emerges that the components are well separated according to their responsibilities; in fact, it is clear what each component is responsible for, and they are not overly complex. However, some violations of this principle still exist, such as in the Vectorized Operators, which also handle memory management. This design choice was made for simplicity and performance optimization.
