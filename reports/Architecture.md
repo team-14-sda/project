@@ -24,7 +24,8 @@ The Client API, the entry point of the system, is formed of several components. 
 
 The rest of the responsibilities are mainly delegated to the Client Context, the true core of the system, which coordinates query management: it invokes the parser, prepares queries with the help of the Prepared Parser, and handles transactions by relying on the Database Engine. It can also be considered the controller of the query.
 Although the Client context is the one that calls the other components, we preferred to adopt the following C4 structures because they are more representative of the actual users of the services.
-v
+
+
 The Prepared Parser avoids executing the parser for every query. This is particularly useful in the case of parameterized queries, where the query is built once and reused by only changing the parameters each time. This leads to a reduction in cost.
 
 The Result Handling component, the last one analyzed, is responsible for translating the results into formats that are useful for the user, such as objects or tables.
