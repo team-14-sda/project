@@ -11,3 +11,4 @@
 | 2026/05/14 | Level 2 C4 diagram & c4Builder exploration | Created the Level 2 C4 diagram. Discovered and implemented the c4Builder library to generate Level 1 and Level 2 diagrams with assistance from the antigravity platform. |
 | 2026/05/17 | Level 3 C4 diagram discussion & report review | Met with Andrea Lanzetti to discuss findings and the remaining components of the Level 3 C4 diagram. Conducted a comprehensive review of the project reports submitted by other teammates. |
 | 2026/05/24 | Online meeting | Conducted an online group meeting to review the overall state of the project, finalize action items, and present the results obtained over the last two weeks. |
+| 2026/05/31 | Diagram updates & review | Did updates for the C4 L1 and L2 diagrams according to professor and reviewed the works of my teammates. |
