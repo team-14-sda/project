@@ -36,7 +36,6 @@ DuckDB doesn't strictly follow Clean Architecture because it's built for speed. 
 The Client API, the entry point of the system, is formed of several components. The first one encountered is the Connection component, which is responsible for providing the user with all the APIs needed to use the application. In addition, it is responsible for orchestrating all the other components and managing the session.
 
 The rest of the responsibilities are mainly delegated to the Client Context, the true core of the system, which coordinates query management: it invokes the parser, prepares queries with the help of the Prepared Parser, and handles transactions by relying on the Database Engine. It can also be considered the controller of the query.
-Although the Client context is the one that calls the other components, we preferred to adopt the following C4 structures because they are more representative of the actual users of the services.
 
 
 The Prepared Parser avoids executing the parser for every query. This is particularly useful in the case of parameterized queries, where the query is built once and reused by only changing the parameters each time. This leads to a reduction in cost.
@@ -66,8 +65,6 @@ The implementation of each operation is handled by the Vectorized Operators, whi
 The actual execution of operations is delegated to the Expression Executor, which separates all computable parts and manages the various operations.
 
 Another very important component is the Data Chunks Manager (DCM), which handles memory batches and allocates vectors, the fundamental unit of execution.
-
-It is worth noting that the last analyzed containers follow a pipeline-based architecture.
 
 ![executionEngine](img/c4/level3/executionEngine.png)
 
@@ -100,8 +97,7 @@ Finally, the Dependency Inversion Principle (DIP) is typically only partially ap
 
 After the analysis, it can be concluded that SOLID principles in DuckDB are mostly respected, and the exceptions introduced by the developers are justified by the nature of the project, which requires maximum performance.
 
-Below is the instability table, which shows how the system respects the Stable Dependencies Principle (SDP), which states that instability increases as one moves upward in the architecture. Combined with observations from the C4 diagram, it appears that both SDP and ADP are fully respected. The only principle that appears to be deficient is SAP, for the reasons discussed above.
-
+Below is the instability table, which shows how the system does not respect the Stable Dependencies Principle (SDP), which states that instability increases as one moves upward in the architecture. This is due to the pipeline structure adopted in the execution engine, which was considered more suitable for optimizing execution time. From the C4 diagram, the only principle that is fully respected is the ADP,there aren’t circular dependencies. The last principle, SAP, is not fully respected, especially at lower levels, for the reasons discussed above.
 <div class="instTable">
 
 <style>
@@ -118,7 +114,7 @@ Below is the instability table, which shows how the system respects the Stable D
 
 .instTable th,
 .instTable td {
-  border: 1px solid ;
+  border: 1px solid;
   padding: 6px 10px;
   text-align: center;
   vertical-align: middle;
@@ -162,14 +158,14 @@ Below is the instability table, which shows how the system respects the Stable D
     <th>container</th>
   </tr>
 
-  <!-- client api -->
+  <!-- CLIENT API -->
   <tr>
     <td class="vertical" rowspan="4">client api</td>
     <td class="left">connection</td>
     <td>0</td>
     <td rowspan="4">0</td>
     <td>3</td>
-    <td rowspan="4">3</td>
+    <td rowspan="4">6</td>
     <td>1</td>
     <td rowspan="4">1</td>
   </tr>
@@ -177,8 +173,8 @@ Below is the instability table, which shows how the system respects the Stable D
   <tr>
     <td class="left">client context</td>
     <td>1</td>
-    <td>3</td>
-    <td>0,75</td>
+    <td>7</td>
+    <td>0,88</td>
   </tr>
 
   <tr>
@@ -189,7 +185,7 @@ Below is the instability table, which shows how the system respects the Stable D
   </tr>
 
   <tr>
-    <td class="left">Prepared statements</td>
+    <td class="left">prepared statements</td>
     <td>2</td>
     <td>0</td>
     <td>0</td>
@@ -197,40 +193,35 @@ Below is the instability table, which shows how the system respects the Stable D
 
   <!-- QPL -->
   <tr>
-    <td class="vertical" rowspan="3">QPL</td>
+    <td class="vertical" rowspan="5">QPL</td>
     <td class="left">parser</td>
     <td>1</td>
-    <td rowspan="3">1</td>
-    <td>1</td>
-    <td rowspan="3">2</td>
-    <td>0,5</td>
-    <td rowspan="3">0,67</td>
+    <td rowspan="5">5</td>
+    <td>0</td>
+    <td rowspan="5">2</td>
+    <td>0</td>
+    <td rowspan="5">0,29</td>
   </tr>
 
   <tr>
     <td class="left">binder</td>
     <td>1</td>
-    <td>2</td>
-    <td>0,67</td>
+    <td>1</td>
+    <td>0,5</td>
   </tr>
 
   <tr>
     <td class="left">logical planner</td>
     <td>1</td>
-    <td>1</td>
-    <td>0,5</td>
+    <td>0</td>
+    <td>0</td>
   </tr>
 
-  <!-- execution engine -->
   <tr>
-    <td class="vertical" rowspan="6">execution engine</td>
     <td class="left">optimizer</td>
     <td>1</td>
-    <td rowspan="6">1</td>
-    <td>1</td>
-    <td rowspan="6">1</td>
-    <td>0,5</td>
-    <td rowspan="6">0,50</td>
+    <td>0</td>
+    <td>0</td>
   </tr>
 
   <tr>
@@ -240,11 +231,16 @@ Below is the instability table, which shows how the system respects the Stable D
     <td>0,5</td>
   </tr>
 
+  <!-- EXECUTION ENGINE -->
   <tr>
+    <td class="vertical" rowspan="4">execution engine</td>
     <td class="left">pipeline constructor</td>
     <td>1</td>
+    <td rowspan="4">1</td>
     <td>1</td>
+    <td rowspan="4">1</td>
     <td>0,5</td>
+    <td rowspan="4">0,50</td>
   </tr>
 
   <tr>
@@ -268,7 +264,7 @@ Below is the instability table, which shows how the system respects the Stable D
     <td>0,5</td>
   </tr>
 
-  <!-- database engine -->
+  <!-- DATABASE ENGINE -->
   <tr>
     <td class="vertical" rowspan="9">database engine</td>
     <td class="left">data chunk manager</td>
@@ -353,7 +349,7 @@ By analyzing the coupling matrix, extracted from the project using Python, the c
 
 There are also weakly connected elements for the sake of development simplicity.
 
-<img src="graphyc/coupling.png" alt="coupling metrics" width="75%" height="75%">
+<img src="img/coupling.png" alt="coupling metrics" width="75%" height="75%">
 <br><br><br>
 
 To reinforce the idea of grouping certain modules, we can look at the cohesion table, also extracted from the project using Python, which highlights the most cohesive modules. It emerges that the parser is the most cohesive module of all: it contains all the submodules required to translate SQL queries, and within it, there are other tightly linked submodules. This helps developers simplify maintainability, reuse, and module testing. Following that, we find other modules that tend to resemble the canonical structure more closely, such as the optimizer, which contains the files for optimizing queries and tends to have a clearer separation.
