@@ -60,21 +60,21 @@ The top outgoing implementation files are mostly subsystem coordinators. Generat
 
 Among handwritten files, `client_context.cpp` and `database.cpp` coordinate session/database state with parsing, planning, execution, transactions, extensions, storage, logging, and scheduling.
 
-![client_context_dependencies](/reports/img/CodeDependencies/ImplementationFilesOutgoingDependencies/client_context_dependencies.svg)
+| ![client_context_dependencies](/reports/img/CodeDependencies/ImplementationFilesOutgoingDependencies/client_context_dependencies.svg) | ![database_dependencies](/reports/img/CodeDependencies/ImplementationFilesOutgoingDependencies/database_dependencies.svg) |
+|---------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------|
+| *Figure 8: `client_context.cpp` outgoing dependencies.*                                                                               | *Figure 9: `database.cpp` outgoing dependencies.*                                                                         |
 
-*Figure 8: `client_context.cpp` outgoing dependencies.*
+`bind_create.cpp`, `duck_entry_schema.cpp` and `catalog.cpp` coordinate SQL creation and catalog/schema state.
 
-`bind_create.cpp`, `catalog.cpp`, and `duck_schema_entry.cpp` coordinate SQL creation and catalog/schema state.
-
-| ![bind_create_dependencies](/reports/img/CodeDependencies/ImplementationFilesOutgoingDependencies/bind_create_dependencies.svg) | ![duck_schema_entry_dependencies](/reports/img/CodeDependencies/ImplementationFilesOutgoingDependencies/duck_schema_entry_dependencies.svg) |
-|---------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------|
-| *Figure 9: `bind_create.cpp` outgoing dependencies.*                                                                            | *Figure 10: `duck_schema_entry.cpp` outgoing dependencies.*                                                                                 |
+| ![bind_create_dependencies](/reports/img/CodeDependencies/ImplementationFilesOutgoingDependencies/bind_create_dependencies.svg) | ![duck_schema_entry_dependencies](/reports/img/CodeDependencies/ImplementationFilesOutgoingDependencies/duck_schema_entry_dependencies.svg) | ![catalog_dependencies](/reports/img/CodeDependencies/ImplementationFilesOutgoingDependencies/catalog_dependencies.svg) |
+|---------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
+| *Figure 10: `bind_create.cpp` outgoing dependencies.*                                                                           | *Figure 11: `duck_schema_entry.cpp` outgoing dependencies.*                                                                                 | *Figure 12: `catalog.cpp` outgoing dependencies.*                                                                       |
 
 `optimizer.cpp` wires together optimizer passes, while execution/storage files such as `physical_hash_join.cpp`, `table_scan.cpp`, `checkpoint_manager.cpp`, `wal_replay.cpp`, and `data_table.cpp` connect operators, filters, table storage, indexes, transactions, serialization, checkpointing, and recovery. Overall, high outgoing degree usually marks a boundary or coordination file rather than an isolated algorithm.
 
 ![optimizer_dependencies](/reports/img/CodeDependencies/ImplementationFilesOutgoingDependencies/optimizer_dependencies.svg)
 
-*Figure 11: `optimizer.cpp` outgoing dependencies.*
+*Figure 13: `optimizer.cpp` outgoing dependencies.*
 
 #### 1.2.3 Files with the Least Code Dependencies
 
@@ -95,22 +95,20 @@ At module level, the strongest dependency flows are:
 
 Several implementation modules depend heavily on their matching header modules, such as `planner -> include/planner`, `parser -> include/parser`, and `execution -> include/execution`. `include/common` is the strongest shared target, receiving `4995` incoming dependencies in the file-level summary, because DuckDB's common layer provides low-level types, containers, exceptions, constants, filesystem abstractions, and utility functions. The `optimizer -> include/planner` relation is also meaningful because optimizer passes transform logical plans and therefore depend on planner data structures.
 
-Overall, the static dependencies match DuckDB's organization as an embedded analytical database engine with a SQL frontend, optimizer, execution layer, storage layer, and shared common infrastructure. The highest coupling appears around session state, binding, optimizer orchestration, configuration, exceptions, and schema catalog management, which represent areas where many subsystems meet.
-
 ### 1.3 Knowledge Dependencies
 
-Knowledge dependencies were measured from Git co-change relations reported in the linked [dataset](https://docs.google.com/spreadsheets/d/1pa1tWlTltAW4g8DvtOI5R4BQnfUC8SB2dUq-Mi9qVB4/edit?usp=sharing). Each row is a pair of files that changed together in the same commits. The `degree` column is the percentage of revisions in which the pair co-changed, while `average-revs` is the average number of revisions of the two files in the pair. To keep the comparison focused on source code, only `.hpp` and `.cpp` files were considered.
+Knowledge dependencies were measured from Git co-change relations reported in the linked [dataset](https://docs.google.com/spreadsheets/d/1pa1tWlTltAW4g8DvtOI5R4BQnfUC8SB2dUq-Mi9qVB4/edit?usp=sharing) extracted using code-maat. Each row is a pair of files that changed together in the same commits. The `degree` column is the percentage of revisions in which the pair co-changed, while `average-revs` is the average number of revisions of the two files in the pair. To keep the comparison focused on source code, only `.hpp` and `.cpp` files were considered.
 
-After this filter, the co-change dataset contains `2512` pairs. These pairs were compared with the static include dataset by checking whether either file directly includes the other. `781` co-change pairs also have a direct include dependency, while `1731` do not. So only `31.1%` of the knowledge dependencies are also direct static dependencies.
+After this filter, the co-change dataset contains `2512` pairs. These pairs were compared with the static include dependencies by checking whether either file directly includes the other. `781` co-change pairs also have a direct include dependency, while `1731` do not. So only `31.1%` of the knowledge dependencies are also direct static dependencies.
 
 For the comparison, the most useful examples are pairs connected to files already identified in the static analysis. Some of them are consistent with static dependencies:
 
 | File Pair                                   | Degree | Avg. File Revs | Interpretation                 |
-|---------------------------------------------|-------:|----------:|--------------------------------|
-| `enum_util.cpp` / `enum_util.hpp`           |     50 |       420 | generated enum conversion code |
-| `client_context.hpp` / `client_context.cpp` |     37 |       379 | broad session interface        |
-| `binder.hpp` / `binder.cpp`                 |     40 |       290 | binding infrastructure         |
-| `data_table.hpp` / `data_table.cpp`         |     47 |       473 | broad storage class            |
+|---------------------------------------------|-------:|---------------:|--------------------------------|
+| `enum_util.cpp` / `enum_util.hpp`           |     50 |            420 | generated enum conversion code |
+| `client_context.hpp` / `client_context.cpp` |     37 |            379 | broad session interface        |
+| `binder.hpp` / `binder.cpp`                 |     40 |            290 | binding infrastructure         |
+| `data_table.hpp` / `data_table.cpp`         |     47 |            473 | broad storage class            |
 
 These are implementation/header relations, but they also support the static dependency findings. `client_context`, `binder`, and `data_table` were already identified as central or broad files, and their implementations co-change with their declarations. `enum_util` again needs to be interpreted separately, because it is generated code.
 
@@ -119,18 +117,16 @@ The percentages are not always very high because these files are large interface
 The more interesting cases are co-change pairs that do not have a direct include relation:
 
 | File Pair                                       | Degree | Avg. File Revs | Interpretation                              |
-|-------------------------------------------------|-------:|----------:|---------------------------------------------|
-| `data_table.cpp` / `local_storage.cpp`          |     30 |       498 | table storage and transaction-local changes |
-| `join_hashtable.cpp` / `physical_hash_join.cpp` |     34 |       473 | hash join implementation split              |
-| `row_group.cpp` / `row_group_collection.cpp`    |     33 |       375 | table storage structures                    |
-| `config.hpp` / `settings.hpp`                   |     36 |       358 | configuration/settings interface            |
-| `config.cpp` / `settings.cpp`                   |     32 |       324 | configuration/settings implementation       |
+|-------------------------------------------------|-------:|---------------:|---------------------------------------------|
+| `data_table.cpp` / `local_storage.cpp`          |     30 |            498 | table storage and transaction-local changes |
+| `join_hashtable.cpp` / `physical_hash_join.cpp` |     34 |            473 | hash join implementation split              |
+| `row_group.cpp` / `row_group_collection.cpp`    |     33 |            375 | table storage structures                    |
+| `config.hpp` / `settings.hpp`                   |     36 |            358 | configuration/settings interface            |
+| `config.cpp` / `settings.cpp`                   |     32 |            324 | configuration/settings implementation       |
 
 These are the main co-change relations that are not represented by direct include edges. `data_table.cpp` was already discussed as a high outgoing-dependency implementation file. Its co-change with `local_storage.cpp` shows that table storage and transaction-local changes are maintained together even when the relation is not a direct include edge. The same applies to `row_group.cpp` and `row_group_collection.cpp`, which sit below `DataTable` in the storage layer.
 
 `physical_hash_join.cpp` was also mentioned in the static dependency section. Its co-change with `join_hashtable.cpp` shows the same pattern: one file implements the physical operator and pipeline behavior, while the other implements the hash table mechanics. The configuration pairs are similar. `config.hpp` and `config.cpp` have direct static dependencies, but the co-change data also connects them to `settings.hpp` and `settings.cpp`, because settings declarations, lookup helpers, and configuration registration evolve together.
-
-Overall, static dependencies are better for compile-time coupling and central headers. Co-change dependencies add a different view: they show maintenance coupling around the same areas found in the static analysis, especially storage, hash joins, configuration, and session/binding infrastructure.
 
 ## 2. Patterns
 Four patterns are identified below. Each is verified against the source code and supported by dependency signals from Section 1. Class inheritance diagrams are generated by Doxygen using the build configuration already set up by the project authors.
@@ -143,7 +139,7 @@ Four patterns are identified below. Each is verified against the source code and
 
 ![ClientContext inheritance diagram](./img/DesignPatterns/classduckdb_1_1_client_context__inherit__graph.png)
 
-*Figure 12: `ClientContext` inheritance diagram.*
+*Figure 14: `ClientContext` inheritance diagram.*
 
 **Alternative: Mediator.** A Facade is one-directional; subsystems do not know about `ClientContext`. A Mediator would make them bidirectionally aware of a shared coordinator. [`ClientContextState`](https://github.com/duckdb/duckdb/blob/main/src/include/duckdb/main/client_context_state.hpp) already demonstrates this direction via `OnQueryBegin`/`OnQueryEnd` callbacks. Even though this would make subsystem boundaries clearer and lower the risk of a God object, a Mediator solution introduces bidirectional coupling that is harder to trace and risks accumulating its own complexity.
 
@@ -157,7 +153,7 @@ Four patterns are identified below. Each is verified against the source code and
 
 ![BaseExpression inheritance diagram](./img/DesignPatterns/classduckdb_1_1_base_expression__inherit__graph.png)
 
-*Figure 13: `BaseExpression` inheritance diagram.*
+*Figure 15: `BaseExpression` inheritance diagram.*
 
 
 **Alternative: Interpreter.** Interpreter embeds evaluation logic directly in each node via a virtual `Interpret(context)` method. `BaseExpression` already carries per-node predicates (`IsAggregate()`, `IsScalar()`, `IsWindow()`) that hint at this direction. Even though this would make each expression type fully self-contained, cross-cutting operations such as serialisation and constant-folding would require modifying every node class, a problem the current Visitor-based separation handles more cleanly.
@@ -172,11 +168,11 @@ Four patterns are identified below. Each is verified against the source code and
 
 ![LogicalOperatorVisitor inheritance diagram](./img/DesignPatterns/classduckdb_1_1_logical_operator_visitor__inherit__graph.png)
 
-*Figure 14: `LogicalOperatorVisitor` inheritance diagram.*
+*Figure 16: `LogicalOperatorVisitor` inheritance diagram.*
 
 ![ExpressionRewriter inheritance diagram](./img/DesignPatterns/classduckdb_1_1_expression_rewriter__inherit__graph.png)
 
-*Figure 15: `ExpressionRewriter` inheritance diagram.*
+*Figure 17: `ExpressionRewriter` inheritance diagram.*
 
 **Alternative: Iterator (callback-based traversal).** [`ExpressionIterator`](https://github.com/duckdb/duckdb/blob/main/src/include/duckdb/planner/expression_iterator.hpp) and [`ParsedExpressionIterator`](https://github.com/duckdb/duckdb/blob/main/src/include/duckdb/parser/parsed_expression_iterator.hpp) already exist in the codebase and use `std::function` callbacks instead of a class hierarchy — this is already used as a production design for expression-level traversal today. Extending it to operator traversal would replace Visitor subclasses with lambdas. Even though this eliminates class boilerplate and makes passes composable, mutable closure state is harder to inspect than named visitor fields and compile-time visitor protocol guarantees are lost.
 
@@ -190,7 +186,7 @@ Four patterns are identified below. Each is verified against the source code and
 
 ![Rule inheritance diagram](./img/DesignPatterns/classduckdb_1_1_rule__inherit__graph.png)
 
-*Figure 16: `Rule` inheritance diagram.*
+*Figure 18: `Rule` inheritance diagram.*
 
 **Alternative: Chain of Responsibility.** The [`ApplyRules`](https://github.com/duckdb/duckdb/blob/main/src/optimizer/expression_rewriter.cpp) loop in `ExpressionRewriter` already tries rules in sequence and applies the first match — semantics close to a chain. A formal Chain of Responsibility would give each `Rule` a `next` pointer, making ordering an explicit structural contract rather than a vector-position convention. Even though this keeps the handle-or-pass decision within the rule itself and makes ordering explicit, linked chains are harder to debug than a flat vector and adding `next` to the `Rule` interface complicates stateless rule reuse.
 
