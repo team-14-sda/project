@@ -9,3 +9,6 @@
 |05/11 - 05/17|None|Week off due to a family bereavement|
 |05/18 - 05/24|Analysis|Integration of information provided by team members regarding code dependencies and class correlations, aimed at identifying the most relevant classes for further analysis|
 |05/18 - 05/24|Documentation|Iteration of the report drafting process and collaborative evaluation of the final design pattern selection|
+|05/25 - 05/31|Review|C4 review with the professor|
+|05/25 - 05/31|Meetings|Team discussion about the work yet to complete and the state of the project|
+|06/01 - 06/07|Analysis|Final tuning of the design pattern report with Kaan, with particular attention to suggestions for alternative patterns|
