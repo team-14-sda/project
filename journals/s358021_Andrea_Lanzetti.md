@@ -15,4 +15,5 @@
 |2026/05/22|work on priciple and push part 4|180|analysis of component principles and SOLID principles, and integrated all my work on the project regarding component analysis|
 |2026/05/24|meeting online|30|presented the results obtained over the last two weeks|
 |2026/05/29|Correction C4 diagram|120|c4 diagram corrected based on the professor’s feedback|
-|2026/05/29|meeting & Correction C4 diagram|150|meeting with other mates and correction of c4 diagram|
+|2026/06/02|meeting,Correction C4 diagram and overview|180|meeting with other mates and correction of c4 diagram. after i wrote the initial overview|
+|2026/06/08|meeting|45|meeting with other mates and get an overview of the situation|
