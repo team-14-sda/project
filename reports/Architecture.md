@@ -1,22 +1,35 @@
 # Software Architecture Report
 
 ## 1. Introduction 
-This document provides a comprehensive overview of the software architecture of DuckDB, an in-process analytical database management system. The architecture is documented using the C4 model to describe the system at different levels of abstraction. The diagrams in this report were created using **PlantUML** in conjunction with the **C4-PlantUML** library and managed via **c4builder**.
+This document provides a comprehensive overview of the software architecture of DuckDB, an in-process analytical database management system. The architecture is documented using the C4 model to describe the system at different levels of abstraction. The diagrams in this report were created using **PlantUML**.
 
 ## 2. First level: Context level
-The Context Level diagram illustrates DuckDB at a high level, showing its interactions with users and external systems. As an in-process analytical database, it is primarily used by Data Professionals and Developers for analytical queries, data transformations, and application development. DuckDB interacts with various external elements such as Cloud Storage (like S3, GCS, Azure Blob Storage via httpfs), other External Databases (like PostgreSQL, MySQL, SQLite via extensions), various Data Formats (Parquet, CSV, JSON, Iceberg), and BI & Analytics Tools (Tableau, PowerBI, MotherDuck).
+The Context Level diagram illustrates DuckDB at a high level, showing its interactions with users and external systems. As an in-process analytical database management system, it is primarily used by a Data Professional or Developer for analytical queries, data transformation, and application development. These users interact with DuckDB using SQL, Python, R, Java, etc.
+
+Additionally, DuckDB interacts with various external elements:
+- **BI & Analytics Tools**: Such as Tableau, PowerBI, and MotherDuck integration, which query data from DuckDB.
+- **Cloud Storage**: Such as S3, GCS, and Azure Blob Storage via the HTTPFS extension, with which DuckDB reads/writes data from/to.
+- **External Databases**: Such as PostgreSQL, MySQL, and SQLite via scanners/extensions, where DuckDB queries and joins data from.
+- **Data Formats / Catalogs**: Such as Parquet, CSV, JSON, Iceberg, and Delta Lake, which DuckDB parses and writes.
 
 ![Context level](img/context.png)
 
 ## 3. Second level: Container level
-The Container Level diagram breaks down the DuckDB system into four core internal containers: Client API, Query Processing Layer (QPL), Execution Engine, and Database Engine.
+The Container Level diagram breaks down the DuckDB In-Process Database system into four core internal containers (all developed in C++): Client API, Query Processing Layer (QPL), Execution Engine, and Database Engine.
 
-- **Client API**: Acts as the entry point for applications across multiple languages (Python, R, Java, C++, WASM, Node.js), receiving queries and orchestrating sessions.
-- **Query Processing Layer (QPL)**: Combines the parser, planner, and optimizer. It parses SQL into an Abstract Syntax Tree (AST), binds the variables by querying the Database Engine (Catalog), and translates the AST into a highly optimized physical execution plan.
-- **Execution Engine**: Receives the physical plan from the QPL and executes it using a highly efficient vectorized, push-based execution model. 
-- **Database Engine**: Encapsulates data management, including the Storage Manager, Buffer Manager, Transaction Manager (for MVCC), Catalog, and Extensions. It serves metadata to the QPL and data blocks to the Execution Engine.
+- **Client API**: Acts as the entry point for queries, providing APIs and managing sessions. Users submit queries via API, and BI & Analytics tools connect for analytics. The Client API then sends SQL strings to the Query Processing Layer.
+- **Query Processing Layer (QPL)**: Parses SQL into an Abstract Syntax Tree (AST), performs binding, planning, and optimization into physical plans. It fetches schema/metadata from the Database Engine and provides the optimized physical plan to the Execution Engine.
+- **Execution Engine**: Executes physical plans using a vectorized push-based execution model. It requests data and manages transactions via the Database Engine.
+- **Database Engine**: Handles data storage, buffer caching, transaction management, metadata catalog, and extensions. It interacts with the outside world by reading/writing data using extensions (HTTP/HTTPS) for Cloud Storage, querying external databases, and parsing/writing data formats.
 
 ![Container level](img/container.png)
+
+### Relationship with Clean Architecture
+DuckDB doesn't strictly follow Clean Architecture because it's built for speed. Here are the main differences:
+- **Less Abstraction**: Clean Architecture uses strict interfaces to separate logic from storage. DuckDB skips this at lower levels to run faster.
+- **Database is the Core**: In Clean Architecture, the database is an external detail. In DuckDB, the database and execution engines *are* the core system.
+- **Pipeline over Layers**: Instead of circular layers pointing inwards, DuckDB works like a straight pipeline. Requests just flow step-by-step from the API down to the database engine.
+
 
 ## 4. Third level: Component level
 ### 4.1 Client API
