@@ -16,3 +16,5 @@
 | 05/24 - 05/24 | Online Group Meeting | We held an online group meeting to review the current state of the reports, remaining tasks, and next steps. |
 | 05/28 - 05/28 | Group Discussion | We met as a group to ask professors about C4 diagrams and the possibility of leaving the alternative pattern suggestions blank if no strong candidates were found. |
 | 05/28 - 06/01 | Report Finalization | I compiled the final version of the design patterns report, incorporating fixes for the alternative suggestions, and reviewed it with Federico before the upcoming group approval meeting. |
+| 06/02 - 06/02 | Group Meeting & Review | We held a group meeting to share the final version of the report and discussed the overall work completed so far. |
+| 06/06 - 06/09 | Report Review & Finalization | During the review process, we identified and fixed minor issues within the design patterns section. We wrote the summary section, and did the final meetings, and we collectively reviewed the latest parts, including the overview and summary. |
