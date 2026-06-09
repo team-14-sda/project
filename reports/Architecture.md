@@ -89,11 +89,11 @@ Regarding the SOLID principles, the first one analyzed is the Single Responsibil
 
 The second principle observed is the Open/Closed Principle (OCP), which is fairly well respected in higher-level components such as the planner. However, it becomes less respected as one moves down the stack, due to strong coupling in the code. An example is the Checkpoint Manager, since the .duckdb file format is highly specific and would require cross-cutting changes involving other components such as the Catalog.
 
-The third principle analyzed is the Liskov Substitution Principle (LSP), which is respected mainly at the logical level, such as in the Planner and Optimizer, which operate in a highly abstract manner. However, it is violated at lower physical levels due to differences between operations.
+The third principle analyzed is the Liskov Substitution Principle (LSP), which is respected mainly at the logical level, such as in the Planner and Optimizer, which operate in a highly abstract manner. However, it is violated at lower physical levels, in the Column Data Manager, which does not provide a uniform abstraction for data access due to differences between data sources (e.g., Parquet vs CSV).
 
 The fourth principle, Interface Segregation Principle (ISP), is handled in a particular way: it is generally respected except at the core parts of the system, where multiple responsibilities are grouped together for efficiency and simplicity. An example is the Client Context, which is responsible for the entire session.
 
-Finally, the Dependency Inversion Principle (DIP) is typically only partially applied. In fact, the developers of DuckDB deliberately weakened it at lower levels. This is a common design choice in high-performance systems such as DBMSs, where abstraction at those levels introduces significant overhead.
+Finally, the Dependency Inversion Principle (DIP) is typically only partially applied. In fact, the developers of DuckDB deliberately weakened it at lower levels. This is a common design choice in high-performance systems such as DBMSs, where abstraction at those levels introduces significant overhead. A clear example is the Catalog, which does not provide an abstract interface for metadata management.
 
 After the analysis, it can be concluded that SOLID principles in DuckDB are mostly respected, and the exceptions introduced by the developers are justified by the nature of the project, which requires maximum performance.
 
