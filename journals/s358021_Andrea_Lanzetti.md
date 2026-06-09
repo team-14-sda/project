@@ -17,3 +17,4 @@
 |2026/05/29|Correction C4 diagram|120|c4 diagram corrected based on the professor’s feedback|
 |2026/06/02|meeting,Correction C4 diagram and overview|180|meeting with other mates and correction of c4 diagram. after i wrote the initial overview|
 |2026/06/08|meeting|45|meeting with other mates and get an overview of the situation|
+|2026/06/08|meeting|45|last meeting for delivery|
