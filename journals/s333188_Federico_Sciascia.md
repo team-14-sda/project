@@ -12,3 +12,4 @@
 |05/25 - 05/31|Review|C4 review with the professor|
 |05/25 - 05/31|Meetings|Team discussion about the work yet to complete and the state of the project|
 |06/01 - 06/07|Analysis|Final tuning of the design pattern report with Kaan, with particular attention to suggestions for alternative patterns|
+|06/08 - 06/10|Review|Overall review of the project with the team and fine tuning of final details|
